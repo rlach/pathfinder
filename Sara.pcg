@@ -1,0 +1,269 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Bestiary 3|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Arcane Anthology|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Bestiary|CAMPAIGN:Seekers of Secrets - A Guide to the Pathfinder Society|CAMPAIGN:Heart of the Jungle|CAMPAIGN:Lords of Chaos - Book of the Damned - Volume 2|CAMPAIGN:Technology Guide|CAMPAIGN:Dragon Empires Gazetteer|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder Campaign Setting - Distant Worlds|CAMPAIGN:Dark Markets - A Guide to Katapesh - Conversion|CAMPAIGN:Guide to the River Kingdoms|CAMPAIGN:Princes of Darkness - Book of the Damned - Volume 1|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Legacy of Fire Player's Guide (Conversion)|CAMPAIGN:Magical Marketplace|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Humans of Golarion|CAMPAIGN:Alchemy Manual|CAMPAIGN:Faiths of Purity|CAMPAIGN:Shattered Star Player's Guide|CAMPAIGN:Varisia - Birthplace of Legends|CAMPAIGN:Melee Tactics Toolbox|CAMPAIGN:PF - Demon Hunter's Handbook|CAMPAIGN:Jade Regent Player's Guide|CAMPAIGN:Blood of the Moon|CAMPAIGN:Blood of the Elements|CAMPAIGN:Qadira - Gateway to the East|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Skull and Shackles Player's Guide|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Kobolds of Golarion|CAMPAIGN:Champions of Balance|CAMPAIGN:Pathfinder Adventure Path #67|CAMPAIGN:Serpent's Skull Player's Guide|CAMPAIGN:Blood of the Night|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Mummys Mask Players Guide|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Orcs of Golarion|CAMPAIGN:People of the North|CAMPAIGN:Critical Fumble Deck|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Champions of Purity|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Faiths of Balance|CAMPAIGN:Blood of Fiends|CAMPAIGN:Taldor - Echoes of Glory (Conversion)|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Adventure Path #61|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Ranged Tactics Toolbox|CAMPAIGN:People of the Stars|CAMPAIGN:Champions of Corruption|CAMPAIGN:Reign of Winter Player's Guide|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Dragon Empires Primer|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Dungeoneer's Handbook|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Knights of the Inner Sea|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Animal Archive|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Elves of Golarion|CAMPAIGN:Blood of Angels|CAMPAIGN:Curse of the Crimson Throne - Chapter 5 - Skeletons of Scarwall (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 6 - Crown of Fangs (Conversion)|CAMPAIGN:Second Darkness, Chapter 6 - Descent into Midnight (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Hell's Vengeance Player's Guide|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 2 - Seven Days to the Grave (Conversion)|CAMPAIGN:Second Darkness, Chapter 1 - Shadow in the Sky (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 3 - Escape from Old Korvosa (Conversion)|CAMPAIGN:Second Darkness, Chapter 4 - Endless Night (Conversion)|CAMPAIGN:Second Darkness, Chapter 5 - A Memory of Darkness (Conversion)|CAMPAIGN:PF - City of Strangers|CAMPAIGN:Skull and Shackles (The Wormwood Mutiny)|CAMPAIGN:Curse of the Crimson Throne - Chapter 4 - A History of Ashes (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 1 - Edge of Anarchy (Conversion)|CAMPAIGN:My Pathfinder Campaign 6.06.00
+VERSION:6.06.01
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:15
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:3
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Sara
+TABNAME:
+PLAYERNAME:Toshi
+HEIGHT:56
+WEIGHT:100
+AGE:19
+GENDER:Female
+HANDED:Right
+SKINCOLOR:Light
+EYECOLOR:Blue
+HAIRCOLOR:Black
+HAIRSTYLE:Long, straight
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Pathfinder\postać2.png
+PORTRAITTHUMBNAILRECT:115,39,275,275
+
+# Character Attributes
+STAT:STR|SCORE:8
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:12
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:8
+ALIGN:LN
+RACE:Human
+
+# Character Class(es)
+CLASS:Gunslinger|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Gunslinger=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=3|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:8557
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Artistry|OUTPUTORDER:5|
+SKILL:Bluff|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:10|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:11|
+SKILL:Climb|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:6|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:31|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:44|
+SKILL:Craft (Mechanical)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:14|
+SKILL:Diplomacy|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:18|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:19|
+SKILL:Disable Device|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:22|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:23|
+SKILL:Escape Artist|OUTPUTORDER:24|
+SKILL:Fly|OUTPUTORDER:25|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
+SKILL:Heal|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:33|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Geography)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:39|
+SKILL:Perception|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:42|
+SKILL:Perform (Untrained)|OUTPUTORDER:43|
+SKILL:Profession (Engineer)|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:46|
+SKILL:Ride|OUTPUTORDER:47|
+SKILL:Samurai Mount|OUTPUTORDER:48|
+SKILL:Sense Motive|OUTPUTORDER:49|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:50|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:51|
+SKILL:Stealth|OUTPUTORDER:54|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:55|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:56|
+SKILL:Stealth (Jungle)|OUTPUTORDER:57|
+SKILL:Survival|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Find Food)|OUTPUTORDER:59|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:60|
+SKILL:Swim|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:62|
+SKILL:Untrained Dexterity|OUTPUTORDER:63|
+SKILL:Untrained Intelligence|OUTPUTORDER:64|
+SKILL:Untrained Strength|OUTPUTORDER:65|
+SKILL:Untrained Wisdom|OUTPUTORDER:66|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:21|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:40|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:52|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:53|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:67|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Hallit
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Hallit|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.StormbornBloodline.ImpossibleBloodline.FeyBloodline|DESC:You are especially accurate when making ranged attacks against close target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Scavenger's Luck|TYPE:General|DESC:You coax better behavior out of timeworn technology.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Technologist|TYPE:General.Techslinger|DESC:You are familiar with the basic mechanics of technology.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gunslinger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Grit|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassGunslinger|DESC:Gunslinger&colon; Add +1/4 to the number of grit points in the gunslinger's grit pool.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Techslinger|TYPE:Archetype.GunslingerArchetype.GunslingerDeedDeadeye.GunslingerDeedQuickClear.GunslingerDeedExpertLoading.GunslingerGunTraining|DESC:Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to master the quirks of timeworn technology and methods ofkeeping weapons charged in a primitive world. Techslingers still start play with the black powder blunderbuss, pistol, or rifle granted by the gunsmith class ability, but they gain specialized powers for use after they gain weapons of advanced technology. A techslinger has the following class features.
+USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ Unknown|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Mathematical Prodigy|APPLIEDTO:Knowledge (Engineering)|TYPE:Trait.BasicTrait.MagicTrait|DESC:Mathematics has always come easily for you, and you have always been able to "see the math" in the physical and magical world. You gain a +1 trait bonus on Knowledge (Arcana) and Knowledge (Engineering) checks, and %1 is always a class skill for you.&pipe;%LIST
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Stargazer Iron Gods|TYPE:Trait.BasicTrait.CampaignTrait|DESC:They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. You've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the Technologist feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Ankus|WEAPON:Arc Pistol|WEAPON:Arc Rifle|WEAPON:Atlatl|WEAPON:Autograpnel|WEAPON:Axe (Boarding)|WEAPON:Axe (Throwing)|WEAPON:Bardiche]
+WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Blunderbuss|WEAPON:Boar Spear]
+WEAPONPROF:[WEAPON:Boarding Pike|WEAPON:Bombard (Heavy)|WEAPON:Bombard (Light)|WEAPON:Bombard (Standard)|WEAPON:Brass Knife|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Buckler Gun|WEAPON:Butterfly Sword|WEAPON:Cannon]
+WEAPONPROF:[WEAPON:Cannon (Fiend's Mouth)|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Culverin|WEAPON:Cutlass]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Gun|WEAPON:Death Ray|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Double Hackbut|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:EMP Pistol|WEAPON:EMP Rifle|WEAPON:Estoc|WEAPON:Falchion|WEAPON:Fire Lance|WEAPON:Firearms|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Flare Gun]
+WEAPONPROF:[WEAPON:Gaff|WEAPON:Gandasa|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Gravity Pistol]
+WEAPONPROF:[WEAPON:Gravity Rifle|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Hair|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
+WEAPONPROF:[WEAPON:Hook Hand|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Hurlbat|WEAPON:Id Rifle|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana]
+WEAPONPROF:[WEAPON:Kerambit|WEAPON:Khakkhara|WEAPON:Klar|WEAPON:Klar (as weapon)|WEAPON:Kukri|WEAPON:Kumade|WEAPON:Kunai|WEAPON:Lance|WEAPON:Laser Pistol|WEAPON:Laser Rifle]
+WEAPONPROF:[WEAPON:Laser Torch|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Machete|WEAPON:Manople]
+WEAPONPROF:[WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Mindrender|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Musket|WEAPON:Musket (Axe)|WEAPON:Musket (Double-Barreled)|WEAPON:Musket (Warhammer)|WEAPON:Naginata]
+WEAPONPROF:[WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pepperbox|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pistol|WEAPON:Pistol (Coat)|WEAPON:Pistol (Dagger)|WEAPON:Pistol (Double-Barreled)]
+WEAPONPROF:[WEAPON:Pistol (Dragon)|WEAPON:Pistol (Sword Cane)|WEAPON:Pitchfork|WEAPON:Planson|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Revolver|WEAPON:Rhoka]
+WEAPONPROF:[WEAPON:Rhomphaia|WEAPON:Rifle|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shotgun|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Glove|WEAPON:Sonic Pistol]
+WEAPONPROF:[WEAPON:Sonic Rifle|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spear-Sling|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife]
+WEAPONPROF:[WEAPON:Stingchuck|WEAPON:Stonebow|WEAPON:Stun Gun|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli]
+WEAPONPROF:[WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Throwing Arrow Cord|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
+
+# Character Equipment
+MONEY:182.48
+EQUIPNAME:Access Card (Brown)|OUTPUTORDER:5|COST:3|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:9|COST:30|WT:0.5|QUANTITY:2.0|NOTE:
+EQUIPNAME:Donkey|OUTPUTORDER:11|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Grippers|OUTPUTORDER:15|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:13|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:14|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:7|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Ioun Torch|OUTPUTORDER:8|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Leather|OUTPUTORDER:4|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather|DATA:NAME=Leather$EQMOD=LEATHER]
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:10|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Pistol|OUTPUTORDER:1|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Muleback Cords|OUTPUTORDER:3|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nanite Hypogun (Brown/Timeworn)|OUTPUTORDER:6|COST:500.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Nanite Hypogun (Brown)|DATA:NAME=Nanite Hypogun (Brown/Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:2|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
+EQUIPNAME:Saddle (Pack)|OUTPUTORDER:12|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.03|VALUE:Donkey|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Donkey|ID:0.1.03.01|VALUE:Saddle (Pack)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Saddle (Pack)|ID:0.1.03.01.01|VALUE:Gunslinger's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Saddle (Pack)|ID:0.1.03.01.02|VALUE:Gunsmith's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Saddle (Pack)|ID:0.1.03.01.03|VALUE:Grippers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Access Card (Brown)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Bullet (Firearm/30)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.16|VALUE:Nanite Hypogun (Brown/Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Hemochem (Grade I)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.18|VALUE:Muleback Cords|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.19|VALUE:Masterwork Pistol|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.21|VALUE:Ioun Torch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Masterwork Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.23|VALUE:Leather|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Tech Items|ID:1|PARENTID:-1|VALUE:Broń z Halo waga&colon; 3
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:DEITY|REGION
+

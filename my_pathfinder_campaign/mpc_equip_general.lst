@@ -1,0 +1,163 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Equipment File tags" to find
+#out how the tags in the races file work. Some of the tags used here are global tags. You will see an alphabetical listing
+#of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+#
+#
+#
+#####1st Example
+
+#Dagger		PROFICIENCY:WEAPON|Dagger		TYPE:Weapon.Resizable.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger		COST:2	WT:1		CRITMULT:x2		CRITRANGE:2		DAMAGE:1d4		EQMOD:STEEL		WIELD:Light		RANGE:10	SIZE:M
+Inferno Pistol							PROFICIENCY:WEAPON|Firearm																TYPE:Firearm.One-Handed Ranged.Ranged.Weapon.Technological Gear.OneHanded.Fire									COST:2500	WT:2															CRITMULT:x2	CRITRANGE:1	DAMAGE:1d6		WIELD:OneHanded								RANGE:30			SOURCEPAGE:p.60																																																								QUALITY:Capacity|1 canister	QUALITY:Usage|1 charge	QUALITY:Special|touch				SPROP:An inferno pistol is a less refined variant of the longer-range laser pistolTG. Unlike a laser pistol, which uses an intensely focused beam of light to burn a target, an inferno pistol is much less elegant—it generates a blob of molten, red-hot material and fires what appears to be a burning pellet of fire with a soft hissing sound. This material is consumed swiftly in firing, leaving behind nothing but ash and painful burns on anything it strikes. On a critical hit, a shot from an inferno pistol also inflicts 1 point of burn damage (Reflex DC 12 negates). An inferno pistol has a maximum range of 5 increments.
+Neural Inhibitor								PROFICIENCY:WEAPON|Mace																		TYPE:Light Melee.Light.Melee.Weapon.Technological Gear.performance.Simple.Standard.Bludgeoning.Mace.Hammer									COST:1200	WT:2															CRITMULT:x2	CRITRANGE:1	DAMAGE:1d6		WIELD:Light											SIZE:M	SOURCEPAGE:p.60																																																								QUALITY:Capacity|10	QUALITY:Usage|1 charge/hit			SPROP:While powered down, this sturdy, 2-foot truncheon functions as a light mace. Once it is activated (this is a swift action that consumes 1 charge), a high-density power core housed in the weapon’s head generates a high-pitched whine that causes momentary disorientation in a creature struck. Each time the weapon hits a target, it consumes 1 charge and the creature struck must succeed at a DC 12 Fortitude save or suffer trauma to its central nervous system. For 1 round, a creature that fails its saving throw takes a –1 penalty on attack rolls, skill checks, and Will saving throws, as well as a –4 penalty on concentration checks. The duration of this effect stacks with multiple hits from the neural inhibitor. This is a mind-affecting effect.
+Power Relay					TYPE:Technological Artifact						WT:50							SOURCEPAGE:p.60																								QUALITY:Capacity|10	QUALITY:usage|See text	SPROP:A power relay is a valuable device that allows the long-distance transmission of energy from a nearby generator to a device that can make use of it. Every power generatorTG has a built-in power transmitter that allows for the transmission of power to a nearby power receiverTG, but an external power relay is required to send this energy beyond the generator’s limitations. A power relay consumes 10 charges when it is activated (this is a full-round action), after which it automatically links to the closest generator within 1,000 feet that has an available yield. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the power relay. The power relay consumes 1 charge of the generator’s available yield per hour to maintain its own power supplies, and can be programmed to transmit any remaining charges of available yield to any object capable of receiving broadcast power, to a maximum distance of 150 miles. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the power relay. Power transmitted by this device is lost unless the device is programmed to transmit to a specific target capable of accepting a charge in range. Before a power relay can transmit, it must be linked to the target of its transmission to establish the transmission protocols. This consumes 10 charges and takes 1 minute to complete. Once completed, the distance between the power relay and the target of its transmissions can vary up to its maximum range. A small screen on the side of the power relay provides constant updates on the link, including bearings, distances, and the nature of the object to which it is linked. This device essentially functions as a power generator that provides an hourly yield of charges to its target. For example, if a power relay that provided a yield of 40 charges was linked to a laser pistol, that laser pistol could be fired 40 times per hour without needing an additional charge. Power relays can only function a limited number of times before their delicate internal mechanisms burn out. Each tim ea power relay is used to initiate a new energy transfer, there’s a cumulative 2% chance it burns out and becomes useless. Once a new transfer begins, a power relay can maintain that link between the generator and its target indefinitely (as long as there’s always an available yield of at least 1 charge from the generator to keep itself powered). Note that a power relay has built-in signal boosters, and thus the range of its transmissions cannot be further increased through the use of additional signal boostersTG.
+Proximity Helmet			TYPE:Technological Gear.Slot_Head.Headgear	COST:4000			WT:2						SOURCEPAGE:p.61		QUALITY:Capacity|10	QUALITY:Usage|1 charge/hour			SPROP:This open-faced, blue polymer helmet includes a nylon strap and adjustable tinted visor capable of hiding all but the wearer’s mouth and chin. The interior of the tinted faceplate provides a heads-up display when activated, with each charge providing enough power to function for 1 hour of continuous use. During this time, the helmet’s external motion sensors pick up on sudden movements and subtle visual cues, granting the wearer a +5 competence bonus on Perception checks to notice movingtargets within 60 feet. A secondary setting on the helmet adds an audible alarm that creates a loud chirping sound near the wearer’s ear whenever a Small or larger corporeal creature approaches within 60 feet. Reduce this distance by 20 feet for each interposing closed door and by 20 feet for each substantial interposing wall. This noise is loud enough to waken the wearer from sleep, but not loud enough to awaken nearby sleepers.
+Vitality Serum																											TYPE:Pharmaceutical.Technological Gear																COST:500																																					SOURCEPAGE:p.61		SPROP:The glass receptacle of this injector contains 1 dose of a bright-yellow serum. When injected into a creature (this is a standard action), the substance grants immunity to low radiation for 1 hour, and a +5 alchemical bonus on all saving throws against other radiation effects for that duration. In addition, it heals 1d4 points of Strength damage caused by radiation poisoning. Vitality serum cannot cure Constitution drain caused by radiation poisoning. 
+Universal Serum																											TYPE:Pharmaceutical.Technological Gear																COST:400																																					SOURCEPAGE:p.61		SPROP:A viscous, blue serum fills the receptacle attached behind the nozzle of this metallic injector. Three small panels on the side of the injector light up one at a time when touched— selecting a color (red, blue, or green) is a swift action. The injector contains only 1 dose of universal serum. Injecting the serum is a standard action that heals the recipient of 1d8 points of damage and has an additional effect depending upon the current color selection. Red grants the recipient a +4 enhancement bonus to Constitution. Blue grants the recipient a +4 enhancement bonus to Strength. Green grants the recipient a +4 enhancement bonus to Dexterity. The enhancement bonus lasts for 3 minutes, after which the recipient of the serum becomes fatigued for 1 hour. If the recipient receives more than 1 dose of universal serum in a 24-hour period, the healing effect still occurs but no enhancement bonus is granted; instead, the recipient immediately becomes fatigued for 1 hour. 
+
+Elevator Cord		TYPE:Goods.Technological Gear		WT:5		SOURCEPAGE:None
+
+Unidentified Technological Item 1 lbs		TYPE:Goods.Technological Gear		WT:1		SOURCEPAGE:Unidentified
+Unidentified Technological Item 2 lbs		TYPE:Goods.Technological Gear		WT:2		SOURCEPAGE:Unidentified
+Unidentified Technological Item 3 lbs		TYPE:Goods.Technological Gear		WT:3		SOURCEPAGE:Unidentified
+Unidentified Technological Item 4 lbs		TYPE:Goods.Technological Gear		WT:4		SOURCEPAGE:Unidentified
+Unidentified Technological Item 5 lbs		TYPE:Goods.Technological Gear		WT:5		SOURCEPAGE:Unidentified
+Unidentified Technological Item 6 lbs		TYPE:Goods.Technological Gear		WT:6		SOURCEPAGE:Unidentified
+Unidentified Technological Item 7 lbs		TYPE:Goods.Technological Gear		WT:7		SOURCEPAGE:Unidentified
+Unidentified Technological Item 8 lbs		TYPE:Goods.Technological Gear		WT:8		SOURCEPAGE:Unidentified
+Unidentified Technological Item 9 lbs		TYPE:Goods.Technological Gear		WT:9		SOURCEPAGE:Unidentified
+Unidentified Technological Item 10 lbs		TYPE:Goods.Technological Gear		WT:10		SOURCEPAGE:Unidentified
+Unidentified Technological Item 11 lbs		TYPE:Goods.Technological Gear		WT:11		SOURCEPAGE:Unidentified
+Unidentified Technological Item 12 lbs		TYPE:Goods.Technological Gear		WT:12		SOURCEPAGE:Unidentified
+Unidentified Technological Item 13 lbs		TYPE:Goods.Technological Gear		WT:13		SOURCEPAGE:Unidentified
+Unidentified Technological Item 14 lbs		TYPE:Goods.Technological Gear		WT:14		SOURCEPAGE:Unidentified
+Unidentified Technological Item 15 lbs		TYPE:Goods.Technological Gear		WT:15		SOURCEPAGE:Unidentified
+Unidentified Technological Item 16 lbs		TYPE:Goods.Technological Gear		WT:16		SOURCEPAGE:Unidentified
+Unidentified Technological Item 17 lbs		TYPE:Goods.Technological Gear		WT:17		SOURCEPAGE:Unidentified
+Unidentified Technological Item 18 lbs		TYPE:Goods.Technological Gear		WT:18		SOURCEPAGE:Unidentified
+Unidentified Technological Item 19 lbs		TYPE:Goods.Technological Gear		WT:19		SOURCEPAGE:Unidentified
+Unidentified Technological Item 20 lbs		TYPE:Goods.Technological Gear		WT:20		SOURCEPAGE:Unidentified
+Unidentified Technological Item 21 lbs		TYPE:Goods.Technological Gear		WT:21		SOURCEPAGE:Unidentified
+Unidentified Technological Item 22 lbs		TYPE:Goods.Technological Gear		WT:22		SOURCEPAGE:Unidentified
+Unidentified Technological Item 23 lbs		TYPE:Goods.Technological Gear		WT:23		SOURCEPAGE:Unidentified
+Unidentified Technological Item 24 lbs		TYPE:Goods.Technological Gear		WT:24		SOURCEPAGE:Unidentified
+Unidentified Technological Item 25 lbs		TYPE:Goods.Technological Gear		WT:25		SOURCEPAGE:Unidentified
+Unidentified Technological Item 26 lbs		TYPE:Goods.Technological Gear		WT:26		SOURCEPAGE:Unidentified
+Unidentified Technological Item 27 lbs		TYPE:Goods.Technological Gear		WT:27		SOURCEPAGE:Unidentified
+Unidentified Technological Item 28 lbs		TYPE:Goods.Technological Gear		WT:28		SOURCEPAGE:Unidentified
+Unidentified Technological Item 29 lbs		TYPE:Goods.Technological Gear		WT:29		SOURCEPAGE:Unidentified
+Unidentified Technological Item 30 lbs		TYPE:Goods.Technological Gear		WT:30		SOURCEPAGE:Unidentified
+Unidentified Technological Item 31 lbs		TYPE:Goods.Technological Gear		WT:31		SOURCEPAGE:Unidentified
+Unidentified Technological Item 32 lbs		TYPE:Goods.Technological Gear		WT:32		SOURCEPAGE:Unidentified
+Unidentified Technological Item 33 lbs		TYPE:Goods.Technological Gear		WT:33		SOURCEPAGE:Unidentified
+Unidentified Technological Item 34 lbs		TYPE:Goods.Technological Gear		WT:34		SOURCEPAGE:Unidentified
+Unidentified Technological Item 35 lbs		TYPE:Goods.Technological Gear		WT:35		SOURCEPAGE:Unidentified
+Unidentified Technological Item 36 lbs		TYPE:Goods.Technological Gear		WT:36		SOURCEPAGE:Unidentified
+Unidentified Technological Item 37 lbs		TYPE:Goods.Technological Gear		WT:37		SOURCEPAGE:Unidentified
+Unidentified Technological Item 38 lbs		TYPE:Goods.Technological Gear		WT:38		SOURCEPAGE:Unidentified
+Unidentified Technological Item 39 lbs		TYPE:Goods.Technological Gear		WT:39		SOURCEPAGE:Unidentified
+Unidentified Technological Item 40 lbs		TYPE:Goods.Technological Gear		WT:40		SOURCEPAGE:Unidentified
+Unidentified Technological Item 41 lbs		TYPE:Goods.Technological Gear		WT:41		SOURCEPAGE:Unidentified
+Unidentified Technological Item 42 lbs		TYPE:Goods.Technological Gear		WT:42		SOURCEPAGE:Unidentified
+Unidentified Technological Item 43 lbs		TYPE:Goods.Technological Gear		WT:43		SOURCEPAGE:Unidentified
+Unidentified Technological Item 44 lbs		TYPE:Goods.Technological Gear		WT:44		SOURCEPAGE:Unidentified
+Unidentified Technological Item 45 lbs		TYPE:Goods.Technological Gear		WT:45		SOURCEPAGE:Unidentified
+Unidentified Technological Item 46 lbs		TYPE:Goods.Technological Gear		WT:46		SOURCEPAGE:Unidentified
+Unidentified Technological Item 47 lbs		TYPE:Goods.Technological Gear		WT:47		SOURCEPAGE:Unidentified
+Unidentified Technological Item 48 lbs		TYPE:Goods.Technological Gear		WT:48		SOURCEPAGE:Unidentified
+Unidentified Technological Item 49 lbs		TYPE:Goods.Technological Gear		WT:49		SOURCEPAGE:Unidentified
+Unidentified Technological Item 50 lbs		TYPE:Goods.Technological Gear		WT:50		SOURCEPAGE:Unidentified
+
+Unidentified Magic Item 1 lbs		TYPE:Goods.Magic		WT:1		SOURCEPAGE:Unidentified
+Unidentified Magic Item 2 lbs		TYPE:Goods.Magic		WT:2		SOURCEPAGE:Unidentified
+Unidentified Magic Item 3 lbs		TYPE:Goods.Magic		WT:3		SOURCEPAGE:Unidentified
+Unidentified Magic Item 4 lbs		TYPE:Goods.Magic		WT:4		SOURCEPAGE:Unidentified
+Unidentified Magic Item 5 lbs		TYPE:Goods.Magic		WT:5		SOURCEPAGE:Unidentified
+Unidentified Magic Item 6 lbs		TYPE:Goods.Magic		WT:6		SOURCEPAGE:Unidentified
+Unidentified Magic Item 7 lbs		TYPE:Goods.Magic		WT:7		SOURCEPAGE:Unidentified
+Unidentified Magic Item 8 lbs		TYPE:Goods.Magic		WT:8		SOURCEPAGE:Unidentified
+Unidentified Magic Item 9 lbs		TYPE:Goods.Magic		WT:9		SOURCEPAGE:Unidentified
+Unidentified Magic Item 10 lbs		TYPE:Goods.Magic		WT:10		SOURCEPAGE:Unidentified
+Unidentified Magic Item 11 lbs		TYPE:Goods.Magic		WT:11		SOURCEPAGE:Unidentified
+Unidentified Magic Item 12 lbs		TYPE:Goods.Magic		WT:12		SOURCEPAGE:Unidentified
+Unidentified Magic Item 13 lbs		TYPE:Goods.Magic		WT:13		SOURCEPAGE:Unidentified
+Unidentified Magic Item 14 lbs		TYPE:Goods.Magic		WT:14		SOURCEPAGE:Unidentified
+Unidentified Magic Item 15 lbs		TYPE:Goods.Magic		WT:15		SOURCEPAGE:Unidentified
+Unidentified Magic Item 16 lbs		TYPE:Goods.Magic		WT:16		SOURCEPAGE:Unidentified
+Unidentified Magic Item 17 lbs		TYPE:Goods.Magic		WT:17		SOURCEPAGE:Unidentified
+Unidentified Magic Item 18 lbs		TYPE:Goods.Magic		WT:18		SOURCEPAGE:Unidentified
+Unidentified Magic Item 19 lbs		TYPE:Goods.Magic		WT:19		SOURCEPAGE:Unidentified
+Unidentified Magic Item 20 lbs		TYPE:Goods.Magic		WT:20		SOURCEPAGE:Unidentified
+Unidentified Magic Item 21 lbs		TYPE:Goods.Magic		WT:21		SOURCEPAGE:Unidentified
+Unidentified Magic Item 22 lbs		TYPE:Goods.Magic		WT:22		SOURCEPAGE:Unidentified
+Unidentified Magic Item 23 lbs		TYPE:Goods.Magic		WT:23		SOURCEPAGE:Unidentified
+Unidentified Magic Item 24 lbs		TYPE:Goods.Magic		WT:24		SOURCEPAGE:Unidentified
+Unidentified Magic Item 25 lbs		TYPE:Goods.Magic		WT:25		SOURCEPAGE:Unidentified
+Unidentified Magic Item 26 lbs		TYPE:Goods.Magic		WT:26		SOURCEPAGE:Unidentified
+Unidentified Magic Item 27 lbs		TYPE:Goods.Magic		WT:27		SOURCEPAGE:Unidentified
+Unidentified Magic Item 28 lbs		TYPE:Goods.Magic		WT:28		SOURCEPAGE:Unidentified
+Unidentified Magic Item 29 lbs		TYPE:Goods.Magic		WT:29		SOURCEPAGE:Unidentified
+Unidentified Magic Item 30 lbs		TYPE:Goods.Magic		WT:30		SOURCEPAGE:Unidentified
+Unidentified Magic Item 31 lbs		TYPE:Goods.Magic		WT:31		SOURCEPAGE:Unidentified
+Unidentified Magic Item 32 lbs		TYPE:Goods.Magic		WT:32		SOURCEPAGE:Unidentified
+Unidentified Magic Item 33 lbs		TYPE:Goods.Magic		WT:33		SOURCEPAGE:Unidentified
+Unidentified Magic Item 34 lbs		TYPE:Goods.Magic		WT:34		SOURCEPAGE:Unidentified
+Unidentified Magic Item 35 lbs		TYPE:Goods.Magic		WT:35		SOURCEPAGE:Unidentified
+Unidentified Magic Item 36 lbs		TYPE:Goods.Magic		WT:36		SOURCEPAGE:Unidentified
+Unidentified Magic Item 37 lbs		TYPE:Goods.Magic		WT:37		SOURCEPAGE:Unidentified
+Unidentified Magic Item 38 lbs		TYPE:Goods.Magic		WT:38		SOURCEPAGE:Unidentified
+Unidentified Magic Item 39 lbs		TYPE:Goods.Magic		WT:39		SOURCEPAGE:Unidentified
+Unidentified Magic Item 40 lbs		TYPE:Goods.Magic		WT:40		SOURCEPAGE:Unidentified
+Unidentified Magic Item 41 lbs		TYPE:Goods.Magic		WT:41		SOURCEPAGE:Unidentified
+Unidentified Magic Item 42 lbs		TYPE:Goods.Magic		WT:42		SOURCEPAGE:Unidentified
+Unidentified Magic Item 43 lbs		TYPE:Goods.Magic		WT:43		SOURCEPAGE:Unidentified
+Unidentified Magic Item 44 lbs		TYPE:Goods.Magic		WT:44		SOURCEPAGE:Unidentified
+Unidentified Magic Item 45 lbs		TYPE:Goods.Magic		WT:45		SOURCEPAGE:Unidentified
+Unidentified Magic Item 46 lbs		TYPE:Goods.Magic		WT:46		SOURCEPAGE:Unidentified
+Unidentified Magic Item 47 lbs		TYPE:Goods.Magic		WT:47		SOURCEPAGE:Unidentified
+Unidentified Magic Item 48 lbs		TYPE:Goods.Magic		WT:48		SOURCEPAGE:Unidentified
+Unidentified Magic Item 49 lbs		TYPE:Goods.Magic		WT:49		SOURCEPAGE:Unidentified
+Unidentified Magic Item 50 lbs		TYPE:Goods.Magic		WT:50		SOURCEPAGE:Unidentified
+
+#####
+#
+#####2nd Example
+
+#Saddlebags		TYPE:Goods.Container.Mount.Resizable		CONTAINS:UNLIM|Any=UNLIM	COST:4	WT:8		SOURCEPAGE:Equipment
+
+#####
+#The Dagger is an Example of a weapon, while the Saddlebags is an item that is set up to be used as a container for other
+#items. The first field is the item's name and is required.
+#
+#The PROFICIENCY tag is only used with weapons, armor and shields. It tells PCGen what Weapon Proficiency name to use from the weapprofs.lst, armorprofs.lst or shieldprofs.lst file.
+#
+#The TYPE tag is used for many filtering and PRExxx tags. TYPE:Armor items should also have the type of SLOTS it uses. This
+#is usually TYPE:Suit. TYPE:Container is a special type name. It activates the CONTAINS tag in the item. Every TYPE:Weapon
+#item must be also have either TYPE:Melee or TYPE:Ranged (TYPE:Weapon.Melee.Foo). TYPE:Double is a special weapon tag. It
+#activates three ALTxxx tags for the second head statistics.
+#
+#The CONTAINS tag is used to define how much and what a container can hold. Any object with CONTAINS must also be TYPE:Container
+#for the CONTAINS tag to be activated.
+#
+#The COST tag sets the cost of the item.
+#
+#The WT tag is holding the item's weight.
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the item. This will be displayed in PCGen.
+#
+#CRITMULT, CRITRANGE, DAMAGE, WIELD, and RANGE are tags that are associated with weapons. They can be used to set up the
+#various weapon stats.
+
+#The SIZE tag determines the size of the Item. F=Fine, D=Diminutive, T=Tiny, S=Small, M=Medium, L=Large, H=Huge, G=Gargantuan,
+#C=Colossal.
+
+#The EQMOD tag calls an equipment modifier to be applied to the base item before looking at other tags. You will need to use
+#the equipment modifier's KEY with this tag, not it's name.
