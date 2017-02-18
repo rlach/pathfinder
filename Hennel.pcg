@@ -59,10 +59,10 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:3|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:5157
@@ -113,22 +113,23 @@ SKILL:Intimidate|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CL
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:33|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:34|
+SKILL:Knowledge (Dungeoneering)|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Nature)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Perception (Dim Light)|OUTPUTORDER:39|
 SKILL:Perform (Untrained)|OUTPUTORDER:40|
 SKILL:Profession (Untrained)|OUTPUTORDER:42|
 SKILL:Ride|OUTPUTORDER:43|
 SKILL:Samurai Mount|OUTPUTORDER:44|
-SKILL:Sense Motive|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
 SKILL:Stealth|OUTPUTORDER:50|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:51|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:52|
 SKILL:Stealth (Jungle)|OUTPUTORDER:53|
-SKILL:Survival|OUTPUTORDER:54|
+SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival (Find Food)|OUTPUTORDER:55|
 SKILL:Survival (Follow tracks)|OUTPUTORDER:56|
 SKILL:Swim|OUTPUTORDER:57|
@@ -158,10 +159,12 @@ USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
 ABILITY:Barbarian Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Barbarian ~ Unchained Class|TYPE:Barbarian Class Selection.AltBarbarianChoice
 USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.LifewaterBloodline.ShahzadaBloodline.OrcBloodline.AbyssalBloodline.DraconicBloodline.ElementalBloodline.OniBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Trap Sense|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add a +1/2 bonus to trap sense.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Half-Orc Racial Subtype|POOLPOINTS:0.0
