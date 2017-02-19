@@ -16,6 +16,7 @@ SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsit
 #####1st Example
 
 #Dagger				TYPE:Simple
+Inferno Pistol	TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol
 
 #####
 #Dagger is the name of the weapon proficiency. This needs to be the same text that appears in the weapon's PROFICIENCY tag.
