@@ -7,15 +7,14 @@ BOOKTYPE:Homebrew
 SETTING:Pathfinder|Golarion
 TYPE:Homebrew.PathfinderHomebrew
 PRECAMPAIGN:INCLUDES=Technology Guide
-PUBNAMELONG:My Homebrew
-PUBNAMESHORT:Homebrew
-#PUBNAMEWEB:http://www.mpcwebsite.com
-SOURCELONG:My Pathfinder Campaign
-SOURCESHORT:MPC
-SOURCEWEB:http://www.mpcwebsite.com
+PUBNAMELONG:Areinu
+PUBNAMESHORT:Inu
+SOURCELONG:Iron Gods AP
+SOURCESHORT:IGAP
+SOURCEWEB:http://paizo.com/pathfinder/adventurePath/ironGods
 SOURCEDATE:2017-01
 ISOGL:NO
-COPYRIGHT:My Pathfinder Campaign, Copyright 2015 by PCGen Team
+COPYRIGHT:No rights here
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 
