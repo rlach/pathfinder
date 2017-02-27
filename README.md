@@ -7,9 +7,13 @@ Po zainstalowaniu PCgen 6.06.01 wchodzimy do Tools > Preferences i ustawiamy nas
 ### Ścieżki do plików
 
 W menu PCGen>location aktualizujemy ścieżki:
+
 PCGen Character Directory -> folder `pathfinder` z tego repo
+
 PCGen Portraits Directory -> folder `pathfinder/portraits` z tego repo
+
 PCGen Homebrew Data Directory -> folder `pathfinder/homebrew` z tego repo
+
 
 Przy okazji można ustawić browser path, ale to opcjonalne.
 
