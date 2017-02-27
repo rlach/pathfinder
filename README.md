@@ -23,6 +23,8 @@ W menu PCGen>Equipment zaznaczamy:
 * Magic(+1 to +5)
 Dzięki temu magicznych i masterworkowych itemków nie będzie trzeba ręcznie dodawać do listy ekwipunku.
 
+*UWAGA! Po dokonaniu niektórych zmian w ustawieniach trzeba zrestartować PCGena. Najlepiej na wszelki wypadek zawsze robić restart*
+
 ## Użytkowanie
 Aby odpalić postać wybieramy File>Open i dzięki powyższym ustawieniom od razu mamy do wyboru pliki `.pcg` z postaciami.
 

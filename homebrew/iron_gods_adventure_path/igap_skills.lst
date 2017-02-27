@@ -18,7 +18,30 @@ SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsit
 #Acrobatics.MOD	BONUS:SKILL|Acrobatics|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Acrobatics)
 #Acrobatics.MOD	BONUS:SKILL|Acrobatics|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Acrobatics)|PRESKILL:1,Acrobatics=10
 
+Artistry (Choreography)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
+Artistry (Criticism)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
+Artistry (Literature, including Poetry)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
+Artistry (Musical composition)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
+Artistry (Philosophy)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
+Artistry (Playwriting)								KEYSTAT:INT						TYPE:Intelligence.Base.Background.Artistry
 
+Lore (           ).MOD						TYPE:Lore
+
+Lore (A particular small city).MOD				TYPE:Lore
+Lore (One district of a large city or metropolis).MOD				TYPE:Lore
+Lore (A particular monastery).MOD				TYPE:Lore
+Lore (Taverns in a region).MOD				TYPE:Lore
+Lore (Bandits in a region).MOD				TYPE:Lore
+Lore (Famous battles in a region).MOD				TYPE:Lore
+Lore (The spice trade).MOD				TYPE:Lore
+Lore (Cats).MOD				TYPE:Lore
+Lore (Drow matriarchs).MOD				TYPE:Lore
+Lore (Dwarven history).MOD				TYPE:Lore
+Lore (Frost giants).MOD				TYPE:Lore
+Lore (Sarenrae).MOD				TYPE:Lore
+Lore (Dagon).MOD				TYPE:Lore
+Lore (Phlegethon).MOD				TYPE:Lore
+Lore (Military commanders).MOD				TYPE:Lore
 
 #insert your data here
 
