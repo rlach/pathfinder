@@ -60,11 +60,11 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:4|SKILLPOOL:1|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:5|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:5|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:9307
@@ -98,10 +98,10 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:15|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:16|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:17|
-SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:12|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:36|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:48|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:50|
 SKILL:Craft (Untrained)|OUTPUTORDER:19|
 SKILL:Diplomacy|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:21|
@@ -113,7 +113,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
 SKILL:Escape Artist|OUTPUTORDER:28|
 SKILL:Fly|OUTPUTORDER:29|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
-SKILL:Handle Animal|OUTPUTORDER:31|
+SKILL:Handle Animal|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:34|
 SKILL:Heal|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
@@ -122,36 +122,38 @@ SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:39|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:40|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
-SKILL:Knowledge (Nature)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:43|
-SKILL:Perception|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception (Dim Light)|OUTPUTORDER:46|
-SKILL:Perform (Untrained)|OUTPUTORDER:47|
-SKILL:Profession (Untrained)|OUTPUTORDER:49|
-SKILL:Ride|OUTPUTORDER:50|
-SKILL:Samurai Mount|OUTPUTORDER:51|
-SKILL:Sense Motive|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:53|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:54|
-SKILL:Stealth|OUTPUTORDER:57|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:58|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:59|
-SKILL:Stealth (Jungle)|OUTPUTORDER:60|
-SKILL:Survival|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival (Find Food)|OUTPUTORDER:62|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:63|
-SKILL:Swim|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:65|
-SKILL:Untrained Dexterity|OUTPUTORDER:66|
-SKILL:Untrained Intelligence|OUTPUTORDER:67|
-SKILL:Untrained Strength|OUTPUTORDER:68|
-SKILL:Untrained Wisdom|OUTPUTORDER:69|
+SKILL:Knowledge (Geography)|OUTPUTORDER:42|
+SKILL:Knowledge (Nature)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
+SKILL:Lore (Taverns in a region)|OUTPUTORDER:46|
+SKILL:Perception|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:48|
+SKILL:Perform (Untrained)|OUTPUTORDER:49|
+SKILL:Profession (Untrained)|OUTPUTORDER:51|
+SKILL:Ride|OUTPUTORDER:52|
+SKILL:Samurai Mount|OUTPUTORDER:53|
+SKILL:Sense Motive|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:55|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:56|
+SKILL:Stealth|OUTPUTORDER:59|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:60|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:61|
+SKILL:Stealth (Jungle)|OUTPUTORDER:62|
+SKILL:Survival|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Find Food)|OUTPUTORDER:64|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:65|
+SKILL:Swim|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:67|
+SKILL:Untrained Dexterity|OUTPUTORDER:68|
+SKILL:Untrained Intelligence|OUTPUTORDER:69|
+SKILL:Untrained Strength|OUTPUTORDER:70|
+SKILL:Untrained Wisdom|OUTPUTORDER:71|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:44|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:55|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:56|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:70|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:45|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:57|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:72|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Hallit|LANGUAGE:Orc
@@ -162,7 +164,7 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Armored Hulk|TYPE:Archetype.BarbarianArchetype.BarbarianFastMovement.BarbarianUncannyDodge.BarbarianTrapSense.BarbarianImprovedUncannyDodge|DESC:Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.
 USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
