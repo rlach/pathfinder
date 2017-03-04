@@ -46,6 +46,8 @@ Lore (Alcoholic drinks)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelli
 
 Profession (Wrestler)			KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession.Base.Background																							PREVARLT:AnimalCompanionSkill,1	SOURCEPAGE:p.103							BONUS:SKILL|Profession (Wrestler)|3|TYPE=ClassSkill|PRECSKILL:1,Profession (Wrestler)|PRESKILL:1,Profession (Wrestler)=1
 
+Craft (Mechanical).MOD				TYPE:Background
+
 #insert your data here
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
