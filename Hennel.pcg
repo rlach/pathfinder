@@ -101,7 +101,7 @@ SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:17|
 SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:12|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:36|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:50|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:51|
 SKILL:Craft (Untrained)|OUTPUTORDER:19|
 SKILL:Diplomacy|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:21|
@@ -125,35 +125,36 @@ SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Barbarian|RANK
 SKILL:Knowledge (Geography)|OUTPUTORDER:42|
 SKILL:Knowledge (Nature)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
-SKILL:Lore (Taverns in a region)|OUTPUTORDER:46|
-SKILL:Perception|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception (Dim Light)|OUTPUTORDER:48|
-SKILL:Perform (Untrained)|OUTPUTORDER:49|
-SKILL:Profession (Untrained)|OUTPUTORDER:51|
-SKILL:Ride|OUTPUTORDER:52|
-SKILL:Samurai Mount|OUTPUTORDER:53|
-SKILL:Sense Motive|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:55|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:56|
-SKILL:Stealth|OUTPUTORDER:59|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:60|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:61|
-SKILL:Stealth (Jungle)|OUTPUTORDER:62|
-SKILL:Survival|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival (Find Food)|OUTPUTORDER:64|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:65|
-SKILL:Swim|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:67|
-SKILL:Untrained Dexterity|OUTPUTORDER:68|
-SKILL:Untrained Intelligence|OUTPUTORDER:69|
-SKILL:Untrained Strength|OUTPUTORDER:70|
-SKILL:Untrained Wisdom|OUTPUTORDER:71|
+SKILL:Lore (Alcoholic drinks)|OUTPUTORDER:46|
+SKILL:Lore (Taverns in a region)|OUTPUTORDER:47|
+SKILL:Perception|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:49|
+SKILL:Perform (Untrained)|OUTPUTORDER:50|
+SKILL:Profession (Untrained)|OUTPUTORDER:52|
+SKILL:Ride|OUTPUTORDER:53|
+SKILL:Samurai Mount|OUTPUTORDER:54|
+SKILL:Sense Motive|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:56|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:57|
+SKILL:Stealth|OUTPUTORDER:60|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:61|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:62|
+SKILL:Stealth (Jungle)|OUTPUTORDER:63|
+SKILL:Survival|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Find Food)|OUTPUTORDER:65|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:66|
+SKILL:Swim|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:68|
+SKILL:Untrained Dexterity|OUTPUTORDER:69|
+SKILL:Untrained Intelligence|OUTPUTORDER:70|
+SKILL:Untrained Strength|OUTPUTORDER:71|
+SKILL:Untrained Wisdom|OUTPUTORDER:72|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:45|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:57|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:72|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:58|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:59|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:73|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Hallit|LANGUAGE:Orc

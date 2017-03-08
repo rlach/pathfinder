@@ -60,11 +60,11 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:4|SKILLPOOL:2|SPELLBASE:CHA|CANCASTPERDAY:0,6,3
+CLASS:Sorcerer|LEVEL:4|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,3
 CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|PRESTAT:STR=-2|PRESTAT:DEX=1|PRESTAT:WIS=2|PRESTAT:CHA=3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=4|HITPOINTS:3|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Sorcerer=4|HITPOINTS:3|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:9307
@@ -93,7 +93,7 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:8|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:9|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:10|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:11|
-SKILL:Bluff|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:15|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:16|
@@ -101,7 +101,7 @@ SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:17|
 SKILL:Climb|OUTPUTORDER:18|
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:12|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:35|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:45|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:47|
 SKILL:Craft (Untrained)|OUTPUTORDER:19|
 SKILL:Diplomacy|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:21|
@@ -120,37 +120,39 @@ SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLA
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:37|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:39|
-SKILL:Knowledge (Untrained)|OUTPUTORDER:40|
-SKILL:Perception|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception (Dim Light)|OUTPUTORDER:43|
-SKILL:Perform (Untrained)|OUTPUTORDER:44|
-SKILL:Profession (Untrained)|OUTPUTORDER:46|
-SKILL:Ride|OUTPUTORDER:47|
-SKILL:Samurai Mount|OUTPUTORDER:48|
-SKILL:Sense Motive|OUTPUTORDER:49|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:50|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:51|
-SKILL:Spellcraft|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:55|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:56|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:57|
-SKILL:Stealth (Jungle)|OUTPUTORDER:58|
-SKILL:Survival|OUTPUTORDER:59|
-SKILL:Survival (Find Food)|OUTPUTORDER:60|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:61|
-SKILL:Swim|OUTPUTORDER:62|
-SKILL:Untrained Charisma|OUTPUTORDER:63|
-SKILL:Untrained Dexterity|OUTPUTORDER:64|
-SKILL:Untrained Intelligence|OUTPUTORDER:65|
-SKILL:Untrained Strength|OUTPUTORDER:66|
-SKILL:Untrained Wisdom|OUTPUTORDER:67|
+SKILL:Knowledge (Nobility)|OUTPUTORDER:40|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:41|
+SKILL:Perception|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:44|
+SKILL:Perform (Oratory)|OUTPUTORDER:45|
+SKILL:Perform (Untrained)|OUTPUTORDER:46|
+SKILL:Profession (Untrained)|OUTPUTORDER:48|
+SKILL:Ride|OUTPUTORDER:49|
+SKILL:Samurai Mount|OUTPUTORDER:50|
+SKILL:Sense Motive|OUTPUTORDER:51|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:52|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:53|
+SKILL:Spellcraft|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:57|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:58|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:59|
+SKILL:Stealth (Jungle)|OUTPUTORDER:60|
+SKILL:Survival|OUTPUTORDER:61|
+SKILL:Survival (Find Food)|OUTPUTORDER:62|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:63|
+SKILL:Swim|OUTPUTORDER:64|
+SKILL:Untrained Charisma|OUTPUTORDER:65|
+SKILL:Untrained Dexterity|OUTPUTORDER:66|
+SKILL:Untrained Intelligence|OUTPUTORDER:67|
+SKILL:Untrained Strength|OUTPUTORDER:68|
+SKILL:Untrained Wisdom|OUTPUTORDER:69|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:41|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:52|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:54|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:69|
-SKILL:Use Magic Device|OUTPUTORDER:68|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:42|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:54|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:71|
+SKILL:Use Magic Device|OUTPUTORDER:70|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic
@@ -162,13 +164,15 @@ FEATPOOL:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Perform (Oratory),Perform (Oratory),Knowledge (Nobility),Knowledge (Nobility),Knowledge (Nobility),Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons)|TYPE:BackgroundSkill
+USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.DreamspunBloodline.SerpentineBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.InfernalBloodragerBloodline.InfernalBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ImperiousBloodline.KoboldBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.LifewaterBloodline.ShahzadaBloodline.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.OniBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Use Magic Device,Heal|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Sorcerer Spell|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer|DESC:Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Sorcerer Spell|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer|DESC:Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Human Racial Subtype ~ Versatile Human|TYPE:Human Racial Subtype.SpecialQuality|DESC:While they lack some of the training of other humans, the natural talents of versatile humans more than make up for this lack. Replace the +2 bonus to any ability score, the skilled racial trait, and the bonus feat racial trait with dual talent.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
@@ -179,6 +183,7 @@ USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Sorcerer Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Bloodline ~ Draconic|APPLIEDTO:CATEGORY=Sorcerer Draconic Bloodline&pipe;Lunar|TYPE:SorcererClassFeatures.SpecialQuality.ClassSpecialization.SorcererBloodline|DESC:At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins.
 USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
 ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 0|APPLIEDTO:|TYPE:BonusSpellKnownSorcerer
+ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 1|APPLIEDTO:|TYPE:BonusSpellKnownSorcerer
 USERPOOL:Sorcerer Favored Bonus Spell|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Local Ties|APPLIEDTO:Knowledge (Engineering)|TYPE:Trait.BasicTrait.CampaignTrait|DESC:You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the Technologist feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Outer Dragon Blood|TYPE:Trait.BasicTrait.MagicTrait|DESC:The blood of outer dragons courses through your veins, and you've inherited a portion of their magic. You gain Draconic as a bonus language. In addition, if you are a sorcerer with the draconic bloodline, you can select one of the outer dragon types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.
@@ -239,6 +244,8 @@ DEITY:Desna|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Luck
 # Character Spells Information
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Enlarge Person|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Glitterdust|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Grease|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Light|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Mage Armor|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Magic Missile|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
