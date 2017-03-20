@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Bestiary 3|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary 2|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Class Guide|CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Arcane Anthology|CAMPAIGN:Dark Markets - A Guide to Katapesh - Conversion|CAMPAIGN:Pathfinder Campaign Setting - Distant Worlds|CAMPAIGN:Dragon Empires Gazetteer|CAMPAIGN:Heart of the Jungle|CAMPAIGN:Seekers of Secrets - A Guide to the Pathfinder Society|CAMPAIGN:Guide to the River Kingdoms|CAMPAIGN:Lords of Chaos - Book of the Damned - Volume 2|CAMPAIGN:Princes of Darkness - Book of the Damned - Volume 1|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:PF - Demon Hunter's Handbook|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Skull and Shackles Player's Guide|CAMPAIGN:Serpent's Skull Player's Guide|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Adventure Path #61|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Legacy of Fire Player's Guide (Conversion)|CAMPAIGN:Blood of the Night|CAMPAIGN:Champions of Balance|CAMPAIGN:People of the Stars|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Knights of the Inner Sea|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Critical Fumble Deck|CAMPAIGN:Blood of the Elements|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Animal Archive|CAMPAIGN:Qadira - Gateway to the East|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Melee Tactics Toolbox|CAMPAIGN:Champions of Purity|CAMPAIGN:Elves of Golarion|CAMPAIGN:Champions of Corruption|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Dungeoneer's Handbook|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Kobolds of Golarion|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Taldor - Echoes of Glory (Conversion)|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Alchemy Manual|CAMPAIGN:Ranged Tactics Toolbox|CAMPAIGN:Shattered Star Player's Guide|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Pathfinder Adventure Path #67|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Blood of the Moon|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Blood of Fiends|CAMPAIGN:Dragon Empires Primer|CAMPAIGN:Faiths of Purity|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Blood of Angels|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Varisia - Birthplace of Legends|CAMPAIGN:Reign of Winter Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Jade Regent Player's Guide|CAMPAIGN:Mummys Mask Players Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:People of the North|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Faiths of Balance|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Curse of the Crimson Throne - Chapter 3 - Escape from Old Korvosa (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 5 - Skeletons of Scarwall (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 6 - Crown of Fangs (Conversion)|CAMPAIGN:Second Darkness, Chapter 5 - A Memory of Darkness (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 2 - Seven Days to the Grave (Conversion)|CAMPAIGN:PF - City of Strangers|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Skull and Shackles (The Wormwood Mutiny)|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Hell's Vengeance Player's Guide|CAMPAIGN:Curse of the Crimson Throne - Chapter 4 - A History of Ashes (Conversion)|CAMPAIGN:Second Darkness, Chapter 4 - Endless Night (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Second Darkness, Chapter 6 - Descent into Midnight (Conversion)|CAMPAIGN:Second Darkness, Chapter 1 - Shadow in the Sky (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 1 - Edge of Anarchy (Conversion)|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Bestiary|CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Arcane Anthology|CAMPAIGN:Bestiary 3|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Heart of the Jungle|CAMPAIGN:Dragon Empires Gazetteer|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Guide to the River Kingdoms|CAMPAIGN:Princes of Darkness - Book of the Damned - Volume 1|CAMPAIGN:Lords of Chaos - Book of the Damned - Volume 2|CAMPAIGN:Technology Guide|CAMPAIGN:Pathfinder Campaign Setting - Distant Worlds|CAMPAIGN:Dark Markets - A Guide to Katapesh - Conversion|CAMPAIGN:Seekers of Secrets - A Guide to the Pathfinder Society|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Kobolds of Golarion|CAMPAIGN:Faiths of Purity|CAMPAIGN:Blood of Angels|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Varisia - Birthplace of Legends|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Mummys Mask Players Guide|CAMPAIGN:Critical Fumble Deck|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Blood of the Elements|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Taldor - Echoes of Glory (Conversion)|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Humans of Golarion|CAMPAIGN:Dragon Empires Primer|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:People of the North|CAMPAIGN:Champions of Balance|CAMPAIGN:Adventurer's Armory|CAMPAIGN:PF - Demon Hunter's Handbook|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Animal Archive|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Adventure Path #61|CAMPAIGN:Knights of the Inner Sea|CAMPAIGN:Reign of Winter Player's Guide|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Skull and Shackles Player's Guide|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Pathfinder Adventure Path #67|CAMPAIGN:Alchemy Manual|CAMPAIGN:Serpent's Skull Player's Guide|CAMPAIGN:Shattered Star Player's Guide|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Champions of Purity|CAMPAIGN:People of the Stars|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Blood of Fiends|CAMPAIGN:Dungeoneer's Handbook|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Melee Tactics Toolbox|CAMPAIGN:Legacy of Fire Player's Guide (Conversion)|CAMPAIGN:Blood of the Moon|CAMPAIGN:Champions of Corruption|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Elves of Golarion|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Qadira - Gateway to the East|CAMPAIGN:Ranged Tactics Toolbox|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Faiths of Balance|CAMPAIGN:Jade Regent Player's Guide|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Blood of the Night|CAMPAIGN:Curse of the Crimson Throne - Chapter 6 - Crown of Fangs (Conversion)|CAMPAIGN:Hell's Vengeance Player's Guide|CAMPAIGN:Curse of the Crimson Throne - Chapter 4 - A History of Ashes (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 1 - Edge of Anarchy (Conversion)|CAMPAIGN:Skull and Shackles (The Wormwood Mutiny)|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Second Darkness, Chapter 6 - Descent into Midnight (Conversion)|CAMPAIGN:PF - City of Strangers|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 1 - Shadow in the Sky (Conversion)|CAMPAIGN:Second Darkness, Chapter 5 - A Memory of Darkness (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 3 - Escape from Old Korvosa (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Second Darkness, Chapter 4 - Endless Night (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 5 - Skeletons of Scarwall (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 2 - Seven Days to the Grave (Conversion)|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -67,7 +67,7 @@ CLASSABILITIESLEVEL:Gunslinger=3|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:11507
+EXPERIENCE:15210
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -108,7 +108,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:23|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:24|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:25|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:26|
-SKILL:Disable Device|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Disable Device|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Disguise|OUTPUTORDER:29|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:30|
 SKILL:Escape Artist|OUTPUTORDER:31|
@@ -125,7 +125,7 @@ SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Gunslinger|RAN
 SKILL:Knowledge (Engineering)|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Geography)|OUTPUTORDER:45|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:46|
-SKILL:Linguistics|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
+SKILL:Linguistics|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
 SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Perception (Dim Light)|OUTPUTORDER:50|
 SKILL:Perform (Untrained)|OUTPUTORDER:51|
@@ -136,7 +136,7 @@ SKILL:Samurai Mount|OUTPUTORDER:56|
 SKILL:Sense Motive|OUTPUTORDER:57|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:58|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:59|
-SKILL:Sleight of Hand|OUTPUTORDER:61|
+SKILL:Sleight of Hand|OUTPUTORDER:60|
 SKILL:Stealth|OUTPUTORDER:63|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:64|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:65|
@@ -150,10 +150,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:72|
 SKILL:Untrained Intelligence|OUTPUTORDER:73|
 SKILL:Untrained Strength|OUTPUTORDER:74|
 SKILL:Untrained Wisdom|OUTPUTORDER:75|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:28|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:27|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:34|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:48|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:60|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:47|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:61|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:62|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:76|
 
@@ -220,37 +220,38 @@ WEAPONPROF:[WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terb
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
 
 # Character Equipment
-MONEY:0.00
-EQUIPNAME:Access Card (Brown)|OUTPUTORDER:5|COST:3|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Access Card (White)|OUTPUTORDER:17|COST:40|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:9|COST:12|WT:0.0|QUANTITY:20.0|NOTE:
-EQUIPNAME:Battery|OUTPUTORDER:13|COST:100|WT:1.0|QUANTITY:5.0|NOTE:
-EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:11|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
+MONEY:524.00
+EQUIPNAME:Access Card (Brown)|OUTPUTORDER:6|COST:3|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Access Card (White)|OUTPUTORDER:18|COST:40|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:10|COST:12|WT:0.0|QUANTITY:20.0|NOTE:
+EQUIPNAME:Battery|OUTPUTORDER:14|COST:100|WT:1.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:12|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
 EQUIPNAME:Chain Shirt +1|OUTPUTORDER:4|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
-EQUIPNAME:Donkey|OUTPUTORDER:22|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Goo Tube|OUTPUTORDER:16|COST:6|WT:0.1|QUANTITY:100.0|NOTE:
-EQUIPNAME:Grippers|OUTPUTORDER:26|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:24|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:25|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Hardware Numbers of power relay and reactor under Torch|OUTPUTORDER:20|COST:0.2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Hardware Numbers of power relay and reactor under Torch$SPROP=(Parchment (Sheet))]
-EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:6|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Horse (Light)|OUTPUTORDER:0|COST:75|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Donkey|OUTPUTORDER:23|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlet, Spiked|OUTPUTORDER:2|COST:5.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:KEY=Gauntlet (Spiked)$EQMOD=STEEL]
+EQUIPNAME:Goo Tube|OUTPUTORDER:17|COST:6|WT:0.1|QUANTITY:92.0|NOTE:
+EQUIPNAME:Grippers|OUTPUTORDER:27|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:25|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:26|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hardware Numbers of power relay and reactor under Torch|OUTPUTORDER:21|COST:0.2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Hardware Numbers of power relay and reactor under Torch$SPROP=(Parchment (Sheet))]
+EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:7|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Horse (Light)|OUTPUTORDER:31|COST:75|WT:600.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:1|COST:4800.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=PLUS1W]
-EQUIPNAME:Ion Tape|OUTPUTORDER:8|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Torch|OUTPUTORDER:7|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Masterwork Dagger|OUTPUTORDER:12|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
-EQUIPNAME:Masterwork Pistol|OUTPUTORDER:21|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Ion Tape|OUTPUTORDER:9|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Torch|OUTPUTORDER:8|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:13|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Pistol|OUTPUTORDER:22|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Muleback Cords|OUTPUTORDER:3|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Nanite Canister|OUTPUTORDER:18|COST:500|WT:1.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Nanite Hypogun (Black)|OUTPUTORDER:19|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:4 zostały
-EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:2|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:10|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Power Relay|OUTPUTORDER:29|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Saddle (Pack)|OUTPUTORDER:23|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:27|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
-EQUIPNAME:Skillslot|OUTPUTORDER:28|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Technological League Pin|OUTPUTORDER:15|COST:100|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unidentified Magic Item 1 lbs|DATA:NAME=Technological League Pin$SPROP=(Unidentified Magic Item 1 lbs)$COSTMOD=100]
-EQUIPNAME:Zipstick|OUTPUTORDER:14|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nanite Canister|OUTPUTORDER:19|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nanite Hypogun (Black)|OUTPUTORDER:20|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:4 zostały
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:5|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:11|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Power Relay|OUTPUTORDER:30|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Saddle (Pack)|OUTPUTORDER:24|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:28|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
+EQUIPNAME:Skillslot|OUTPUTORDER:29|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Technological League Pin|OUTPUTORDER:16|COST:100|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unidentified Magic Item 1 lbs|DATA:NAME=Technological League Pin$SPROP=(Unidentified Magic Item 1 lbs)$COSTMOD=100]
+EQUIPNAME:Zipstick|OUTPUTORDER:15|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Not Carried|ID:0.1.03|VALUE:Donkey|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Donkey|ID:0.1.03.01|VALUE:Saddle (Pack)|QUANTITY:1.0|USETEMPMODS:Y
@@ -278,12 +279,15 @@ EQUIPSET:Equipped|ID:0.1.29|VALUE:Alchemical Cartridge (Paper/Bullet)|QUANTITY:2
 EQUIPSET:Equipped|ID:0.1.30|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.32|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.35|VALUE:Access Card (White)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.37|VALUE:Nanite Canister|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.37|VALUE:Nanite Canister|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.38|VALUE:Nanite Hypogun (Black)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.42|VALUE:Hardware Numbers of power relay and reactor under Torch|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.43|VALUE:Inferno Pistol +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.44|VALUE:Masterwork Pistol|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.45|VALUE:Chain Shirt +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.46|VALUE:Gauntlet, Spiked|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.47|VALUE:Horse (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.48|VALUE:Bullet (Firearm/30)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
