@@ -227,44 +227,45 @@ WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light
 
 # Character Equipment
 MONEY:0.00
-EQUIPNAME:Access Card (Brown)|OUTPUTORDER:7|COST:3|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Access Card (Gray)|OUTPUTORDER:13|COST:90|WT:0.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Access Card (Brown)|OUTPUTORDER:6|COST:3|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Access Card (Gray)|OUTPUTORDER:12|COST:90|WT:0.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Access Card (White)|OUTPUTORDER:23|COST:40|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:11|COST:12|WT:0.0|QUANTITY:20.0|NOTE:
+EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:10|COST:12|WT:0.0|QUANTITY:20.0|NOTE:
 EQUIPNAME:Armband with inset pearls|OUTPUTORDER:2|COST:700|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bracelets|DATA:NAME=Armband with inset pearls$SPROP=(Bracelets), (Bracelets)$COSTMOD=700]
-EQUIPNAME:Battery|OUTPUTORDER:17|COST:100|WT:1.0|QUANTITY:12.0|NOTE:
-EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:12|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
-EQUIPNAME:Chain Shirt +1|OUTPUTORDER:4|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Battery|OUTPUTORDER:15|COST:100|WT:1.0|QUANTITY:12.0|NOTE:
+EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:11|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
+EQUIPNAME:Chain Shirt +1|OUTPUTORDER:5|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
 EQUIPNAME:Detonator|OUTPUTORDER:31|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Donkey|OUTPUTORDER:34|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Donkey|OUTPUTORDER:35|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:EMP Pistol|OUTPUTORDER:32|COST:12000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Envoy's Mouthpiece|OUTPUTORDER:30|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gauntlet, Spiked|OUTPUTORDER:3|COST:5.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:NAME=Gauntlet, Spiked$KEY=Gauntlet (Spiked)$EQMOD=STEEL]
-EQUIPNAME:Goo Tube|OUTPUTORDER:22|COST:6|WT:0.1|QUANTITY:92.0|NOTE:
-EQUIPNAME:Grippers|OUTPUTORDER:38|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:36|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:37|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlet, Spiked|OUTPUTORDER:34|COST:5.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:NAME=Gauntlet, Spiked$KEY=Gauntlet (Spiked)$EQMOD=STEEL]
+EQUIPNAME:Goo Tube|OUTPUTORDER:22|COST:6|WT:0.1|QUANTITY:91.0|NOTE:
+EQUIPNAME:Grippers|OUTPUTORDER:39|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:37|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:38|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Hardware Numbers of power relay and reactor under Torch|OUTPUTORDER:25|COST:0.2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Hardware Numbers of power relay and reactor under Torch$SPROP=(Parchment (Sheet))]
-EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:8|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Horse (Light)|OUTPUTORDER:41|COST:75|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:7|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Horse (Light)|OUTPUTORDER:42|COST:75|WT:600.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:1|COST:4800.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=PLUS1W]
 EQUIPNAME:Inhibitor Facet|OUTPUTORDER:33|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Memory Facet|DATA:NAME=Inhibitor Facet$SPROP=A memory facet is a length of crystal about the size of a human thumb that’s adorned at one end by a metal cap fitted with prongs and plugs. The crystal’s interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming—these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose&colon; storing and transporting the staggeringly complex code required to program and enhance artificial intelligences. To use a memory facet, one needs simply to insert the crystal’s connectors into an appropriate slot in an AI’s core processor or a robot under the AI’s control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls—where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations. Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence’s capabilities. In rare cases, destructive memory facets were created—items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI’s personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI’s code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions. Listed below are rules for the memory facets in this adventure—future adventures will contain rules for other types of memory facets, and in the final adventure, the PCs can use their collected facets not only to fight against Unity, but also to augment and enhance their own AI ally, the oracle Casandalee. Aggression Facet&colon; This memory facet enhances an AI’s offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting Deadly Aim and Power Attack as bonus feats when the AI is controlling a robot. Ego Facet&colon; An ego facet bolsters an AI’s sense of selfesteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting Toughness as a bonus feat when the AI is controlling a robot. Inhibitor Facet&colon; An inhibitor facet is unusual among memory facets in that it isn’t intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI’s Charisma by 4 and imposes a –4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack., (Memory Facet)]
-EQUIPNAME:Ion Tape|OUTPUTORDER:10|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Torch|OUTPUTORDER:9|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ion Tape|OUTPUTORDER:9|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Torch|OUTPUTORDER:8|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Laser Rifle (Timeworn)|OUTPUTORDER:28|COST:10000.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Laser Rifle|DATA:NAME=Laser Rifle (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Magboots (Timeworn)|OUTPUTORDER:18|COST:2500.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Magboots|DATA:NAME=Magboots (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Masterwork Dagger|OUTPUTORDER:19|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Masterwork Pistol|OUTPUTORDER:26|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Mind Burner (Timeworn)|OUTPUTORDER:29|COST:4000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mind Burner|DATA:NAME=Mind Burner (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Muleback Cords|OUTPUTORDER:6|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Nanite Canister|OUTPUTORDER:16|COST:500|WT:1.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Muleback Cords|OUTPUTORDER:4|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nanite Canister|OUTPUTORDER:14|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Nanite Hypogun (Black)|OUTPUTORDER:24|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:5 zostały
-EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:5|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:15|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Power Relay|OUTPUTORDER:40|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Saddle (Pack)|OUTPUTORDER:35|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scatterlight Suit (Red)|OUTPUTORDER:18|COST:1400|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Unholy Blight)|OUTPUTORDER:14|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
-EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:39|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:3|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
+EQUIPNAME:Power Cable|OUTPUTORDER:17|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Power Relay|OUTPUTORDER:41|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Saddle (Pack)|OUTPUTORDER:36|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scatterlight Suit (Red)|OUTPUTORDER:16|COST:1400|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Unholy Blight)|OUTPUTORDER:13|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:40|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
 EQUIPNAME:Skillslot|OUTPUTORDER:27|COST:2000|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Technological League Pin|OUTPUTORDER:21|COST:100|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unidentified Magic Item 1 lbs|DATA:NAME=Technological League Pin$SPROP=(Unidentified Magic Item 1 lbs)$COSTMOD=100]
 EQUIPNAME:Zipstick|OUTPUTORDER:20|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
@@ -277,7 +278,7 @@ EQUIPSET:Saddle (Pack)|ID:0.1.03.01.03|VALUE:Grippers|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Saddle (Pack)|ID:0.1.03.01.04|VALUE:Battery|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Saddle (Pack)|ID:0.1.03.01.05|VALUE:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Saddle (Pack)|ID:0.1.03.01.06|VALUE:Skillslot|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Saddle (Pack)|ID:0.1.03.01.07|VALUE:Goo Tube|QUANTITY:90.0|USETEMPMODS:Y
+EQUIPSET:Saddle (Pack)|ID:0.1.03.01.07|VALUE:Goo Tube|QUANTITY:89.0|USETEMPMODS:Y
 EQUIPSET:Saddle (Pack)|ID:0.1.03.01.08|VALUE:Power Relay|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.09|VALUE:Access Card (Brown)|QUANTITY:2.0|USETEMPMODS:Y
@@ -293,7 +294,6 @@ EQUIPSET:Carried|ID:0.1.27|VALUE:Technological League Pin|QUANTITY:1.0|USETEMPMO
 EQUIPSET:Carried|ID:0.1.28|VALUE:Goo Tube|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.29|VALUE:Alchemical Cartridge (Paper/Bullet)|QUANTITY:20.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.35|VALUE:Access Card (White)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.37|VALUE:Nanite Canister|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.38|VALUE:Nanite Hypogun (Black)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.42|VALUE:Hardware Numbers of power relay and reactor under Torch|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.43|VALUE:Inferno Pistol +1|QUANTITY:1.0|USETEMPMODS:Y
@@ -310,12 +310,13 @@ EQUIPSET:Carried|ID:0.1.54|VALUE:Mind Burner (Timeworn)|QUANTITY:1.0|USETEMPMODS
 EQUIPSET:Carried|ID:0.1.55|VALUE:Envoy's Mouthpiece|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.56|VALUE:Detonator|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.57|VALUE:EMP Pistol|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Secondary Hand|ID:0.1.58|VALUE:Gauntlet, Spiked|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.59|VALUE:Inhibitor Facet|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.60|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.61|VALUE:Nanite Canister|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.61|VALUE:Nanite Canister|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.62|VALUE:Battery|QUANTITY:7.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.63|VALUE:Scatterlight Suit (Red)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.64|VALUE:Gauntlet, Spiked|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.65|VALUE:Power Cable|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.66|VALUE:Magboots (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
