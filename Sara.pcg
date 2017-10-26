@@ -70,7 +70,7 @@ CLASSABILITIESLEVEL:Gunslinger=6|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=7|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:35000
+EXPERIENCE:51000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -111,7 +111,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:23|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:24|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:25|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:26|
-SKILL:Disable Device|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Disable Device|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Disguise|OUTPUTORDER:29|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:30|
 SKILL:Escape Artist|OUTPUTORDER:31|
@@ -140,7 +140,7 @@ SKILL:Samurai Mount|OUTPUTORDER:57|
 SKILL:Sense Motive|OUTPUTORDER:58|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:59|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:60|
-SKILL:Sleight of Hand|OUTPUTORDER:62|
+SKILL:Sleight of Hand|OUTPUTORDER:61|
 SKILL:Stealth|OUTPUTORDER:64|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:65|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:66|
@@ -154,10 +154,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:73|
 SKILL:Untrained Intelligence|OUTPUTORDER:74|
 SKILL:Untrained Strength|OUTPUTORDER:75|
 SKILL:Untrained Wisdom|OUTPUTORDER:76|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:27|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:28|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:34|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:47|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:61|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:62|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:63|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:77|
 
@@ -228,14 +228,16 @@ WEAPONPROF:[WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terb
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
 
 # Character Equipment
-MONEY:0.00
+MONEY:0
 EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:9|COST:12|WT:0.0|QUANTITY:20.0|NOTE:
+EQUIPNAME:Arc Pistol (Timeworn)|OUTPUTORDER:0|COST:5000.0|WT:2.0|QUANTITY:1.0|NOTE:4 ladunki|CUSTOMIZATION:[BASEITEM:Arc Pistol|DATA:NAME=Arc Pistol (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Armband with inset pearls|OUTPUTORDER:2|COST:700|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bracelets|DATA:NAME=Armband with inset pearls$SPROP=(Bracelets), (Bracelets)$COSTMOD=700]
 EQUIPNAME:Autograpnel +1|OUTPUTORDER:29|COST:6300.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Autograpnel|DATA:NAME=Autograpnel +1$EQMOD=PLUS1W]
 EQUIPNAME:Battery|OUTPUTORDER:12|COST:100|WT:1.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:10|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
 EQUIPNAME:Certyfikat rozbiórkowy|OUTPUTORDER:16|COST:0.2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Certyfikat rozbiórkowy$SPROP=(Parchment (Sheet))]
 EQUIPNAME:Chain Shirt +1|OUTPUTORDER:3|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:0|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Donkey|OUTPUTORDER:31|COST:8|WT:600.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:EMP Pistol|OUTPUTORDER:25|COST:12000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Envoy's Mouthpiece|OUTPUTORDER:24|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
@@ -244,18 +246,22 @@ EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:34|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Hardware Numbers of power relay and reactor under Torch|OUTPUTORDER:21|COST:0.2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Hardware Numbers of power relay and reactor under Torch$SPROP=(Parchment (Sheet))]
 EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:6|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Hemochem (Grade IV)|OUTPUTORDER:17|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hologram Generator (White/Timeworn)|OUTPUTORDER:0|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hologram Generator (White)|DATA:NAME=Hologram Generator (White/Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:1|COST:4800.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=PLUS1W]
 EQUIPNAME:Inhibitor Facet|OUTPUTORDER:26|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Memory Facet|DATA:NAME=Inhibitor Facet$SPROP=A memory facet is a length of crystal about the size of a human thumb that’s adorned at one end by a metal cap fitted with prongs and plugs. The crystal’s interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming—these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose&colon; storing and transporting the staggeringly complex code required to program and enhance artificial intelligences. To use a memory facet, one needs simply to insert the crystal’s connectors into an appropriate slot in an AI’s core processor or a robot under the AI’s control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls—where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations. Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence’s capabilities. In rare cases, destructive memory facets were created—items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI’s personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI’s code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions. Listed below are rules for the memory facets in this adventure—future adventures will contain rules for other types of memory facets, and in the final adventure, the PCs can use their collected facets not only to fight against Unity, but also to augment and enhance their own AI ally, the oracle Casandalee. Aggression Facet&colon; This memory facet enhances an AI’s offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting Deadly Aim and Power Attack as bonus feats when the AI is controlling a robot. Ego Facet&colon; An ego facet bolsters an AI’s sense of selfesteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting Toughness as a bonus feat when the AI is controlling a robot. Inhibitor Facet&colon; An inhibitor facet is unusual among memory facets in that it isn’t intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI’s Charisma by 4 and imposes a –4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack., (Memory Facet)]
 EQUIPNAME:Ion Tape|OUTPUTORDER:8|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ioun Torch|OUTPUTORDER:7|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Laser Pistol (Timeworn)|OUTPUTORDER:0|COST:5000.0|WT:2.0|QUANTITY:3.0|NOTE:kazdy ma 5 ladunkow|CUSTOMIZATION:[BASEITEM:Laser Pistol|DATA:NAME=Laser Pistol (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Laser Torch|OUTPUTORDER:30|COST:6000|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Masterwork Pistol|OUTPUTORDER:22|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Muleback Cords|OUTPUTORDER:5|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Nanite Canister|OUTPUTORDER:11|COST:500|WT:1.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Nanite Hypogun (Black)|OUTPUTORDER:20|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:5 zostały
+EQUIPNAME:Nanite Hypogun (White/Timeworn)|OUTPUTORDER:0|COST:7500.0|WT:1.0|QUANTITY:1.0|NOTE:3 ladunki|CUSTOMIZATION:[BASEITEM:Nanite Hypogun (White)|DATA:NAME=Nanite Hypogun (White/Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
 EQUIPNAME:Power Relay|OUTPUTORDER:36|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Saddle (Pack)|OUTPUTORDER:32|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scatterlight Suit (Green)|OUTPUTORDER:0|COST:1000|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scatterlight Suit (Red)|OUTPUTORDER:13|COST:1400|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:35|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
 EQUIPNAME:Skillslot|OUTPUTORDER:23|COST:2000|WT:0.0|QUANTITY:2.0|NOTE:
@@ -264,6 +270,7 @@ EQUIPNAME:To sell|OUTPUTORDER:28|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:
 EQUIPNAME:Veemod (Black)|OUTPUTORDER:15|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod (Brown)|OUTPUTORDER:27|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod Goggles|OUTPUTORDER:14|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Zero Pistol (Timeworn)|OUTPUTORDER:0|COST:5000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Zero Pistol|DATA:NAME=Zero Pistol (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Zipstick|OUTPUTORDER:18|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Not Carried|ID:0.1.03|VALUE:Donkey|QUANTITY:1.0|USETEMPMODS:Y
