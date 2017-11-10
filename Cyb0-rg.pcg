@@ -55,12 +55,12 @@ STAT:DEX|SCORE:18
 STAT:CON|SCORE:14
 STAT:INT|SCORE:15
 STAT:WIS|SCORE:12
-STAT:CHA|SCORE:15
+STAT:CHA|SCORE:16
 ALIGN:CN
 RACE:Android
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:8|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:7|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:7|SKILLSGAINED:11|SKILLSREMAINING:0
@@ -68,6 +68,7 @@ CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:2|PRESTAT:DEX=1|SKILLSGAINED:11|SKILLSREMA
 CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:2|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:6|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:5|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:11|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:51000
@@ -84,7 +85,7 @@ TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
 REGION:Numeria
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
@@ -100,17 +101,17 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:15|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:16|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:17|
-SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:12|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:36|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:57|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:58|
 SKILL:Craft (Untrained)|OUTPUTORDER:19|
 SKILL:Diplomacy|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:21|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:22|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:23|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:24|
-SKILL:Disable Device|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:28|
 SKILL:Escape Artist|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -118,56 +119,57 @@ SKILL:Fly|OUTPUTORDER:30|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:31|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:34|
-SKILL:Heal|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:N]
+SKILL:Heal|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:39|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:40|
 SKILL:Knowledge (Arcana)|OUTPUTORDER:41|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Engineering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:N]
-SKILL:Knowledge (History)|OUTPUTORDER:44|
-SKILL:Knowledge (Local)|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:47|
-SKILL:Linguistics|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Dwarven
-SKILL:Lore (Bandits in a region)|OUTPUTORDER:50|
-SKILL:Lore (Dwarven history)|OUTPUTORDER:51|
-SKILL:Lore (Magic Symbols)|OUTPUTORDER:52|
-SKILL:Lore (Orc history)|OUTPUTORDER:53|
-SKILL:Perception|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception (Dim Light)|OUTPUTORDER:55|
-SKILL:Perform (Untrained)|OUTPUTORDER:56|
-SKILL:Profession (Farmer)|OUTPUTORDER:58|
-SKILL:Profession (Midwife)|OUTPUTORDER:59|
-SKILL:Profession (Miner)|OUTPUTORDER:60|
-SKILL:Profession (Untrained)|OUTPUTORDER:61|
-SKILL:Ride|OUTPUTORDER:62|
-SKILL:Samurai Mount|OUTPUTORDER:63|
-SKILL:Sense Motive|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:65|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:66|
-SKILL:Sleight of Hand|OUTPUTORDER:67|
-SKILL:Stealth|OUTPUTORDER:70|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:71|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:72|
-SKILL:Stealth (Jungle)|OUTPUTORDER:73|
-SKILL:Survival|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Survival (Find Food)|OUTPUTORDER:75|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:76|
-SKILL:Swim|OUTPUTORDER:77|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:78|
-SKILL:Untrained Dexterity|OUTPUTORDER:79|
-SKILL:Untrained Intelligence|OUTPUTORDER:80|
-SKILL:Untrained Strength|OUTPUTORDER:81|
-SKILL:Untrained Wisdom|OUTPUTORDER:82|
+SKILL:Knowledge (Engineering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Geography)|OUTPUTORDER:44|
+SKILL:Knowledge (History)|OUTPUTORDER:45|
+SKILL:Knowledge (Local)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:48|
+SKILL:Linguistics|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Dwarven
+SKILL:Lore (Bandits in a region)|OUTPUTORDER:51|
+SKILL:Lore (Dwarven history)|OUTPUTORDER:52|
+SKILL:Lore (Magic Symbols)|OUTPUTORDER:53|
+SKILL:Lore (Orc history)|OUTPUTORDER:54|
+SKILL:Perception|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:56|
+SKILL:Perform (Untrained)|OUTPUTORDER:57|
+SKILL:Profession (Farmer)|OUTPUTORDER:59|
+SKILL:Profession (Midwife)|OUTPUTORDER:60|
+SKILL:Profession (Miner)|OUTPUTORDER:61|
+SKILL:Profession (Untrained)|OUTPUTORDER:62|
+SKILL:Ride|OUTPUTORDER:63|
+SKILL:Samurai Mount|OUTPUTORDER:64|
+SKILL:Sense Motive|OUTPUTORDER:65|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:66|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:67|
+SKILL:Sleight of Hand|OUTPUTORDER:68|
+SKILL:Stealth|OUTPUTORDER:71|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:72|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:73|
+SKILL:Stealth (Jungle)|OUTPUTORDER:74|
+SKILL:Survival|OUTPUTORDER:75|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Survival (Find Food)|OUTPUTORDER:76|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:77|
+SKILL:Swim|OUTPUTORDER:78|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:79|
+SKILL:Untrained Dexterity|OUTPUTORDER:80|
+SKILL:Untrained Intelligence|OUTPUTORDER:81|
+SKILL:Untrained Strength|OUTPUTORDER:82|
+SKILL:Untrained Wisdom|OUTPUTORDER:83|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:26|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:48|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:68|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:69|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:84|
-SKILL:Use Magic Device|OUTPUTORDER:83|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:49|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:69|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:70|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:85|
+SKILL:Use Magic Device|OUTPUTORDER:84|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Hallit|LANGUAGE:Orc
@@ -182,7 +184,7 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Regular Talent|APPLIEDTO:,|TYPE:RogueAdvancedTalent|DESC:Select a regular Rogue Talent.
 USERPOOL:Advanced Talent|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc history),Lore (Magic Symbols)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc history),Lore (Magic Symbols),Knowledge (Geography),Lore (android anatomy)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline.CelestialBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.UndeadBloodragerBloodline.LifewaterBloodline.ShahzadaBloodline.CelestialBloodline.ElementalBloodline.FeyBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
@@ -193,7 +195,7 @@ USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Local),Perception,Knowledge (Arcana)|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Local),Perception,Knowledge (Arcana),Knowledge (Engineering)|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Trait|APPLIEDTO:CATEGORY=Special Ability&pipe;Trait ~ Numerian Archaeologist,CATEGORY=Special Ability&pipe;Trait ~ Blood Algorithm,CATEGORY=Special Ability&pipe;Trait ~ Nanite Revival|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 Trait.
 USERPOOL:GM Awards|POOLPOINTS:0.0
@@ -212,6 +214,7 @@ ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Abili
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Canny Observer|TYPE:RogueTalent.SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Slow Reactions|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Weapon Training|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain Weapon Focus as a bonus feat.
 USERPOOL:Unchained Rogue Talent|POOLPOINTS:0.0
 ABILITY:Weapon Training|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Dagger|TYPE:Combat.WeaponFocus.OracleWeaponMastery.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline.DestinedBloodline|DESC:You are especially good at using your chosen weapon.

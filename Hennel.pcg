@@ -6,7 +6,7 @@ VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
-PREVIEWSHEET:preview.html
+PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Pathfinder_RPG
@@ -50,7 +50,7 @@ PORTRAIT:C&colon;\Dev\Projects\pathfinder\portraits\hennel.jpg
 PORTRAITTHUMBNAILRECT:188,150,166,166
 
 # Character Attributes
-STAT:STR|SCORE:16
+STAT:STR|SCORE:17
 STAT:DEX|SCORE:12
 STAT:CON|SCORE:14
 STAT:INT|SCORE:11
@@ -60,7 +60,7 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:8|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -68,6 +68,7 @@ CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:5|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSR
 CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=6|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:4
 
 # Character Experience
 EXPERIENCE:51000
@@ -116,7 +117,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
 SKILL:Escape Artist|OUTPUTORDER:28|
 SKILL:Fly|OUTPUTORDER:29|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
-SKILL:Handle Animal|OUTPUTORDER:32|
+SKILL:Handle Animal|OUTPUTORDER:31|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:34|
 SKILL:Heal|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
@@ -156,7 +157,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:73|
 SKILL:Untrained Strength|OUTPUTORDER:74|
 SKILL:Untrained Wisdom|OUTPUTORDER:75|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:45|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:61|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:62|
@@ -201,6 +202,7 @@ USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Spirit Totem (Lesser)|TYPE:ClassFeatures.BarbarianClassFeatures.RagePower.SpecialAttack.Supernatural.Unchained Rage Power|DESC:While raging, the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Accurate Stance|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:You can focus your strikes. You gain a +%1 competence bonus on melee attack rolls and thrown weapon attack rolls. This is a stance rage power.&pipe;AccurateStanceBonus
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Deadly Accuracy|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:If you score a critical threat while in the accurate stance, you applies double the accurate stance's bonus (+%1) when rolling to confirm the critical.
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Unexpected Strike|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:You can make an attack of opportunity against a foe that moves into any square threatened by you, regardless of whether that movement would normally provoke an attack of opportunity. You can use this ability only when there are no other foes in a square threatened by you.
 USERPOOL:Unchained Rage Power|POOLPOINTS:0.0
 ABILITY:Unchained Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Standard Unchained Rage|TYPE:UnchainedRageSelection
 USERPOOL:Unchained Raging Selection|POOLPOINTS:0.0
