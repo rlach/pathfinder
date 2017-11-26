@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Bestiary 3|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Arcane Anthology|CAMPAIGN:Bestiary 2|CAMPAIGN:Seekers of Secrets - A Guide to the Pathfinder Society|CAMPAIGN:Princes of Darkness - Book of the Damned - Volume 1|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Guide to the River Kingdoms|CAMPAIGN:Pathfinder Campaign Setting - Distant Worlds|CAMPAIGN:Dark Markets - A Guide to Katapesh - Conversion|CAMPAIGN:Lords of Chaos - Book of the Damned - Volume 2|CAMPAIGN:Heart of the Jungle|CAMPAIGN:Dragon Empires Gazetteer|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Adventure Path #61|CAMPAIGN:Magical Marketplace|CAMPAIGN:Mummys Mask Players Guide|CAMPAIGN:Humans of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Blood of the Moon|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Taldor - Echoes of Glory (Conversion)|CAMPAIGN:Melee Tactics Toolbox|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Faiths of Balance|CAMPAIGN:Champions of Corruption|CAMPAIGN:Dragon Empires Primer|CAMPAIGN:Jade Regent Player's Guide|CAMPAIGN:Legacy of Fire Player's Guide (Conversion)|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Ranged Tactics Toolbox|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Shattered Star Player's Guide|CAMPAIGN:Kobolds of Golarion|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Blood of Angels|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Elves of Golarion|CAMPAIGN:Serpent's Skull Player's Guide|CAMPAIGN:Reign of Winter Player's Guide|CAMPAIGN:Animal Archive|CAMPAIGN:People of the North|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Faiths of Purity|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Blood of the Elements|CAMPAIGN:Alchemy Manual|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Qadira - Gateway to the East|CAMPAIGN:Champions of Purity|CAMPAIGN:Critical Fumble Deck|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Pathfinder Adventure Path #67|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Dungeoneer's Handbook|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Champions of Balance|CAMPAIGN:Knights of the Inner Sea|CAMPAIGN:Varisia - Birthplace of Legends|CAMPAIGN:Skull and Shackles Player's Guide|CAMPAIGN:Blood of the Night|CAMPAIGN:PF - Demon Hunter's Handbook|CAMPAIGN:Blood of Fiends|CAMPAIGN:PF - City of Strangers|CAMPAIGN:Second Darkness, Chapter 1 - Shadow in the Sky (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 1 - Edge of Anarchy (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 3 - Escape from Old Korvosa (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 5 - Skeletons of Scarwall (Conversion)|CAMPAIGN:Hell's Vengeance Player's Guide|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 6 - Descent into Midnight (Conversion)|CAMPAIGN:Skull and Shackles (The Wormwood Mutiny)|CAMPAIGN:Second Darkness, Chapter 4 - Endless Night (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 2 - Seven Days to the Grave (Conversion)|CAMPAIGN:Second Darkness, Chapter 5 - A Memory of Darkness (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 4 - A History of Ashes (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 6 - Crown of Fangs (Conversion)|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Bestiary 3|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary 2|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Class Guide|CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Arcane Anthology|CAMPAIGN:Dark Markets - A Guide to Katapesh - Conversion|CAMPAIGN:Pathfinder Campaign Setting - Distant Worlds|CAMPAIGN:Dragon Empires Gazetteer|CAMPAIGN:Heart of the Jungle|CAMPAIGN:Seekers of Secrets - A Guide to the Pathfinder Society|CAMPAIGN:Guide to the River Kingdoms|CAMPAIGN:Lords of Chaos - Book of the Damned - Volume 2|CAMPAIGN:Princes of Darkness - Book of the Damned - Volume 1|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Orcs of Golarion|CAMPAIGN:PF - Demon Hunter's Handbook|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Skull and Shackles Player's Guide|CAMPAIGN:Serpent's Skull Player's Guide|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Adventure Path #61|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Legacy of Fire Player's Guide (Conversion)|CAMPAIGN:Blood of the Night|CAMPAIGN:Champions of Balance|CAMPAIGN:People of the Stars|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Knights of the Inner Sea|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Critical Fumble Deck|CAMPAIGN:Blood of the Elements|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Animal Archive|CAMPAIGN:Qadira - Gateway to the East|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Melee Tactics Toolbox|CAMPAIGN:Champions of Purity|CAMPAIGN:Elves of Golarion|CAMPAIGN:Champions of Corruption|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Dungeoneer's Handbook|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Kobolds of Golarion|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Taldor - Echoes of Glory (Conversion)|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Alchemy Manual|CAMPAIGN:Ranged Tactics Toolbox|CAMPAIGN:Shattered Star Player's Guide|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Pathfinder Adventure Path #67|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Blood of the Moon|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Blood of Fiends|CAMPAIGN:Dragon Empires Primer|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Faiths of Purity|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Blood of Angels|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Reign of Winter Player's Guide|CAMPAIGN:Varisia - Birthplace of Legends|CAMPAIGN:Magical Marketplace|CAMPAIGN:Jade Regent Player's Guide|CAMPAIGN:Mummys Mask Players Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Inner Sea Gods|CAMPAIGN:People of the North|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Faiths of Balance|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Curse of the Crimson Throne - Chapter 3 - Escape from Old Korvosa (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 5 - Skeletons of Scarwall (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 6 - Crown of Fangs (Conversion)|CAMPAIGN:Second Darkness, Chapter 5 - A Memory of Darkness (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 2 - Seven Days to the Grave (Conversion)|CAMPAIGN:PF - City of Strangers|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Skull and Shackles (The Wormwood Mutiny)|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Hell's Vengeance Player's Guide|CAMPAIGN:Curse of the Crimson Throne - Chapter 4 - A History of Ashes (Conversion)|CAMPAIGN:Second Darkness, Chapter 4 - Endless Night (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Second Darkness, Chapter 6 - Descent into Midnight (Conversion)|CAMPAIGN:Second Darkness, Chapter 1 - Shadow in the Sky (Conversion)|CAMPAIGN:Curse of the Crimson Throne - Chapter 1 - Edge of Anarchy (Conversion)|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -105,7 +105,7 @@ SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:17|
 SKILL:Climb|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:12|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:36|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:53|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:54|
 SKILL:Craft (Untrained)|OUTPUTORDER:19|
 SKILL:Diplomacy|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:21|
@@ -130,38 +130,39 @@ SKILL:Knowledge (Geography)|OUTPUTORDER:42|
 SKILL:Knowledge (Nature)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
 SKILL:Lore (Alcoholic drinks)|OUTPUTORDER:46|
-SKILL:Lore (Taverns in a region)|OUTPUTORDER:47|
-SKILL:Perception|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception (Dim Light)|OUTPUTORDER:49|
-SKILL:Perform (Oratory)|OUTPUTORDER:50|
-SKILL:Perform (Untrained)|OUTPUTORDER:51|
-SKILL:Perform (Wind Instruments)|OUTPUTORDER:52|
-SKILL:Profession (Untrained)|OUTPUTORDER:54|
-SKILL:Profession (Wrestler)|OUTPUTORDER:55|
-SKILL:Ride|OUTPUTORDER:56|
-SKILL:Samurai Mount|OUTPUTORDER:57|
-SKILL:Sense Motive|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:59|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:60|
-SKILL:Stealth|OUTPUTORDER:63|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:64|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:65|
-SKILL:Stealth (Jungle)|OUTPUTORDER:66|
-SKILL:Survival|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival (Find Food)|OUTPUTORDER:68|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:69|
-SKILL:Swim|OUTPUTORDER:70|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:71|
-SKILL:Untrained Dexterity|OUTPUTORDER:72|
-SKILL:Untrained Intelligence|OUTPUTORDER:73|
-SKILL:Untrained Strength|OUTPUTORDER:74|
-SKILL:Untrained Wisdom|OUTPUTORDER:75|
+SKILL:Lore (Orc History)|OUTPUTORDER:47|
+SKILL:Lore (Taverns in a region)|OUTPUTORDER:48|
+SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:50|
+SKILL:Perform (Oratory)|OUTPUTORDER:51|
+SKILL:Perform (Untrained)|OUTPUTORDER:52|
+SKILL:Perform (Wind Instruments)|OUTPUTORDER:53|
+SKILL:Profession (Untrained)|OUTPUTORDER:55|
+SKILL:Profession (Wrestler)|OUTPUTORDER:56|
+SKILL:Ride|OUTPUTORDER:57|
+SKILL:Samurai Mount|OUTPUTORDER:58|
+SKILL:Sense Motive|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:60|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:61|
+SKILL:Stealth|OUTPUTORDER:64|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:65|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:66|
+SKILL:Stealth (Jungle)|OUTPUTORDER:67|
+SKILL:Survival|OUTPUTORDER:68|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Find Food)|OUTPUTORDER:69|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:70|
+SKILL:Swim|OUTPUTORDER:71|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:72|
+SKILL:Untrained Dexterity|OUTPUTORDER:73|
+SKILL:Untrained Intelligence|OUTPUTORDER:74|
+SKILL:Untrained Strength|OUTPUTORDER:75|
+SKILL:Untrained Wisdom|OUTPUTORDER:76|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:45|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:61|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:62|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:76|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:62|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:63|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:77|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Hallit|LANGUAGE:Orc
@@ -180,8 +181,8 @@ ABILITY:Barbarian Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Barbarian ~ Unc
 USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline.ImpossibleBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.OniBloodline.AbyssalBloodline.DraconicBloodline.ElementalBloodline.LifewaterBloodline.ShahzadaBloodline.OrcBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.DraconicBloodline.UndeadBloodline.OrcBloodline.DaemonBloodline|DESC:You have enhanced physical stamina.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.OrcBloodline.LifewaterBloodline.ShahzadaBloodline.AbyssalBloodline.DraconicBloodline.ElementalBloodline.OniBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.OrcBloodline.DraconicBloodline.UndeadBloodline.DaemonBloodline|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
@@ -233,14 +234,17 @@ EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0
 EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:10|COST:2500|WT:15.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bag of Tricks (Rust)|OUTPUTORDER:17|COST:8500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Battery|OUTPUTORDER:12|COST:100|WT:1.0|QUANTITY:15.0|NOTE:
+EQUIPNAME:Cardioamp|OUTPUTORDER:0|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Chainsaw +1|OUTPUTORDER:4|COST:5000.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainsaw|DATA:NAME=Chainsaw +1$EQMOD=PLUS1W]
 EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:8|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:18|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Concussion grenade|OUTPUTORDER:19|COST:750|WT:1.0|QUANTITY:13.0|NOTE:
+EQUIPNAME:Cureall|OUTPUTORDER:0|COST:1400|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Emergency Raft (Timeworn)|OUTPUTORDER:26|COST:1800.0|WT:10.0|QUANTITY:1.0|NOTE:3 lad|CUSTOMIZATION:[BASEITEM:Emergency Raft|DATA:NAME=Emergency Raft (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Emergency Shelter (Timeworn)|OUTPUTORDER:25|COST:9000.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Emergency Shelter|DATA:NAME=Emergency Shelter (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Flash grenade|OUTPUTORDER:14|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Full Plate +1|OUTPUTORDER:7|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Garnet (Violet)|OUTPUTORDER:0|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Gas Grenade|OUTPUTORDER:16|COST:0|WT:1.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
@@ -248,6 +252,7 @@ EQUIPNAME:Goo Tube|OUTPUTORDER:35|COST:6|WT:0.1|QUANTITY:154.0|NOTE:
 EQUIPNAME:Greatclub +1|OUTPUTORDER:24|COST:2305.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatclub|DATA:NAME=Greatclub +1$EQMOD=WOOD.PLUS1W]
 EQUIPNAME:Grippers|OUTPUTORDER:32|COST:100|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Hard Light Shield (Timeworn)|OUTPUTORDER:3|COST:3200.0|WT:1.0|QUANTITY:1.0|NOTE:11|CUSTOMIZATION:[BASEITEM:Hard Light Shield|DATA:NAME=Hard Light Shield (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Hemochem (Grade III)|OUTPUTORDER:0|COST:750|WT:0.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Medlance (Timeworn)|OUTPUTORDER:11|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Medlance|DATA:NAME=Medlance (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Noqual Ore (Per Lb.)|OUTPUTORDER:20|COST:50|WT:1.0|QUANTITY:25.0|NOTE:
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:6|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
@@ -255,14 +260,17 @@ EQUIPNAME:Pazur orczycy|OUTPUTORDER:30|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZ
 EQUIPNAME:Plakat orczycy|OUTPUTORDER:28|COST:0.4|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Paper (Sheet)|DATA:NAME=Plakat orczycy$SPROP=hardness 0, 1 hit point, and break DC 5, (Paper (Sheet))]
 EQUIPNAME:Poison (Black Smear)|OUTPUTORDER:29|COST:0|WT:0.0|QUANTITY:9.0|NOTE:
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:9|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:0|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Płotka II|OUTPUTORDER:38|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka II$SPROP=(Horse (Heavy))]
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of Sustenance|OUTPUTORDER:5|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:15|COST:10|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sapphire (Blue)|OUTPUTORDER:0|COST:4500|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sapphire (Blue)|DATA:NAME=Sapphire (Blue)$COSTMOD=3500]
 EQUIPNAME:Shield, Light Wooden +1 (Animated)|OUTPUTORDER:37|COST:9153.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Wooden)|DATA:NAME=Shield, Light Wooden +1 (Animated)$KEY=Shield +1 (Light/Wooden/Animated)$EQMOD=WOOD.PLUS1S.ANMATD]
 EQUIPNAME:Silverdisk|OUTPUTORDER:33|COST:10|WT:1.0|QUANTITY:43.0|NOTE:
 EQUIPNAME:Soft grenade|OUTPUTORDER:31|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:To sell|OUTPUTORDER:13|COST:0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=To sell$EQMOD=_WEIGHTADD&pipe;-2$SPROP=(Backpack)$COSTMOD=-2]
+EQUIPNAME:Torpinal|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:4.0|NOTE:
 EQUIPNAME:Trident|OUTPUTORDER:21|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Trident|DATA:NAME=Trident$EQMOD=BRACE.STEEL]
 EQUIPNAME:Universal Serum|OUTPUTORDER:22|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Vitality Serum|OUTPUTORDER:23|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
