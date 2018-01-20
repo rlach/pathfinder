@@ -138,7 +138,7 @@ SKILL:Samurai Mount|OUTPUTORDER:52|
 SKILL:Sense Motive|OUTPUTORDER:53|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:54|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:55|
-SKILL:Sleight of Hand|OUTPUTORDER:56|
+SKILL:Sleight of Hand|OUTPUTORDER:57|
 SKILL:Spellcraft|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:60|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:61|
@@ -156,7 +156,7 @@ SKILL:Untrained Wisdom|OUTPUTORDER:72|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:43|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:57|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:56|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:59|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:73|
 SKILL:Use Magic Device|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -210,46 +210,44 @@ WEAPONPROF:[WEAPON:Morningstar|WEAPON:Pitchfork|WEAPON:Quarterstaff|WEAPON:Rock|
 WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Stonebow|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Weighted Spear]
 
 # Character Equipment
-MONEY:0.00
-EQUIPNAME:All Tools Vest|OUTPUTORDER:0|COST:1800|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:10|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+MONEY:0
+EQUIPNAME:All Tools Vest|OUTPUTORDER:9|COST:1800|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:11|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bullets, Sling (10)|OUTPUTORDER:3|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullets (Sling/10)|DATA:NAME=Bullets, Sling (10)$KEY=Bullets (Sling/10)$EQMOD=STEEL]
-EQUIPNAME:Cureall|OUTPUTORDER:18|COST:1400|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Gas Grenade|OUTPUTORDER:23|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Goo Tube|OUTPUTORDER:19|COST:6|WT:0.1|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cureall|OUTPUTORDER:20|COST:1400|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Gas Grenade|OUTPUTORDER:25|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Goo Tube|OUTPUTORDER:21|COST:6|WT:0.1|QUANTITY:1.0|NOTE:
 EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Inferno grenade|OUTPUTORDER:14|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:24|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Loaded Dice (Superior)|OUTPUTORDER:28|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Inferno grenade|OUTPUTORDER:16|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:26|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Loaded Dice (Superior)|OUTPUTORDER:30|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Masterwork Dagger|OUTPUTORDER:5|COST:302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
-EQUIPNAME:Medlance|OUTPUTORDER:26|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Medlance|OUTPUTORDER:28|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Outfit (Cold-Weather)|OUTPUTORDER:7|COST:0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Cold-Weather)|DATA:NAME=Outfit (Cold-Weather)$COSTMOD=-8]
-EQUIPNAME:Plasma grenade|OUTPUTORDER:15|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:13|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:29|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Pouch (Belt)|OUTPUTORDER:9|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Plasma grenade|OUTPUTORDER:17|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:15|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:31|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:10|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:6|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of the Ram|OUTPUTORDER:4|COST:8600.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring of the Ram|DATA:NAME=Ring of the Ram$EQMOD=CHARGED_ITEM_50&pipe;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Rod (Extend/Lesser)|OUTPUTORDER:20|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:3 times per day, doubles length of any spell(max level 3) but uses slot higher by 1|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Extend/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Ron|OUTPUTORDER:32|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Ron$SPROP=(Horse (Heavy))]
-EQUIPNAME:Scimitar +1|OUTPUTORDER:0|COST:2315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar +1$EQMOD=STEEL.PLUS1W]
-EQUIPNAME:Scroll (Resurrection)|OUTPUTORDER:25|COST:12275|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rod (Extend/Lesser)|OUTPUTORDER:22|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:3 times per day, doubles length of any spell(max level 3) but uses slot higher by 1|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Extend/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Ron|OUTPUTORDER:34|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Ron$SPROP=(Horse (Heavy))]
+EQUIPNAME:Scroll (Resurrection)|OUTPUTORDER:27|COST:12275|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Sling|OUTPUTORDER:2|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sling|DATA:NAME=Sling$EQMOD=LEATHER]
-EQUIPNAME:Soothe|OUTPUTORDER:22|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Studded Leather +1|OUTPUTORDER:0|COST:1175.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather +1$EQMOD=LEATHER.PLUS1A]
-EQUIPNAME:To sell|OUTPUTORDER:31|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=To sell$EQMOD=_WEIGHTADD&pipe;-2$SPROP=(Backpack)$COSTMOD=-2]
-EQUIPNAME:Torpinal|OUTPUTORDER:11|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Trauma Pack Plus|OUTPUTORDER:30|COST:11250|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Soothe|OUTPUTORDER:24|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:To sell|OUTPUTORDER:33|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=To sell$EQMOD=_WEIGHTADD&pipe;-2$SPROP=(Backpack)$COSTMOD=-2]
+EQUIPNAME:Torpinal|OUTPUTORDER:12|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Trauma Pack Plus|OUTPUTORDER:32|COST:11250|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Voidfrost Robes|OUTPUTORDER:8|COST:11000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:21|COST:750.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand of Cure Moderate Wounds|OUTPUTORDER:16|COST:4500.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 2d8+level &lbracket;max 10&rbracket; points of damage.]
-EQUIPNAME:Wand of Grease|OUTPUTORDER:27|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Grease$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Grease&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A grease spell covers a solid surface with a layer of slippery grease.]
+EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:23|COST:750.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Wand of Cure Moderate Wounds|OUTPUTORDER:18|COST:4500.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 2d8+level &lbracket;max 10&rbracket; points of damage.]
+EQUIPNAME:Wand of Grease|OUTPUTORDER:29|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Grease$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Grease&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A grease spell covers a solid surface with a layer of slippery grease.]
 EQUIPNAME:Wand of Gust of Wind|OUTPUTORDER:0|COST:1620.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Gust of Wind$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Gust of Wind&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;18&rbracket;]
 EQUIPNAME:Wand of Lightning Bolt|OUTPUTORDER:0|COST:4050.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Lightning Bolt$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Lightning Bolt&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;18&rbracket;]
-EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:12|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=1 to 5 missiles that do 1d4+1 damage each.]
-EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:17|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
+EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:14|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=1 to 5 missiles that do 1d4+1 damage each.]
+EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:19|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
 EQUIPNAME:Wand of Remove Curse|OUTPUTORDER:19|COST:2025.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Remove Curse$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Remove Curse&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;9&rbracket;]
-EQUIPNAME:Wine of Iadenveigh (Fine/Bottle)|OUTPUTORDER:0|COST:10|WT:1.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wine (Fine/Bottle)|DATA:NAME=Wine of Iadenveigh (Fine/Bottle)$SPROP=(Wine (Fine/Bottle))]
+EQUIPNAME:Wine of Iadenveigh (Fine/Bottle)|OUTPUTORDER:13|COST:10|WT:1.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wine (Fine/Bottle)|DATA:NAME=Wine of Iadenveigh (Fine/Bottle)$SPROP=(Wine (Fine/Bottle))]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Cold-Weather)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.04|VALUE:Sling|QUANTITY:1.0|USETEMPMODS:Y
@@ -257,6 +255,7 @@ EQUIPSET:Sling|ID:0.1.04.01|VALUE:Bullets, Sling (10)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.13|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Masterwork)|ID:0.1.13.01|VALUE:Torpinal|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Masterwork)|ID:0.1.13.02|VALUE:Wine of Iadenveigh (Fine/Bottle)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.14|VALUE:Scroll (Resurrection)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.16|VALUE:Medlance|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.19|VALUE:Wand of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
@@ -287,6 +286,8 @@ EQUIPSET:Equipped|ID:0.1.53|VALUE:Ioun Stone (Pink Rhomboid)|QUANTITY:1.0|USETEM
 EQUIPSET:Equipped|ID:0.1.54|VALUE:Wand of Lightning Bolt|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Body|ID:0.1.55|VALUE:Voidfrost Robes|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.56|VALUE:Masterwork Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Chest|ID:0.1.57|VALUE:All Tools Vest|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.58|VALUE:Wand of Gust of Wind|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
