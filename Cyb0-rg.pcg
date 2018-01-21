@@ -132,7 +132,7 @@ SKILL:Knowledge (History)|OUTPUTORDER:45|
 SKILL:Knowledge (Local)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:48|
-SKILL:Linguistics|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Dwarven
+SKILL:Linguistics|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Dwarven
 SKILL:Lore (android anatomy)|OUTPUTORDER:51|
 SKILL:Lore (Bandits in a region)|OUTPUTORDER:52|
 SKILL:Lore (Dwarven history)|OUTPUTORDER:53|
@@ -166,11 +166,11 @@ SKILL:Untrained Strength|OUTPUTORDER:83|
 SKILL:Untrained Wisdom|OUTPUTORDER:84|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:50|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:49|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:70|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:71|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:85|
-SKILL:Use Magic Device|OUTPUTORDER:86|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:86|
+SKILL:Use Magic Device|OUTPUTORDER:85|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Hallit|LANGUAGE:Orc
@@ -230,35 +230,39 @@ WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WE
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Weighted Spear]
 
 # Character Equipment
-MONEY:14916.00
+MONEY:15282.00
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:9|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:19|COST:0.1|WT:0.1|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:KEY=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Bolt, Crossbow (Cold Iron)|OUTPUTORDER:22|COST:0.2|WT:0.1|QUANTITY:40.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow (Cold Iron)$KEY=Bolt (Crossbow/Cold Iron)$EQMOD=C_IRON]
 EQUIPNAME:Bolt, Crossbow +1|OUTPUTORDER:12|COST:46.1|WT:0.1|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +1$KEY=Bolt +1 (Crossbow)$EQMOD=STEEL.WOOD.PLUS1M]
+EQUIPNAME:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|OUTPUTORDER:21|COST:366.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +2 (Bane (Humanoids (Human)))$KEY=Bolt +2 (Crossbow/Bane (Humanoids (Human)))$EQMOD=STEEL.WOOD.PLUS2M.BANE&pipe;Humanoids (Human)]
 EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:13|COST:1.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:6|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)|OUTPUTORDER:4|COST:2500.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)$EQMOD=MITHRAL_ARMR_LT.PLUS1A.BNS_SKL_CMP&pipe;Acrobatics=+2]
-EQUIPNAME:Concussion grenade|OUTPUTORDER:23|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Crossbow, Light|OUTPUTORDER:20|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=WOOD]
+EQUIPNAME:Concussion grenade|OUTPUTORDER:27|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Crossbow, Light|OUTPUTORDER:25|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=WOOD]
 EQUIPNAME:Dagger +1 (Adamantine/Bane (Constructs))|OUTPUTORDER:1|COST:11002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine/Bane (Constructs))$EQMOD=ADAMANT_WEAP.PLUS1W.BANE&pipe;Constructs]
 EQUIPNAME:Dagger +1 (Icy Burst)|OUTPUTORDER:2|COST:18302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Icy Burst)$EQMOD=STEEL.PLUS1W.ICY_BRST]
 EQUIPNAME:E-Pick (Green)|OUTPUTORDER:11|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gas Grenade|OUTPUTORDER:24|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Hearth Mantle|OUTPUTORDER:17|COST:0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unidentified Magic Item 2 lbs|DATA:NAME=Hearth Mantle$SPROP=(Unidentified Magic Item 2 lbs)]
+EQUIPNAME:Gas Grenade|OUTPUTORDER:28|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hearth Mantle|OUTPUTORDER:0|COST:3600|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mantle|DATA:NAME=Hearth Mantle$EQMOD=_WEIGHTADD&pipe;2$SPROP=The inside of this long, thick shawl is cool muslin, while the outside is decorated with a flame-like rune. Hearth mantles are favored by the faithful of Erastil, particularly those among his worshipers who rely upon the hunt for their livelihood. With a hearth mantle, one never has to worry about building a campfire in the wild. A hearth mantle’s wearer gains a +2 competence bonus on saving throws against fire-based effects. the mantle itself is immune to fire damage. Once per day, the wearer can cause the leather exterior of the mantle to smolder for 1 minute. While smoldering, the hearth mantle sheds light as a torch. If the user takes a full-round action to carefully spread a hearth mantle on the ground with its exterior facing up, a campfire ignites on the mantle’s fire rune. This campfire burns for 8 hours and requires no fuel. Any creature that sleeps within 20 feet of the mantle for the full duration of the campfire recovers a number of hit points equal to twice its character level, as if it had undergone complete bed rest for a full 24 hours. The campfire is automatically extinguished if the hearth mantle is picked up, but can also be extinguished through normal means.$COSTMOD=3600]
 EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:7|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Księgowość kasyna|OUTPUTORDER:21|COST:0.2|WT:0.0|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Księgowość kasyna$SPROP=(Parchment (Sheet))]
-EQUIPNAME:Masterwork Dagger|OUTPUTORDER:26|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
-EQUIPNAME:Masterwork Dagger (Cold Iron)|OUTPUTORDER:27|COST:304.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger (Cold Iron)$EQMOD=MWORKW.C_IRON]
+EQUIPNAME:Księgowość kasyna|OUTPUTORDER:26|COST:0.2|WT:0.0|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (Sheet)|DATA:NAME=Księgowość kasyna$SPROP=(Parchment (Sheet))]
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:30|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Dagger (Cold Iron)|OUTPUTORDER:31|COST:304.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger (Cold Iron)$EQMOD=MWORKW.C_IRON]
 EQUIPNAME:Nanite Hypogun (Brown/Timeworn)|OUTPUTORDER:8|COST:500.0|WT:1.0|QUANTITY:1.0|NOTE:2 zużyte|CUSTOMIZATION:[BASEITEM:Nanite Hypogun (Brown)|DATA:NAME=Nanite Hypogun (Brown/Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:5|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
+EQUIPNAME:Perfume/Cologne|OUTPUTORDER:23|COST:40|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Perfume/Cologne|DATA:NAME=Perfume/Cologne$COSTMOD=35]
 EQUIPNAME:Pouch (Belt)|OUTPUTORDER:10|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Płotka 4|OUTPUTORDER:28|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 4$SPROP=(Horse (Heavy))]
-EQUIPNAME:Restorative Ointment|OUTPUTORDER:18|COST:4000.0|WT:0.5|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Restorative Ointment|DATA:NAME=Restorative Ointment$EQMOD=CHARGED_ITEM_5&pipe;CHARGES&lbracket;5&rbracket;]
+EQUIPNAME:Płotka 4|OUTPUTORDER:32|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 4$SPROP=(Horse (Heavy))]
+EQUIPNAME:Restorative Ointment|OUTPUTORDER:17|COST:4000.0|WT:0.5|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Restorative Ointment|DATA:NAME=Restorative Ointment$EQMOD=CHARGED_ITEM_5&pipe;CHARGES&lbracket;5&rbracket;]
 EQUIPNAME:Ring (Poison Pill)|OUTPUTORDER:14|COST:20|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Screaming Bolt|OUTPUTORDER:22|COST:267.0|WT:0.1|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Screaming)|DATA:NAME=Screaming Bolt$KEY=Bolt (Screaming)$EQMOD=PLUS2M.STEEL]
-EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:19|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:To sell|OUTPUTORDER:25|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=To sell$EQMOD=_WEIGHTADD&pipe;-2$SPROP=(Backpack)$COSTMOD=-2]
-EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:15|COST:750.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand (Vanish/Sorcerer/3rd)|OUTPUTORDER:16|COST:2250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Vanish/Sorcerer/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Screaming Bolt|OUTPUTORDER:20|COST:267.0|WT:0.1|QUANTITY:12.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Screaming)|DATA:NAME=Screaming Bolt$KEY=Bolt (Screaming)$EQMOD=PLUS2M.STEEL]
+EQUIPNAME:Silverdisk|OUTPUTORDER:24|COST:10|WT:1.0|QUANTITY:47.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:18|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:To sell|OUTPUTORDER:29|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=To sell$EQMOD=_WEIGHTADD&pipe;-2$SPROP=(Backpack)$COSTMOD=-2]
+EQUIPNAME:Wand (Vanish/Sorcerer/3rd)|OUTPUTORDER:15|COST:2250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Vanish/Sorcerer/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.05|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
@@ -279,16 +283,20 @@ EQUIPSET:Carried|ID:0.1.52|VALUE:To sell|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.54|VALUE:Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.55|VALUE:Ring (Poison Pill)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.56|VALUE:Masterwork Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.57|VALUE:Wand (Infernal Healing/Sorcerer/1st)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.58|VALUE:Wand (Vanish/Sorcerer/3rd)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.59|VALUE:Dagger +1 (Adamantine/Bane (Constructs))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.60|VALUE:Dagger +1 (Icy Burst)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.61|VALUE:Masterwork Dagger (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.62|VALUE:Hearth Mantle|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.63|VALUE:Boots of Striding And Springing|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Not Carried|ID:0.1.64|VALUE:Płotka 4|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.65|VALUE:Restorative Ointment|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.66|VALUE:Thieves' Tools (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.67|VALUE:Bolt, Crossbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.68|VALUE:Screaming Bolt|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.69|VALUE:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.70|VALUE:Bolt, Crossbow (Cold Iron)|QUANTITY:40.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.71|VALUE:Perfume/Cologne|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.72|VALUE:Silverdisk|QUANTITY:47.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
