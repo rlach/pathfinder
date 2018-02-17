@@ -60,7 +60,7 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:9|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:9|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -69,7 +69,7 @@ CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=6|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:75000
@@ -98,7 +98,7 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:8|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:9|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:10|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:11|
-SKILL:Bluff|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:N]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:15|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:16|
@@ -118,7 +118,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
 SKILL:Escape Artist|OUTPUTORDER:28|
 SKILL:Fly|OUTPUTORDER:29|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
-SKILL:Handle Animal|OUTPUTORDER:31|
+SKILL:Handle Animal|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:34|
 SKILL:Heal|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
@@ -133,7 +133,7 @@ SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
 SKILL:Lore (Alcoholic drinks)|OUTPUTORDER:46|
 SKILL:Lore (Orc History)|OUTPUTORDER:47|
 SKILL:Lore (Taverns in a region)|OUTPUTORDER:48|
-SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Barbarian|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Perception (Dim Light)|OUTPUTORDER:50|
 SKILL:Perform (Oratory)|OUTPUTORDER:51|
 SKILL:Perform (Untrained)|OUTPUTORDER:52|
@@ -159,7 +159,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:74|
 SKILL:Untrained Strength|OUTPUTORDER:75|
 SKILL:Untrained Wisdom|OUTPUTORDER:76|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:32|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:45|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:62|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:63|
@@ -174,7 +174,7 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History),Lore (Alcoholic drinks),Lore (Orc History)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Armored Hulk|TYPE:Archetype.BarbarianArchetype.BarbarianFastMovement.BarbarianUncannyDodge.BarbarianTrapSense.BarbarianImprovedUncannyDodge|DESC:Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.
 USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
@@ -182,12 +182,13 @@ ABILITY:Barbarian Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Barbarian ~ Unc
 USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline.ImpossibleBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.OrcBloodline.LifewaterBloodline.ShahzadaBloodline.AbyssalBloodline.DraconicBloodline.ElementalBloodline.OniBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.OrcBloodline.DraconicBloodline.UndeadBloodline.DaemonBloodline|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Trap Sense|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add a +1/2 bonus to trap sense.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.

@@ -113,7 +113,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:23|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:24|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:25|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:26|
-SKILL:Disable Device|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Disable Device|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Disguise|OUTPUTORDER:29|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:30|
 SKILL:Escape Artist|OUTPUTORDER:31|
@@ -142,7 +142,7 @@ SKILL:Samurai Mount|OUTPUTORDER:57|
 SKILL:Sense Motive|OUTPUTORDER:58|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:59|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:60|
-SKILL:Sleight of Hand|OUTPUTORDER:62|
+SKILL:Sleight of Hand|OUTPUTORDER:61|
 SKILL:Stealth|OUTPUTORDER:64|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:65|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:66|
@@ -156,10 +156,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:73|
 SKILL:Untrained Intelligence|OUTPUTORDER:74|
 SKILL:Untrained Strength|OUTPUTORDER:75|
 SKILL:Untrained Wisdom|OUTPUTORDER:76|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:28|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:27|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:34|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:48|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:61|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:62|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:63|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:77|
 
@@ -198,7 +198,7 @@ ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Back
 USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
-ABILITY:Technic Training Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Techslinger ~ Technic Training Choice|APPLIEDTO:Inferno Pistol|TYPE:GunslingerClassFeatures.SpecialQuality
+ABILITY:Technic Training Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Techslinger ~ Technic Training Choice|APPLIEDTO:Inferno Pistol,EMP Pistol|TYPE:GunslingerClassFeatures.SpecialQuality
 USERPOOL:Technic Training Choice|POOLPOINTS:0.0
 ABILITY:Techslinger Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Techslinger Feat|APPLIEDTO:,|TYPE:Techslinger Bonus Feat Selection
 USERPOOL:Techslinger Bonus Feat Selection|POOLPOINTS:0.0

@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:9|SKILLPOOL:2|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,4
+CLASS:Sorcerer|LEVEL:9|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,4
 CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|PRESTAT:STR=-2|PRESTAT:DEX=1|PRESTAT:WIS=2|PRESTAT:CHA=3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -69,7 +69,7 @@ CLASSABILITIESLEVEL:Sorcerer=5|HITPOINTS:3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=6|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=7|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=8|HITPOINTS:5|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:75000
@@ -140,7 +140,7 @@ SKILL:Sense Motive|OUTPUTORDER:53|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:54|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:55|
 SKILL:Sleight of Hand|OUTPUTORDER:56|
-SKILL:Spellcraft|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:60|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:61|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:62|
@@ -172,10 +172,11 @@ FEATPOOL:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Perform (Oratory),Perform (Oratory),Knowledge (Nobility),Knowledge (Nobility),Knowledge (Nobility),Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons),Perform (Oratory),Perform (Oratory),Sleight of Hand,Sleight of Hand,Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Perform (Oratory),Perform (Oratory),Knowledge (Nobility),Knowledge (Nobility),Knowledge (Nobility),Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons),Perform (Oratory),Perform (Oratory),Sleight of Hand,Sleight of Hand,Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons),Lore (Outer Dragons),Perform (Oratory),Perform (Oratory)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Draconic Bloodline Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.OrcBloodline.DraconicBloodline.UndeadBloodline.DaemonBloodline|DESC:You have enhanced physical stamina.
 USERPOOL:Draconic Bloodline Feat|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Additional Traits|TYPE:General|DESC:You have more traits than normal
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.SerpentineBloodline.DragonShamanBonus.AccursedBloodline.KoboldBloodline.AberrantBloodline.ArcaneBloodline.UndeadBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.DreamspunBloodline.SerpentineBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.InfernalBloodragerBloodline.InfernalBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.ProteanBloodline.StormbornBloodline.DruidShamanBear.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AberrantBloodragerBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.OrcBloodline.LifewaterBloodline.ShahzadaBloodline.AbyssalBloodline.DraconicBloodline.ElementalBloodline.DaemonBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
@@ -184,7 +185,7 @@ USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Use Magic Device,Heal|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Sorcerer Spell|APPLIEDTO:,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer|DESC:Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Sorcerer Spell|APPLIEDTO:,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer|DESC:Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Human Racial Subtype ~ Versatile Human|TYPE:Human Racial Subtype.SpecialQuality|DESC:While they lack some of the training of other humans, the natural talents of versatile humans more than make up for this lack. Replace the +2 bonus to any ability score, the skilled racial trait, and the bonus feat racial trait with dual talent.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
@@ -197,10 +198,12 @@ USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
 ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 0|APPLIEDTO:|TYPE:BonusSpellKnownSorcerer
 ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 1|APPLIEDTO:,|TYPE:BonusSpellKnownSorcerer
 ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 2|APPLIEDTO:,|TYPE:BonusSpellKnownSorcerer
-ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 3|APPLIEDTO:|TYPE:BonusSpellKnownSorcerer
+ABILITY:Sorcerer Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Spell Level 3|APPLIEDTO:,|TYPE:BonusSpellKnownSorcerer
 USERPOOL:Sorcerer Favored Bonus Spell|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Extremely Fashionable|APPLIEDTO:Diplomacy|TYPE:Trait.EquipmentTrait|DESC:You really know how to make a good impression when you're dressed well.&pipe;!PRERULE&colon;1,DisplayFullAbility|DESC:Whenever you are wearing clothing and/or jewelry worth at least 150 gp (and not otherwise covered in gore, sewage, or other things that mar your overall look), you gain a +1 trait bonus on Bluff, Diplomacy, and Intimidate checks. One of these skills (your choice) is a class skill for you.&pipe;PRERULE&colon;1,DisplayFullAbility
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Local Ties|APPLIEDTO:Knowledge (Engineering)|TYPE:Trait.BasicTrait.CampaignTrait|DESC:You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the Technologist feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Outer Dragon Blood|TYPE:Trait.BasicTrait.MagicTrait|DESC:The blood of outer dragons courses through your veins, and you've inherited a portion of their magic. You gain Draconic as a bonus language. In addition, if you are a sorcerer with the draconic bloodline, you can select one of the outer dragon types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Suspicious|TYPE:Trait.BasicTrait.SocialTrait|DESC:You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.
 USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
@@ -301,11 +304,14 @@ CALCEQUIPSET:0.1
 DEITY:Desna|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Luck|DOMAIN:Travel|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Curse Subdomain|DOMAIN:Exploration Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Freedom Subdomain|DOMAIN:Revolution Subdomain]|ALIGNALLOW:|DESC:Goddess of dreams, luck, stars, travelers|DEITYFAVWEAP:[WEAPON:Starknife]|DEITYALIGN:CG
 
 # Character Spells Information
-SPELLNAME:Black Tentacles|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Cat's Grace|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Dimension Door|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Dispel Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Dragon's Breath|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Enlarge Person|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Fear|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Fireball|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Fly|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Ghost Sound|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Glitterdust|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
@@ -327,6 +333,7 @@ SPELLNAME:Ray of Frost|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOU
 SPELLNAME:Resist Energy|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Resistance|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Shield|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Slow|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Snowball|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Vanish|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Web|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
