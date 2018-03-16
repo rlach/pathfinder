@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the North|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -60,7 +60,7 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:10|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -70,7 +70,7 @@ CLASSABILITIESLEVEL:Barbarian=6|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Barbarian=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Barbarian=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:105000
@@ -98,7 +98,7 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:7|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:8|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:9|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:10|
-SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Barbarian|RANKS:8.0|COST:1|CLASSSKILL:N]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:13|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:15|
@@ -122,13 +122,13 @@ SKILL:Handle Animal|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
 SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
-SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:37|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:39|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Geography)|OUTPUTORDER:41|
-SKILL:Knowledge (Nature)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:43|
 SKILL:Lore (Alcoholic drinks)|OUTPUTORDER:45|
 SKILL:Lore (Orc History)|OUTPUTORDER:46|
@@ -168,7 +168,7 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History),Lore (Alcoholic drinks),Lore (Orc History)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History),Lore (Alcoholic drinks),Lore (Orc History),Lore (Alcoholic drinks),Profession (Wrestler)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Armored Hulk|TYPE:Archetype.BarbarianArchetype.BarbarianFastMovement.BarbarianUncannyDodge.BarbarianTrapSense.BarbarianImprovedUncannyDodge|DESC:Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.
 USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
@@ -177,12 +177,12 @@ USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Trap Sense|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add a +1/2 bonus to trap sense.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
@@ -198,6 +198,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Iron Liver|TYPE:
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Accurate Stance|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:You can focus your strikes. You gain a +%1 competence bonus on melee attack rolls and thrown weapon attack rolls. This is a stance rage power.&pipe;AccurateStanceBonus
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Deadly Accuracy|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:If you score a critical threat while in the accurate stance, you applies double the accurate stance's bonus (+%1) when rolling to confirm the critical.
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Increased Damage Reduction|APPLIEDTO:|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:Your damage reduction increases by %1/-- whenever you are raging. You can select this rage power up to three times. Its effects stack.&pipe;IncreasedDRCount*2
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Sharpened Accuracy|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:While in the accurate stance, you ignore the miss chance for concealment and treat total concealment as concealment. You also ignore cover penalties except those from total cover.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Unexpected Strike|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:You can make an attack of opportunity against a foe that moves into any square threatened by you, regardless of whether that movement would normally provoke an attack of opportunity. You can use this ability only when there are no other foes in a square threatened by you.
 USERPOOL:Unchained Rage Power|POOLPOINTS:0.0
@@ -228,7 +229,7 @@ EQUIPNAME:Bag of Tricks (Rust)|OUTPUTORDER:16|COST:8500|WT:1.0|QUANTITY:1.0|NOTE
 EQUIPNAME:Battery|OUTPUTORDER:11|COST:100|WT:1.0|QUANTITY:30.0|NOTE:
 EQUIPNAME:Cardioamp|OUTPUTORDER:32|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Chainsaw +1|OUTPUTORDER:4|COST:5000.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainsaw|DATA:NAME=Chainsaw +1$EQMOD=PLUS1W]
-EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:8|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:8|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1]
 EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:17|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Concussion grenade|OUTPUTORDER:18|COST:750|WT:1.0|QUANTITY:13.0|NOTE:
 EQUIPNAME:Cureall|OUTPUTORDER:33|COST:1400|WT:0.0|QUANTITY:1.0|NOTE:
