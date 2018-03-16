@@ -60,7 +60,7 @@ ALIGN:LN
 RACE:Human
 
 # Character Class(es)
-CLASS:Gunslinger|LEVEL:10|SKILLPOOL:6|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Gunslinger|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Gunslinger=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=3|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
@@ -70,7 +70,7 @@ CLASSABILITIESLEVEL:Gunslinger=6|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=7|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=8|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=9|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Gunslinger=10|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Gunslinger=10|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:105000
@@ -86,7 +86,7 @@ TEMPLATESAPPLIED:[NAME:Human Ethnicity]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Artistry|OUTPUTORDER:4|
@@ -113,7 +113,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:22|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:23|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:24|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:25|
-SKILL:Disable Device|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Disable Device|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Disguise|OUTPUTORDER:28|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:29|
 SKILL:Escape Artist|OUTPUTORDER:30|
@@ -121,18 +121,18 @@ SKILL:Fly|OUTPUTORDER:31|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:34|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:35|
-SKILL:Heal|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:39|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:40|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:41|
-SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:9.0|COST:1|CLASSSKILL:N]
-SKILL:Knowledge (Engineering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Geography)|OUTPUTORDER:44|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:45|
-SKILL:Linguistics|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
+SKILL:Linguistics|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
 SKILL:Lore (Physics)|OUTPUTORDER:48|
-SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:50|
 SKILL:Profession (Engineer)|OUTPUTORDER:52|
 SKILL:Profession (Untrained)|OUTPUTORDER:53|
@@ -143,16 +143,16 @@ SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:57|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:58|
 SKILL:Sleight of Hand|OUTPUTORDER:60|
 SKILL:Stealth|OUTPUTORDER:62|
-SKILL:Survival|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:65|
 SKILL:Untrained Dexterity|OUTPUTORDER:66|
 SKILL:Untrained Intelligence|OUTPUTORDER:67|
 SKILL:Untrained Strength|OUTPUTORDER:68|
 SKILL:Untrained Wisdom|OUTPUTORDER:69|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:26|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:27|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:33|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:46|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:47|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:59|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:70|
@@ -168,7 +168,7 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Hal
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Craft (Alchemy),Knowledge (Geography),Profession (Engineer),Sleight of Hand,Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Lore (Physics),Lore (Physics),Lore (Physics),Knowledge (Geography),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Artistry (Philosophy),Craft (Mechanical)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Craft (Alchemy),Knowledge (Geography),Profession (Engineer),Sleight of Hand,Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Lore (Physics),Lore (Physics),Lore (Physics),Knowledge (Geography),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Artistry (Philosophy),Craft (Mechanical),Profession (Engineer),Artistry (Philosophy)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Technological Arms and Armor|TYPE:General.Craft|DESC:You can build technological weapons and armor.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Technological Item|TYPE:General.Craft|DESC:You can craft technological gear and items.
@@ -179,7 +179,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Technologist|TYPE:General.Techslinger
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gunslinger|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Grit|APPLIEDTO:,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassGunslinger|DESC:Gunslinger&colon; Add +1/4 to the number of grit points in the gunslinger's grit pool.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Grit|APPLIEDTO:,,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassGunslinger|DESC:Gunslinger&colon; Add +1/4 to the number of grit points in the gunslinger's grit pool.
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Techslinger|TYPE:Archetype.GunslingerArchetype.GunslingerDeedDeadeye.GunslingerDeedQuickClear.GunslingerDeedExpertLoading.GunslingerGunTraining|DESC:Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to master the quirks of timeworn technology and methods ofkeeping weapons charged in a primitive world. Techslingers still start play with the black powder blunderbuss, pistol, or rifle granted by the gunsmith class ability, but they gain specialized powers for use after they gain weapons of advanced technology. A techslinger has the following class features.
