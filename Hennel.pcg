@@ -1,8 +1,8 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the North|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.06.01
+CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the North|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+VERSION:6.07.07
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
@@ -78,7 +78,6 @@ EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
-TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity (Kellid)]
@@ -118,7 +117,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:26|
 SKILL:Escape Artist|OUTPUTORDER:27|
 SKILL:Fly|OUTPUTORDER:28|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:29|
-SKILL:Handle Animal|OUTPUTORDER:31|
+SKILL:Handle Animal|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
 SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
@@ -153,7 +152,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:67|
 SKILL:Untrained Strength|OUTPUTORDER:68|
 SKILL:Untrained Wisdom|OUTPUTORDER:69|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:44|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:60|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
@@ -177,7 +176,7 @@ USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
@@ -206,19 +205,19 @@ ABILITY:Unchained Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Stan
 USERPOOL:Unchained Raging Selection|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet]
-WEAPONPROF:[WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chainsaw]
-WEAPONPROF:[WEAPON:Chakram|WEAPON:Club|WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber]
-WEAPONPROF:[WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
-WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
-WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri]
-WEAPONPROF:[WEAPON:Lance|WEAPON:Laser Torch|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
-WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube]
-WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar]
-WEAPONPROF:[WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling]
-WEAPONPROF:[WEAPON:Sling Glove|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck]
-WEAPONPROF:[WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork]
-WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chainsaw|WEAPON:Chakram]
+WEAPONPROF:[WEAPON:Club|WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga]
+WEAPONPROF:[WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Laser Torch|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear]
+WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
 MONEY:0
@@ -239,7 +238,7 @@ EQUIPNAME:Flash grenade|OUTPUTORDER:20|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Full Plate +1|OUTPUTORDER:7|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +1$EQMOD=STEEL.PLUS1A]
 EQUIPNAME:Gas Grenade|OUTPUTORDER:15|COST:0|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
-EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=Material ~ Steel]
 EQUIPNAME:Goo Tube|OUTPUTORDER:22|COST:6|WT:0.1|QUANTITY:40.0|NOTE:
 EQUIPNAME:Greatclub +1|OUTPUTORDER:28|COST:2305.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatclub|DATA:NAME=Greatclub +1$EQMOD=WOOD.PLUS1W]
 EQUIPNAME:Hard Light Shield (Timeworn)|OUTPUTORDER:3|COST:3200.0|WT:1.0|QUANTITY:1.0|NOTE:11|CUSTOMIZATION:[BASEITEM:Hard Light Shield|DATA:NAME=Hard Light Shield (Timeworn)$EQMOD=TIMEWORN]
@@ -315,7 +314,7 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
 
 # Character Spells Information
 

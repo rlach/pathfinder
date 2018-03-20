@@ -42,6 +42,7 @@ Lore (Sarenrae).MOD				TYPE:Lore
 Lore (Dagon).MOD				TYPE:Lore
 Lore (Phlegethon).MOD				TYPE:Lore
 Lore (Military commanders).MOD				TYPE:Lore
+Lore (Magic Symbols)				KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Alcoholic drinks)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Outer Dragons)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Physics)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
