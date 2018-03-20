@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the North|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -153,8 +153,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:42|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:55|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:56|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:67|
-SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:66|
+SKILL:Use Magic Device|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic
@@ -171,9 +171,9 @@ USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Draconic Bloodline Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:Draconic Bloodline Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Additional Traits|TYPE:General|DESC:You have more traits than normal
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.KoboldBloodline.SerpentineBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.DreamspunBloodline.SerpentineBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.DreamspunBloodline.SerpentineBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear|DESC:You are resistant to poisons, diseases, and other deadly maladies.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
@@ -209,40 +209,41 @@ WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarm
 
 # Character Equipment
 MONEY:0
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:25|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:24|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:10|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:+2 CON
-EQUIPNAME:Jarka|OUTPUTORDER:26|COST:0|WT:0.0|QUANTITY:3.0|NOTE:Jarki z robakami|CUSTOMIZATION:[BASEITEM:Honey (Jar)|DATA:NAME=Jarka$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Honey (Jar))$COSTMOD=-1]
-EQUIPNAME:Masterwork Dagger|OUTPUTORDER:3|COST:302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
-EQUIPNAME:Medicine|OUTPUTORDER:17|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Medicine$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Pouch (Belt))$COSTMOD=-1]
-EQUIPNAME:Medlance|OUTPUTORDER:19|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:26|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:+2 CON
+EQUIPNAME:Jarka|OUTPUTORDER:27|COST:0|WT:0.0|QUANTITY:3.0|NOTE:Jarki z robakami|CUSTOMIZATION:[BASEITEM:Honey (Jar)|DATA:NAME=Jarka$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Honey (Jar))$COSTMOD=-1]
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:2|COST:302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Medicine|OUTPUTORDER:16|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Medicine$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Pouch (Belt))$COSTMOD=-1]
+EQUIPNAME:Medlance|OUTPUTORDER:18|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Outfit (Cold-Weather)|OUTPUTORDER:5|COST:0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Cold-Weather)|DATA:NAME=Outfit (Cold-Weather)$COSTMOD=-8]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:22|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:21|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:21|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:20|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Pouch (Belt)|OUTPUTORDER:8|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:4|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of the Ram|OUTPUTORDER:2|COST:8256.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring of the Ram|DATA:NAME=Ring of the Ram$EQMOD=CHARGED_ITEM_50&pipe;CHARGES&lbracket;48&rbracket;]
-EQUIPNAME:Robe of Arcane Heritage|OUTPUTORDER:27|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Robe of Arcane Heritage|OUTPUTORDER:28|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Rod (Extend/Lesser)|OUTPUTORDER:9|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:3 times per day, doubles length of any spell(max level 3) but uses slot higher by 1|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Extend/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Ron|OUTPUTORDER:28|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Ron$SPROP=(Horse (Heavy))]
-EQUIPNAME:Scroll (Resurrection)|OUTPUTORDER:24|COST:12275|WT:0.01|QUANTITY:1.0|NOTE:
-EQUIPNAME:Soothe|OUTPUTORDER:20|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:The Rod of Gripping Smoke|OUTPUTORDER:4|COST:15000.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mace (Light)|DATA:NAME=The Rod of Gripping Smoke$EQMOD=STEEL.PLUS1W.GHOST._WEIGHTADD&pipe;2$SPROP=One half of this rod is made of gray, semisolid fog, while the other half glows from within as if filled with flickering embers. A rod of gripping smoke acts as a +1 ghost touch light mace. Three times per day, as the wielder casts a spell that creates fog or smoke, it can make the effect particularly cloying, causing the area of the spell to count as difficult terrain. This ability can’t modify fog or smoke spells that already specifically impede movement (like solid fog).  Additionally, three times per day as a move action, the wielder of a rod of gripping smoke can point the rod at any single target within an area of fog, mist, smoke, or similar vapor within 60 feet (including the area of foglike spells such as cloudkill or incendiary cloud) and cause the vapor to tighten around that target. The wielder attempts a disarm, grapple, or steal combat maneuver at a +16 bonus against the target’s CMD. This combat maneuver doesn’t provoke an attack of opportunity. If the check to disarm succeeds, the disarmed weapon falls in a random square adjacent to the target. If the check to grapple succeeds, the target gains the grappled condition for 1 round. While grappled in this way, the victim can’t move without first breaking the grapple (CMD 26). If the check to steal succeeds, the stolen item lands in a random square adjacent to the target. unless the target succeeds at a DC 20 Perception check at the time the item is stolen, it doesn’t realize the item is missing until it either leaves the affected area or attempts to use or retrieve the item.$COSTMOD=6695.0]
-EQUIPNAME:Torpinal|OUTPUTORDER:23|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Trauma Pack Plus|OUTPUTORDER:18|COST:11250|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ron|OUTPUTORDER:29|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Ron$SPROP=(Horse (Heavy))]
+EQUIPNAME:Scroll (Resurrection)|OUTPUTORDER:23|COST:12275|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Soothe|OUTPUTORDER:19|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:The Rod of Gripping Smoke|OUTPUTORDER:3|COST:15000.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mace (Light)|DATA:NAME=The Rod of Gripping Smoke$EQMOD=STEEL.PLUS1W.GHOST._WEIGHTADD&pipe;2$SPROP=One half of this rod is made of gray, semisolid fog, while the other half glows from within as if filled with flickering embers. A rod of gripping smoke acts as a +1 ghost touch light mace. Three times per day, as the wielder casts a spell that creates fog or smoke, it can make the effect particularly cloying, causing the area of the spell to count as difficult terrain. This ability can’t modify fog or smoke spells that already specifically impede movement (like solid fog).  Additionally, three times per day as a move action, the wielder of a rod of gripping smoke can point the rod at any single target within an area of fog, mist, smoke, or similar vapor within 60 feet (including the area of foglike spells such as cloudkill or incendiary cloud) and cause the vapor to tighten around that target. The wielder attempts a disarm, grapple, or steal combat maneuver at a +16 bonus against the target’s CMD. This combat maneuver doesn’t provoke an attack of opportunity. If the check to disarm succeeds, the disarmed weapon falls in a random square adjacent to the target. If the check to grapple succeeds, the target gains the grappled condition for 1 round. While grappled in this way, the victim can’t move without first breaking the grapple (CMD 26). If the check to steal succeeds, the stolen item lands in a random square adjacent to the target. unless the target succeeds at a DC 20 Perception check at the time the item is stolen, it doesn’t realize the item is missing until it either leaves the affected area or attempts to use or retrieve the item.$COSTMOD=6695.0]
+EQUIPNAME:Torpinal|OUTPUTORDER:22|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Trauma Pack Plus|OUTPUTORDER:17|COST:11250|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Voidfrost Robes|OUTPUTORDER:7|COST:11000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:12|COST:750.0|WT:0.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:14|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:11|COST:750.0|WT:0.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:13|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
 EQUIPNAME:Wand of Cure Moderate Wounds|OUTPUTORDER:16|COST:540.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;6&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 2d8+level &lbracket;max 10&rbracket; points of damage.]
-EQUIPNAME:Wand of Grease|OUTPUTORDER:16|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Grease$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Grease&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A grease spell covers a solid surface with a layer of slippery grease.]
+EQUIPNAME:Wand of Grease|OUTPUTORDER:15|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Grease$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Grease&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A grease spell covers a solid surface with a layer of slippery grease.]
 EQUIPNAME:Wand of Gust of Wind|OUTPUTORDER:0|COST:1620.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Gust of Wind$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Gust of Wind&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;18&rbracket;]
 EQUIPNAME:Wand of Lightning Bolt|OUTPUTORDER:0|COST:1575.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Lightning Bolt$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Lightning Bolt&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;7&rbracket;]
 EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:14|COST:735.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;49&rbracket;$SPROP=1 to 5 missiles that do 1d4+1 damage each.]
-EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:15|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
+EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:14|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
 EQUIPNAME:Wand of Remove Curse|OUTPUTORDER:19|COST:2025.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Remove Curse$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Remove Curse&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;9&rbracket;]
-EQUIPNAME:Wand of Wind Wall|OUTPUTORDER:13|COST:11250.0|WT:0.0625|QUANTITY:1.0|NOTE:32 charges|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Wind Wall$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Wind Wall&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wands|OUTPUTORDER:11|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Wands$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Pouch (Belt))$COSTMOD=-1]
+EQUIPNAME:Wand of Wind Wall|OUTPUTORDER:12|COST:11250.0|WT:0.0625|QUANTITY:1.0|NOTE:32 charges|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Wind Wall$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Wind Wall&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Wands|OUTPUTORDER:10|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Wands$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Pouch (Belt))$COSTMOD=-1]
+EQUIPNAME:Wayfinder|OUTPUTORDER:25|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Cold-Weather)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
@@ -250,9 +251,7 @@ EQUIPSET:Not Carried|ID:0.1.23|VALUE:Ron|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.29|VALUE:Ring of the Ram|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.46|VALUE:Rod (Extend/Lesser)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Headband|ID:0.1.51|VALUE:Headband of Alluring Charisma +2|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Ring|ID:0.1.52|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.67|VALUE:Jarka|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.68|VALUE:Ioun Stone (Pink Rhomboid)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.69|VALUE:Wands|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Wands|ID:0.1.69.01|VALUE:Wand (Infernal Healing/Sorcerer/1st)|QUANTITY:5.0|USETEMPMODS:Y
 EQUIPSET:Wands|ID:0.1.69.02|VALUE:Wand of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
@@ -278,9 +277,15 @@ EQUIPSET:Shoulders|ID:0.1.74|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMO
 EQUIPSET:Equipped|ID:0.1.76|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.77|VALUE:Robe of Arcane Heritage|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Body|ID:0.1.78|VALUE:Voidfrost Robes|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.79|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.80|VALUE:Wayfinder|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.81|VALUE:Ioun Stone (Pink Rhomboid)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
+TEMPBONUS:SPELL=Mage Armor|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;4&pipe;TYPE=ARMOR
+TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(3)
 
 # EquipSet Temp Bonuses
 
