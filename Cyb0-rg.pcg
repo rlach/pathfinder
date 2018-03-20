@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the North|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.07
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -111,7 +111,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:21|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:22|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:23|
-SKILL:Disable Device|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
 SKILL:Escape Artist|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -149,7 +149,7 @@ SKILL:Samurai Mount|OUTPUTORDER:63|
 SKILL:Sense Motive|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:65|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:66|
-SKILL:Sleight of Hand|OUTPUTORDER:68|
+SKILL:Sleight of Hand|OUTPUTORDER:67|
 SKILL:Stealth|OUTPUTORDER:70|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:71|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:72|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
@@ -158,10 +158,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:74|
 SKILL:Untrained Intelligence|OUTPUTORDER:75|
 SKILL:Untrained Strength|OUTPUTORDER:76|
 SKILL:Untrained Wisdom|OUTPUTORDER:77|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:49|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:67|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:68|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:69|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:79|
 SKILL:Use Magic Device|OUTPUTORDER:78|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
@@ -181,7 +181,7 @@ ABILITY:Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ 
 USERPOOL:Advanced Talent|POOLPOINTS:0.0
 ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
-ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.KoboldBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rogue Talent|APPLIEDTO:,|TYPE:General|DESC:Through constant practice, you have learned how to perform a special trick.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.CelestialBloodline.FeyBloodline.AquaticBloodline.DruidShamanWolf|DESC:You can easily move through a dangerous melee.
@@ -228,36 +228,41 @@ WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WE
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:669.50
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:11|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+MONEY:1219.50
+EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:12|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bolt, Crossbow +1|OUTPUTORDER:14|COST:46.1|WT:0.1|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +1$KEY=Bolt +1 (Crossbow)$EQMOD=STEEL.WOOD.PLUS1M]
-EQUIPNAME:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|OUTPUTORDER:19|COST:366.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +2 (Bane (Humanoids (Human)))$KEY=Bolt +2 (Crossbow/Bane (Humanoids (Human)))$EQMOD=STEEL.WOOD.PLUS2M.BANE&pipe;Humanoids (Human)]
-EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:15|COST:1.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
-EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:9|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)|OUTPUTORDER:7|COST:2500.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)$EQMOD=MITHRAL_ARMR_LT.PLUS1A.BNS_SKL_CMP&pipe;Acrobatics=+2]
-EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:21|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Concussion grenade|OUTPUTORDER:24|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Crossbow, Light|OUTPUTORDER:23|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=WOOD]
-EQUIPNAME:Dagger +1 (Adamantine/Bane (Constructs))|OUTPUTORDER:2|COST:11002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine/Bane (Constructs))$EQMOD=ADAMANT_WEAP.PLUS1W.BANE&pipe;Constructs]
-EQUIPNAME:Dagger +1 (Icy Burst)|OUTPUTORDER:3|COST:18302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Icy Burst)$EQMOD=STEEL.PLUS1W.ICY_BRST]
-EQUIPNAME:Decoy Ring|OUTPUTORDER:4|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:E-Pick (Green)|OUTPUTORDER:13|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gas Grenade|OUTPUTORDER:25|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bolt, Crossbow +1|OUTPUTORDER:15|COST:46.1|WT:0.1|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +1$KEY=Bolt +1 (Crossbow)$EQMOD=STEEL.WOOD.PLUS1M]
+EQUIPNAME:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|OUTPUTORDER:20|COST:366.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +2 (Bane (Humanoids (Human)))$KEY=Bolt +2 (Crossbow/Bane (Humanoids (Human)))$EQMOD=STEEL.WOOD.PLUS2M.BANE&pipe;Humanoids (Human)]
+EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:16|COST:1.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:10|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)|OUTPUTORDER:8|COST:2500.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)$EQMOD=MITHRAL_ARMR_LT.PLUS1A.BNS_SKL_CMP&pipe;Acrobatics=+2]
+EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:22|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Concussion grenade|OUTPUTORDER:25|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Crossbow, Light|OUTPUTORDER:24|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=WOOD]
+EQUIPNAME:Dagger +1 (Adamantine/Bane (Constructs))|OUTPUTORDER:3|COST:11002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine/Bane (Constructs))$EQMOD=ADAMANT_WEAP.PLUS1W.BANE&pipe;Constructs]
+EQUIPNAME:Dagger +1 (Icy Burst)|OUTPUTORDER:4|COST:18302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Icy Burst)$EQMOD=STEEL.PLUS1W.ICY_BRST]
+EQUIPNAME:Decoy Ring|OUTPUTORDER:5|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:E-Pick (Green)|OUTPUTORDER:14|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Garnet (Red)|OUTPUTORDER:29|COST:100|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Gas Grenade|OUTPUTORDER:26|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Goggles of Minute Seeing|OUTPUTORDER:1|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Hearth Mantle|OUTPUTORDER:8|COST:3600|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mantle|DATA:NAME=Hearth Mantle$EQMOD=_WEIGHTADD&pipe;2$SPROP=The inside of this long, thick shawl is cool muslin, while the outside is decorated with a flame-like rune. Hearth mantles are favored by the faithful of Erastil, particularly those among his worshipers who rely upon the hunt for their livelihood. With a hearth mantle, one never has to worry about building a campfire in the wild. A hearth mantle’s wearer gains a +2 competence bonus on saving throws against fire-based effects. the mantle itself is immune to fire damage. Once per day, the wearer can cause the leather exterior of the mantle to smolder for 1 minute. While smoldering, the hearth mantle sheds light as a torch. If the user takes a full-round action to carefully spread a hearth mantle on the ground with its exterior facing up, a campfire ignites on the mantle’s fire rune. This campfire burns for 8 hours and requires no fuel. Any creature that sleeps within 20 feet of the mantle for the full duration of the campfire recovers a number of hit points equal to twice its character level, as if it had undergone complete bed rest for a full 24 hours. The campfire is automatically extinguished if the hearth mantle is picked up, but can also be extinguished through normal means.$COSTMOD=3600]
-EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:10|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Masterwork Dagger|OUTPUTORDER:26|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
-EQUIPNAME:Masterwork Dagger (Cold Iron)|OUTPUTORDER:27|COST:304.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger (Cold Iron)$EQMOD=MWORKW.C_IRON]
-EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:5|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
-EQUIPNAME:Pouch (Belt)|OUTPUTORDER:12|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Płotka 4|OUTPUTORDER:28|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 4$SPROP=(Horse (Heavy))]
-EQUIPNAME:Ring (Poison Pill)|OUTPUTORDER:16|COST:20|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scatterlight Suit (Blue)|OUTPUTORDER:29|COST:3600|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:18|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:22|COST:750.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand (Vanish/Sorcerer/3rd)|OUTPUTORDER:17|COST:2250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Vanish/Sorcerer/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:20|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPNAME:Hearth Mantle|OUTPUTORDER:9|COST:3600|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mantle|DATA:NAME=Hearth Mantle$EQMOD=_WEIGHTADD&pipe;2$SPROP=The inside of this long, thick shawl is cool muslin, while the outside is decorated with a flame-like rune. Hearth mantles are favored by the faithful of Erastil, particularly those among his worshipers who rely upon the hunt for their livelihood. With a hearth mantle, one never has to worry about building a campfire in the wild. A hearth mantle’s wearer gains a +2 competence bonus on saving throws against fire-based effects. the mantle itself is immune to fire damage. Once per day, the wearer can cause the leather exterior of the mantle to smolder for 1 minute. While smoldering, the hearth mantle sheds light as a torch. If the user takes a full-round action to carefully spread a hearth mantle on the ground with its exterior facing up, a campfire ignites on the mantle’s fire rune. This campfire burns for 8 hours and requires no fuel. Any creature that sleeps within 20 feet of the mantle for the full duration of the campfire recovers a number of hit points equal to twice its character level, as if it had undergone complete bed rest for a full 24 hours. The campfire is automatically extinguished if the hearth mantle is picked up, but can also be extinguished through normal means.$COSTMOD=3600]
+EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:11|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:27|COST:302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Dagger (Cold Iron)|OUTPUTORDER:28|COST:304.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger (Cold Iron)$EQMOD=MWORKW.C_IRON]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:7|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:13|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Płotka 4|OUTPUTORDER:33|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 4$SPROP=(Horse (Heavy))]
+EQUIPNAME:Ring (Poison Pill)|OUTPUTORDER:17|COST:20|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scatterlight Suit (Blue)|OUTPUTORDER:34|COST:3600|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Communal share language)|OUTPUTORDER:30|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Communal share language)$SPROP=(Scroll)]
+EQUIPNAME:Scroll (Holy Smite)|OUTPUTORDER:31|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Wind Wall/Divine)|OUTPUTORDER:32|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:19|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:23|COST:750.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Wand (Vanish/Sorcerer/3rd)|OUTPUTORDER:18|COST:2250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Vanish/Sorcerer/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:21|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.05|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
@@ -289,9 +294,19 @@ EQUIPSET:Eyes|ID:0.1.75|VALUE:Goggles of Minute Seeing|QUANTITY:1.0|USETEMPMODS:
 EQUIPSET:Equipped|ID:0.1.76|VALUE:Commset (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.77|VALUE:Wand (Infernal Healing/Sorcerer/1st)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.78|VALUE:Decoy Ring|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.79|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.80|VALUE:Garnet (Red)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.81|VALUE:Scroll (Communal share language)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.82|VALUE:Scroll (Holy Smite)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.83|VALUE:Scroll (Wind Wall/Divine)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
+TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(2)
+TEMPBONUS:TEMPLATE=Ability Drained (Dexterity)|TBTARGET:PC|TBBONUS:STAT&pipe;DEX&pipe;-1*(5)
+TEMPBONUS:SPELL=Cat's Grace|TBTARGET:PC|TBBONUS:STAT&pipe;DEX&pipe;4&pipe;TYPE=ENHANCEMENT
+TEMPBONUS:TEMPLATE=Ability Drained (Strength)|TBTARGET:PC|TBBONUS:STAT&pipe;STR&pipe;-1*(6)
 
 # EquipSet Temp Bonuses
 
