@@ -6,7 +6,7 @@ GENRE:Fantasy
 BOOKTYPE:Homebrew
 SETTING:Pathfinder|Golarion
 TYPE:Homebrew.PathfinderHomebrew
-PRECAMPAIGN:2,INCLUDES=Technology Guide
+PRECAMPAIGN:1,INCLUDES=Technology Guide
 PUBNAMELONG:Areinu
 PUBNAMESHORT:Inu
 SOURCELONG:Iron Gods AP
