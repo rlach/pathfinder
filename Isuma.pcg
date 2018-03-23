@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.07
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -135,21 +135,21 @@ SKILL:Samurai Mount|OUTPUTORDER:49|
 SKILL:Sense Motive|OUTPUTORDER:50|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:51|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:52|
-SKILL:Sleight of Hand|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Swim|OUTPUTORDER:57|
-SKILL:Untrained Charisma|OUTPUTORDER:58|
-SKILL:Untrained Dexterity|OUTPUTORDER:59|
-SKILL:Untrained Intelligence|OUTPUTORDER:60|
-SKILL:Untrained Strength|OUTPUTORDER:61|
-SKILL:Untrained Wisdom|OUTPUTORDER:62|
+SKILL:Sleight of Hand|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:58|
+SKILL:Untrained Charisma|OUTPUTORDER:59|
+SKILL:Untrained Dexterity|OUTPUTORDER:60|
+SKILL:Untrained Intelligence|OUTPUTORDER:61|
+SKILL:Untrained Strength|OUTPUTORDER:62|
+SKILL:Untrained Wisdom|OUTPUTORDER:63|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:43|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:53|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:54|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:63|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:54|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:64|
 
 # Character Languages
 LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Kasatha
@@ -171,7 +171,7 @@ USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Survival,Survival,Survival,Survival,Survival,Survival,Survival|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
-ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
 ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Techslinger|TYPE:Archetype.GunslingerArchetype.GunslingerDeedDeadeye.GunslingerDeedQuickClear.GunslingerDeedExpertLoading.GunslingerGunTraining|DESC:Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to master the quirks of timeworn technology and methods ofkeeping weapons charged in a primitive world. Techslingers still start play with the black powder blunderbuss, pistol, or rifle granted by the gunsmith class ability, but they gain specialized powers for use after they gain weapons of advanced technology. A techslinger has the following class features.
 USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
@@ -208,7 +208,7 @@ WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Te
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
 
 # Character Equipment
-MONEY:0.00
+MONEY:0
 EQUIPNAME:Arc grenade|OUTPUTORDER:10|COST:750|WT:1.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Battery|OUTPUTORDER:6|COST:100|WT:1.0|QUANTITY:7.0|NOTE:
 EQUIPNAME:Filter Mask|OUTPUTORDER:7|COST:4500|WT:1.0|QUANTITY:1.0|NOTE:

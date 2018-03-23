@@ -31,5 +31,6 @@ SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsit
 #TYPE, the HANDS tag is not mandatory for a weapon proficiency. It can be used when necessary.
 # HANDS is being PHASED OUT. Equipment should dictate number of Slots used.
 
+Fleshnet Cannon		TYPE:Heavy Weaponry.Two-Handed Ranged.Ranged.Exotic.Weapon.TwoHanded AUTO:WEAPONPROF|Fleshnet Cannon
 Inferno Pistol		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol AUTO:WEAPONPROF|Inferno Pistol
 Mind Burner		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol AUTO:WEAPONPROF|Mind Burner

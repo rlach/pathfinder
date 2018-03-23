@@ -4,6 +4,10 @@
 
 Po zainstalowaniu PCgen 6.06.01 wchodzimy do Tools > Preferences i ustawiamy następująco:
 
+### Ustawienia
+
+*BARDZO WAŻNE*: W menu PCGen -> Sources oznaczamy `Allow multi-line objects in sources` na `true`! Bez tego wszystko się posypie.
+
 ### Ścieżki do plików
 
 W menu PCGen>location aktualizujemy ścieżki:

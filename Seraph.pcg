@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.07
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:10|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,5,3
+CLASS:Sorcerer|LEVEL:10|SKILLPOOL:-1|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,5,3
 CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|PRESTAT:STR=-2|PRESTAT:DEX=1|PRESTAT:WIS=2|PRESTAT:CHA=3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -154,8 +154,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:42|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:55|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:57|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:67|
-SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:66|
+SKILL:Use Magic Device|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic
@@ -174,10 +174,10 @@ USERPOOL:Bloodline|POOLPOINTS:0.0
 ABILITY:Draconic Bloodline Type|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Bloodline Choice ~ Lunar|TYPE:Sorcerer Draconic Bloodline Choice
 USERPOOL:Draconic Bloodline Type|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Additional Traits|TYPE:General|DESC:You have more traits than normal
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.DragonShamanBonus.AccursedBloodline.KoboldBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.DreamspunBloodline.SerpentineBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear|DESC:You are resistant to poisons, diseases, and other deadly maladies.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ImperiousBloodline.KoboldBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
@@ -214,7 +214,7 @@ WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPO
 MONEY:0
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:24|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
-EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:6|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:EQMOD=Material ~ Cloth]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:6|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2$EQMOD=Material ~ Cloth]
 EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:26|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:+2 CON
 EQUIPNAME:Jarka|OUTPUTORDER:27|COST:0|WT:0.0|QUANTITY:3.0|NOTE:Jarki z robakami|CUSTOMIZATION:[BASEITEM:Honey (Jar)|DATA:NAME=Jarka$EQMOD=_WEIGHTADD&pipe;-0,5$SPROP=(Honey (Jar))$COSTMOD=-1]
