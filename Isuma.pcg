@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.07.07
-ROLLMETHOD:0|EXPRESSION:0
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+VERSION:6.07.08
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -60,7 +60,7 @@ RACE:Kasatha
 
 # Character Class(es)
 CLASS:Fighter|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
-CLASS:Gunslinger|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Gunslinger|LEVEL:8|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -71,9 +71,10 @@ CLASSABILITIESLEVEL:Gunslinger=4|HITPOINTS:2|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=5|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=6|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Gunslinger=7|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=8|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:105000
+EXPERIENCE:155000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -119,15 +120,15 @@ SKILL:Fly|OUTPUTORDER:29|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
-SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:37|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:39|
 SKILL:Knowledge (Engineering)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:41|
-SKILL:Linguistics|OUTPUTORDER:42||ASSOCIATEDDATA:Androffan
-SKILL:Perception|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Linguistics|OUTPUTORDER:42||ASSOCIATEDDATA:Androffan|ASSOCIATEDDATA:Aklo
+SKILL:Perception|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:45|
 SKILL:Profession (Untrained)|OUTPUTORDER:47|
 SKILL:Ride|OUTPUTORDER:48|
@@ -137,7 +138,7 @@ SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:51|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:52|
 SKILL:Sleight of Hand|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:58|
 SKILL:Untrained Charisma|OUTPUTORDER:59|
 SKILL:Untrained Dexterity|OUTPUTORDER:60|
@@ -150,15 +151,16 @@ SKILL:Untrained ~ Linguistics|OUTPUTORDER:43|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:54|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:64|
+SKILL:Use Magic Device|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
-LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Kasatha
+LANGUAGE:Aklo|LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Kasatha
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Linguistics,Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Linguistics,Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Artistry (Philosophy),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Linguistics|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:Combat.FeyBloodline|DESC:You are adept at firing ranged attacks into melee.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:Combat.AttackOption|DESC:You can make an additional ranged attack.
@@ -168,10 +170,11 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Zero Rifle|TYP
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gunslinger|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Survival,Survival,Survival,Survival,Survival,Survival,Survival|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
-ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
 ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Techslinger|TYPE:Archetype.GunslingerArchetype.GunslingerDeedDeadeye.GunslingerDeedQuickClear.GunslingerDeedExpertLoading.GunslingerGunTraining|DESC:Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to master the quirks of timeworn technology and methods ofkeeping weapons charged in a primitive world. Techslingers still start play with the black powder blunderbuss, pistol, or rifle granted by the gunsmith class ability, but they gain specialized powers for use after they gain weapons of advanced technology. A techslinger has the following class features.
 USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
@@ -183,7 +186,7 @@ ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Technic Training Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Techslinger ~ Technic Training Choice|APPLIEDTO:Zero Rifle|TYPE:GunslingerClassFeatures.SpecialQuality
 USERPOOL:Technic Training Choice|POOLPOINTS:0.0
-ABILITY:Techslinger Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Techslinger Feat|APPLIEDTO:|TYPE:Techslinger Bonus Feat Selection
+ABILITY:Techslinger Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Techslinger Feat|APPLIEDTO:,|TYPE:Techslinger Bonus Feat Selection
 USERPOOL:Techslinger Bonus Feat Selection|POOLPOINTS:0.0
 ABILITY:Techslinger Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
 USERPOOL:Techslinger Feat|POOLPOINTS:0.0
@@ -235,7 +238,6 @@ EQUIPSET:Armor|ID:0.1.13|VALUE:Hide +1 (Invulnerability)|QUANTITY:1.0|USETEMPMOD
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Rapid Shot|TBTARGET:Zero Rifle|TBACTIVE:N|TBBONUS:WEAPON&pipe;ATTACKS&pipe;1|TBBONUS:WEAPON&pipe;TOHIT&pipe;-2
 
 # EquipSet Temp Bonuses
 

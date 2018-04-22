@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.07.07
-ROLLMETHOD:0|EXPRESSION:0
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+VERSION:6.07.08
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -60,7 +60,7 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:11|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -71,9 +71,10 @@ CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=11|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:4
 
 # Character Experience
-EXPERIENCE:105000
+EXPERIENCE:155000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -117,7 +118,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:26|
 SKILL:Escape Artist|OUTPUTORDER:27|
 SKILL:Fly|OUTPUTORDER:28|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:29|
-SKILL:Handle Animal|OUTPUTORDER:31|
+SKILL:Handle Animal|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
 SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
@@ -152,7 +153,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:67|
 SKILL:Untrained Strength|OUTPUTORDER:68|
 SKILL:Untrained Wisdom|OUTPUTORDER:69|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:44|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:60|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
@@ -176,7 +177,7 @@ USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
@@ -253,7 +254,7 @@ EQUIPNAME:Pazur orczycy|OUTPUTORDER:43|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZ
 EQUIPNAME:Pistol +1 (Double-Barreled/Huntsman)|OUTPUTORDER:0|COST:10050.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol (Double-Barreled)|DATA:NAME=Pistol +1 (Double-Barreled/Huntsman)$EQMOD=STEEL.PLUS1W.HUNTSMAN]
 EQUIPNAME:Plakat orczycy|OUTPUTORDER:30|COST:0.4|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Paper (Sheet)|DATA:NAME=Plakat orczycy$SPROP=hardness 0, 1 hit point, and break DC 5, (Paper (Sheet))]
 EQUIPNAME:Plasma grenade|OUTPUTORDER:24|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:9|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:9|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:36|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Płotka II|OUTPUTORDER:40|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka II$SPROP=(Horse (Heavy))]
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
@@ -271,7 +272,6 @@ EQUIPNAME:Zipstick|OUTPUTORDER:19|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.03|VALUE:Trident|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Potion of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.14|VALUE:Battery|QUANTITY:12.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.19|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.23|VALUE:Universal Serum|QUANTITY:1.0|USETEMPMODS:Y
@@ -318,6 +318,7 @@ CALCEQUIPSET:0.1
 
 # Temporary Bonuses
 TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
+TEMPBONUS:TEMPLATE=Ability Damaged (Charisma/Fixed)|TBTARGET:PC|TBBONUS:STAT&pipe;CHA&pipe;-1*(3)
 TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(3)
 TEMPBONUS:FEAT=Unchained Rage|TBTARGET:PC|TBBONUS:VAR&pipe;RAGING&pipe;1
 TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Chainsaw +1|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY

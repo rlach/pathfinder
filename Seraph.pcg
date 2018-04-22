@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.07.07
-ROLLMETHOD:0|EXPRESSION:0
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+VERSION:6.07.08
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:10|SKILLPOOL:-1|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,5,3
+CLASS:Sorcerer|LEVEL:11|SKILLPOOL:22|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,4
 CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|PRESTAT:STR=-2|PRESTAT:DEX=1|PRESTAT:WIS=2|PRESTAT:CHA=3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -71,9 +71,10 @@ CLASSABILITIESLEVEL:Sorcerer=7|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=8|HITPOINTS:5|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=10|HITPOINTS:4|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=11|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:2
 
 # Character Experience
-EXPERIENCE:105000
+EXPERIENCE:155000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -174,9 +175,9 @@ USERPOOL:Bloodline|POOLPOINTS:0.0
 ABILITY:Draconic Bloodline Type|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Bloodline Choice ~ Lunar|TYPE:Sorcerer Draconic Bloodline Choice
 USERPOOL:Draconic Bloodline Type|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Additional Traits|TYPE:General|DESC:You have more traits than normal
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.DreamspunBloodline.SerpentineBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear|DESC:You are resistant to poisons, diseases, and other deadly maladies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.KoboldBloodline.SerpentineBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.DreamspunBloodline.SerpentineBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
@@ -291,6 +292,7 @@ CALCEQUIPSET:0.1
 TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
 TEMPBONUS:SPELL=Mage Armor|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;4&pipe;TYPE=ARMOR
 TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(3)
+TEMPBONUS:TEMPLATE=Ability Drained (Wisdom)|TBTARGET:PC|TBBONUS:STAT&pipe;WIS&pipe;-1*(6)
 
 # EquipSet Temp Bonuses
 
@@ -333,6 +335,7 @@ SPELLNAME:Resistance|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURC
 SPELLNAME:Shield|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Slow|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Snowball|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Spell Resistance|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Vanish|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Web|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 

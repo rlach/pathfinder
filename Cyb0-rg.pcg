@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:People of the Stars|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.07.07
-ROLLMETHOD:0|EXPRESSION:0
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+VERSION:6.07.08
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Android
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:11|SKILLPOOL:11|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:7|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:7|SKILLSGAINED:11|SKILLSREMAINING:0
@@ -71,9 +71,10 @@ CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:5|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:1|SKILLSGAINED:11|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:2|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=11|HITPOINTS:8|SKILLSGAINED:11|SKILLSREMAINING:11
 
 # Character Experience
-EXPERIENCE:135000
+EXPERIENCE:185000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -181,7 +182,7 @@ ABILITY:Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ 
 USERPOOL:Advanced Talent|POOLPOINTS:0.0
 ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
-ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rogue Talent|APPLIEDTO:,|TYPE:General|DESC:Through constant practice, you have learned how to perform a special trick.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.CelestialBloodline.FeyBloodline.AquaticBloodline.DruidShamanWolf|DESC:You can easily move through a dangerous melee.
@@ -302,11 +303,9 @@ EQUIPSET:Carried|ID:0.1.83|VALUE:Scroll (Wind Wall/Divine)|QUANTITY:1.0|USETEMPM
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
+TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
 TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(2)
-TEMPBONUS:TEMPLATE=Ability Drained (Dexterity)|TBTARGET:PC|TBBONUS:STAT&pipe;DEX&pipe;-1*(5)
-TEMPBONUS:SPELL=Cat's Grace|TBTARGET:PC|TBBONUS:STAT&pipe;DEX&pipe;4&pipe;TYPE=ENHANCEMENT
-TEMPBONUS:TEMPLATE=Ability Drained (Strength)|TBTARGET:PC|TBBONUS:STAT&pipe;STR&pipe;-1*(6)
+TEMPBONUS:SPELL=Cat's Grace|TBTARGET:PC|TBACTIVE:N|TBBONUS:STAT&pipe;DEX&pipe;4&pipe;TYPE=ENHANCEMENT
 
 # EquipSet Temp Bonuses
 
