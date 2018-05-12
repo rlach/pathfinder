@@ -60,7 +60,7 @@ ALIGN:NE
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:11|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:11|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -71,7 +71,7 @@ CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Barbarian=11|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Barbarian=11|HITPOINTS:2|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:155000
@@ -83,6 +83,7 @@ TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity (Kellid)]
 TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+TEMPLATESAPPLIED:[NAME:Half-Orc ~ Default]
 
 # Character Region
 REGION:Numeria
@@ -98,7 +99,7 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:7|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:8|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:9|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:10|
-SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Barbarian|RANKS:8.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Barbarian|RANKS:10.0|COST:1|CLASSSKILL:N]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:13|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:15|
@@ -122,7 +123,7 @@ SKILL:Handle Animal|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
 SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
-SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:37|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:38|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:39|
@@ -168,7 +169,7 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History),Lore (Alcoholic drinks),Lore (Orc History),Lore (Alcoholic drinks),Profession (Wrestler)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Handle Animal,Lore (Taverns in a region),Lore (Taverns in a region),Knowledge (Geography),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler),Perform (Oratory),Perform (Wind Instruments),Lore (Alcoholic drinks),Lore (Taverns in a region),Lore (Alcoholic drinks),Lore (Taverns in a region),Profession (Wrestler),Lore (Orc History),Lore (Alcoholic drinks),Lore (Orc History),Lore (Alcoholic drinks),Profession (Wrestler),Profession (Wrestler),Profession (Wrestler)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Armored Hulk|TYPE:Archetype.BarbarianArchetype.BarbarianFastMovement.BarbarianUncannyDodge.BarbarianTrapSense.BarbarianImprovedUncannyDodge|DESC:Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.
 USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
@@ -176,21 +177,26 @@ ABILITY:Barbarian Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Barbarian ~ Unc
 USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage Power|APPLIEDTO:|TYPE:General|DESC:You have unlocked a new ability to use while raging.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Trap Sense|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add a +1/2 bonus to trap sense.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Half-Orc Racial Subtype|POOLPOINTS:0.0
+ABILITY:Half-Orc Subrace|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Orc ~ Default|TYPE:HalfOrcSubrace
+USERPOOL:Half-Orc Subrace|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Kellid|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Background Skills|TYPE:OptionalRules
 USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Auspicious Mark|TYPE:RagePower.SpecialAttack.Supernatural|DESC:The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or birthmark she possesses. Once per rage, as a swift action that costs 2 rounds of rage, the barbarian can call upon the spirits' favor. Using auspicious mark grants her a +1d6 bonus on one d20 roll she has just made. She can call on the auspicious mark after seeing the result of the d20 roll.
+USERPOOL:Rage Power|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region|DESC:Savage Land of Super-Science
 USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Finish the Fight|TYPE:Trait.RaceTrait.HalfOrcTrait|DESC:You gain a +1 trait bonus on attack rolls against opponents you already injured in the past 24 hours.
