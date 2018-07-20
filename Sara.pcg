@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.08
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -131,7 +131,7 @@ SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Gunslinger|RAN
 SKILL:Knowledge (Engineering)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:11.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Geography)|OUTPUTORDER:44|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:45|
-SKILL:Linguistics|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
+SKILL:Linguistics|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
 SKILL:Lore (Physics)|OUTPUTORDER:48|
 SKILL:Perception|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:11.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:50|
@@ -153,7 +153,7 @@ SKILL:Untrained Strength|OUTPUTORDER:68|
 SKILL:Untrained Wisdom|OUTPUTORDER:69|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:27|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:33|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:47|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:46|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:59|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:70|
@@ -174,7 +174,7 @@ USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Technological Arms and Armor|TYPE:General.Craft|DESC:You can build technological weapons and armor.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Technological Item|TYPE:General.Craft|DESC:You can craft technological gear and items.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Scavenger's Luck|TYPE:General|DESC:You coax better behavior out of timeworn technology.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Technologist|TYPE:General.Techslinger|DESC:You are familiar with the basic mechanics of technology.
@@ -230,40 +230,44 @@ WEAPONPROF:[WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (D
 MONEY:0
 EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:10|COST:12|WT:0.0|QUANTITY:19.0|NOTE:
 EQUIPNAME:Armband with inset pearls|OUTPUTORDER:1|COST:700|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bracelets|DATA:NAME=Armband with inset pearls$SPROP=(Bracelets), (Bracelets)$COSTMOD=700]
-EQUIPNAME:Autograpnel +1|OUTPUTORDER:35|COST:6300.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Autograpnel|DATA:NAME=Autograpnel +1$EQMOD=PLUS1W]
-EQUIPNAME:Battery|OUTPUTORDER:12|COST:100|WT:1.0|QUANTITY:8.0|NOTE:
+EQUIPNAME:Autograpnel +1|OUTPUTORDER:34|COST:6300.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Autograpnel|DATA:NAME=Autograpnel +1$EQMOD=PLUS1W]
+EQUIPNAME:Battery|OUTPUTORDER:12|COST:100|WT:1.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Battery (Depleted)|OUTPUTORDER:0|COST:100|WT:1.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Bullet (Firearm/30)|OUTPUTORDER:11|COST:30|WT:0.5|QUANTITY:3.0|NOTE:
 EQUIPNAME:Chain Shirt +2|OUTPUTORDER:5|COST:4250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +2$EQMOD=STEEL.PLUS2A]
-EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:27|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:EMP Pistol +2|OUTPUTORDER:28|COST:20300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:EMP Pistol|DATA:NAME=EMP Pistol +2$EQMOD=PLUS2W]
+EQUIPNAME:Chainshirt with Technic League Logo|OUTPUTORDER:6|COST:22300.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:NAME=Chainshirt with Technic League Logo$EQMOD=Material ~ Steel.Special Ability ~ +2 ~ Armor.Special Ability ~ Energy Resistance / Fire ~ Armor$SPROP=(Chainmail +2 (Energy Resistance (Fire)))]
+EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:26|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:EMP Pistol +2|OUTPUTORDER:27|COST:20300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:EMP Pistol|DATA:NAME=EMP Pistol +2$EQMOD=PLUS2W]
 EQUIPNAME:Envoy's Mouthpiece|OUTPUTORDER:24|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:37|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:36|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Force Field (Black)|OUTPUTORDER:19|COST:20000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunslinger's Kit|OUTPUTORDER:36|COST:26|WT:31.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:35|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Hemochem (Grade I)|OUTPUTORDER:8|COST:250|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Hemochem (Grade IV)|OUTPUTORDER:16|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:30|COST:4800.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=PLUS1W]
+EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:29|COST:4800.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=PLUS1W]
 EQUIPNAME:Ion Tape|OUTPUTORDER:9|COST:100|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ioun Torch|OUTPUTORDER:17|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))|OUTPUTORDER:4|COST:29300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Laser Pistol|DATA:NAME=Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))$EQMOD=PLUS1W.BANE&pipe;Constructs.SICC_HOT_WEAP.FLAME]
+EQUIPNAME:Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))|OUTPUTORDER:3|COST:29300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Laser Pistol|DATA:NAME=Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))$EQMOD=PLUS1W.BANE&pipe;Constructs.SICC_HOT_WEAP.FLAME]
 EQUIPNAME:Laser Sight|OUTPUTORDER:18|COST:8000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Masterwork Pistol|OUTPUTORDER:22|COST:1300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Masterwork Pistol$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Memory Facet - Inhibitor|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Muleback Cords|OUTPUTORDER:7|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Nanite Canister|OUTPUTORDER:29|COST:500|WT:1.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Nanite Canister|OUTPUTORDER:28|COST:500|WT:1.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Nanite Hypogun (Black)|OUTPUTORDER:21|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:5 zostały
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:6|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
-EQUIPNAME:Power Relay|OUTPUTORDER:34|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Płotka 3|OUTPUTORDER:31|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 3$SPROP=(Horse (Heavy))]
+EQUIPNAME:Power Relay|OUTPUTORDER:33|COST:0|WT:50.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Płotka 3|OUTPUTORDER:30|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 3$SPROP=(Horse (Heavy))]
 EQUIPNAME:Ring of Forcefangs|OUTPUTORDER:2|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Saddle (Pack)|OUTPUTORDER:32|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:4|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Saddle (Pack)|OUTPUTORDER:31|COST:5|WT:15.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scatterlight Suit (Red)|OUTPUTORDER:13|COST:1400|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:33|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
+EQUIPNAME:Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))|OUTPUTORDER:32|COST:400.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skillchip (Mark I)|DATA:NAME=Skillchip (Mark I/Skillchip Skill (Knowledge (Engineering)))$EQMOD=SKILLCHIP_1&pipe;Knowledge (Engineering)]
 EQUIPNAME:Skillslot|OUTPUTORDER:23|COST:2000|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Technic League Pin|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod (Black)|OUTPUTORDER:15|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Veemod (Brown)|OUTPUTORDER:26|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Veemod (Brown)|OUTPUTORDER:25|COST:200|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod Goggles|OUTPUTORDER:14|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Zipstick|OUTPUTORDER:19|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Zipstick|OUTPUTORDER:20|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.14|VALUE:Bullet (Firearm/30)|QUANTITY:2.0|USETEMPMODS:Y
@@ -278,7 +282,7 @@ EQUIPSET:Equipped|ID:0.1.48|VALUE:Bullet (Firearm/30)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Wrist|ID:0.1.50|VALUE:Armband with inset pearls|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.52|VALUE:Skillslot|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.55|VALUE:Envoy's Mouthpiece|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.62|VALUE:Battery|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.62|VALUE:Battery|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.63|VALUE:Scatterlight Suit (Red)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.68|VALUE:Veemod Goggles|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Veemod Goggles|ID:0.1.68.01|VALUE:Veemod (Black)|QUANTITY:1.0|USETEMPMODS:Y
@@ -300,11 +304,14 @@ EQUIPSET:Carried|ID:0.1.85|VALUE:Nanite Canister|QUANTITY:5.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.86|VALUE:Laser Sight|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.87|VALUE:Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.88|VALUE:Inferno Pistol +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.89|VALUE:Chain Shirt +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.90|VALUE:Force Field (Black)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.91|VALUE:Chain Shirt +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.92|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
 TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
+TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(1)
 TEMPBONUS:SPELL=Resist Energy (Fire)|TBTARGET:PC|TBACTIVE:N|TBBONUS:VAR&pipe;FIRERESISTANCEBONUS&pipe;2*10&pipe;TYPE=RESISTANCE
 TEMPBONUS:FEAT=Rapid Shot|TBTARGET:Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))|TBACTIVE:N|TBBONUS:WEAPON&pipe;ATTACKS&pipe;1|TBBONUS:WEAPON&pipe;TOHIT&pipe;-2
 TEMPBONUS:FEAT=Deadly Aim|TBTARGET:Laser Pistol +1 (Bane (Constructs)/Flaming/Siccatite (Hot))|TBACTIVE:N|TBBONUS:WEAPON&pipe;DAMAGE&pipe;2*DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY

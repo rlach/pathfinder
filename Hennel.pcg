@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:People of the Stars|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the North|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.08
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -179,7 +179,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:C
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage Power|APPLIEDTO:|TYPE:General|DESC:You have unlocked a new ability to use while raging.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
@@ -227,54 +227,62 @@ WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:T
 WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Access Card (Green)|OUTPUTORDER:29|COST:160|WT:0.0|QUANTITY:1.0|NOTE:
+MONEY:0.00
+EQUIPNAME:Access Card (Green)|OUTPUTORDER:27|COST:160|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Access Card (Red)|OUTPUTORDER:0|COST:250|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Amulet of 2 broken laser rifles|OUTPUTORDER:1|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet of Natural Armor +2|DATA:NAME=Amulet of 2 broken laser rifles$SPROP=(Amulet of Natural Armor +2)]
+EQUIPNAME:Arrows (20)|OUTPUTORDER:0|COST:1.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrows (20)|DATA:EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:10|COST:2500|WT:15.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bag of Tricks (Rust)|OUTPUTORDER:16|COST:8500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bag of Tricks (Rust)|OUTPUTORDER:15|COST:8500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Battery|OUTPUTORDER:11|COST:100|WT:1.0|QUANTITY:30.0|NOTE:
+EQUIPNAME:Belt of Mighty Constitution +2|OUTPUTORDER:9|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bullet (Burrowing/Lesser)|OUTPUTORDER:0|COST:3493.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Burrowing/Lesser)|DATA:NAME=Bullet (Burrowing/Lesser)$EQMOD=MAGIC_COST&pipe;3446.PLUS1M]
-EQUIPNAME:Cardioamp|OUTPUTORDER:33|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Chain Shirt +1|OUTPUTORDER:38|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Cardioamp|OUTPUTORDER:31|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chain Shirt +1|OUTPUTORDER:36|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
 EQUIPNAME:Chainsaw +1|OUTPUTORDER:4|COST:5000.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainsaw|DATA:NAME=Chainsaw +1$EQMOD=PLUS1W]
 EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:8|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1]
-EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:17|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Concussion grenade|OUTPUTORDER:18|COST:750|WT:1.0|QUANTITY:13.0|NOTE:
-EQUIPNAME:Cureall|OUTPUTORDER:34|COST:1400|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Emergency Raft (Timeworn)|OUTPUTORDER:41|COST:1800.0|WT:10.0|QUANTITY:1.0|NOTE:3 lad|CUSTOMIZATION:[BASEITEM:Emergency Raft|DATA:NAME=Emergency Raft (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Emergency Shelter (Timeworn)|OUTPUTORDER:42|COST:9000.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Emergency Shelter|DATA:NAME=Emergency Shelter (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Flash grenade|OUTPUTORDER:20|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:16|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Concussion grenade|OUTPUTORDER:17|COST:750|WT:1.0|QUANTITY:13.0|NOTE:
+EQUIPNAME:Cureall|OUTPUTORDER:32|COST:1400|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Emergency Raft (Timeworn)|OUTPUTORDER:39|COST:1800.0|WT:10.0|QUANTITY:1.0|NOTE:3 lad|CUSTOMIZATION:[BASEITEM:Emergency Raft|DATA:NAME=Emergency Raft (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Emergency Shelter (Timeworn)|OUTPUTORDER:40|COST:9000.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Emergency Shelter|DATA:NAME=Emergency Shelter (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Full Plate +1|OUTPUTORDER:7|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +1$EQMOD=STEEL.PLUS1A]
-EQUIPNAME:Gas Grenade|OUTPUTORDER:15|COST:0|WT:1.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Gas Grenade|OUTPUTORDER:14|COST:0|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=Material ~ Steel]
-EQUIPNAME:Goo Tube|OUTPUTORDER:22|COST:6|WT:0.1|QUANTITY:40.0|NOTE:
-EQUIPNAME:Greatclub +1|OUTPUTORDER:28|COST:2305.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatclub|DATA:NAME=Greatclub +1$EQMOD=WOOD.PLUS1W]
+EQUIPNAME:Goo Tube|OUTPUTORDER:20|COST:6|WT:0.1|QUANTITY:34.0|NOTE:
+EQUIPNAME:Greatclub +1|OUTPUTORDER:26|COST:2305.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatclub|DATA:NAME=Greatclub +1$EQMOD=WOOD.PLUS1W]
 EQUIPNAME:Hard Light Shield (Timeworn)|OUTPUTORDER:3|COST:3200.0|WT:1.0|QUANTITY:1.0|NOTE:11|CUSTOMIZATION:[BASEITEM:Hard Light Shield|DATA:NAME=Hard Light Shield (Timeworn)$EQMOD=TIMEWORN]
-EQUIPNAME:Hemochem (Grade III)|OUTPUTORDER:35|COST:750|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Inferno grenade|OUTPUTORDER:23|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hemochem (Grade III)|OUTPUTORDER:33|COST:750|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Inferno grenade|OUTPUTORDER:21|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Jade|OUTPUTORDER:0|COST:100|WT:0.0|QUANTITY:12.0|NOTE:
-EQUIPNAME:Longsword (Adamantine)|OUTPUTORDER:39|COST:3015.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword (Adamantine)$EQMOD=ADAMANT_WEAP]
+EQUIPNAME:Laser Pistol +2|OUTPUTORDER:0|COST:18300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Laser Pistol|DATA:NAME=Laser Pistol +2$EQMOD=Special Ability ~ +2 ~ Weapon]
+EQUIPNAME:Leather +3|OUTPUTORDER:0|COST:9160.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather|DATA:NAME=Leather +3$EQMOD=Material ~ Leather.Special Ability ~ +3 ~ Armor]
+EQUIPNAME:Longsword (Adamantine)|OUTPUTORDER:37|COST:3015.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword (Adamantine)$EQMOD=ADAMANT_WEAP]
+EQUIPNAME:Masterwork Composite Shortbow STR+3|OUTPUTORDER:0|COST:375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Composite)|DATA:NAME=Masterwork Composite Shortbow STR+3$EQMOD=Material ~ Wood.Special Quality ~ Masterwork ~ Weapon$SPROP=(Masterwork Composite Shortbow STR)]
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:6|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
-EQUIPNAME:Pazur orczycy|OUTPUTORDER:43|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spell Component|DATA:NAME=Pazur orczycy$SPROP=(Spell Component)]
+EQUIPNAME:Pazur orczycy|OUTPUTORDER:41|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spell Component|DATA:NAME=Pazur orczycy$SPROP=(Spell Component)]
 EQUIPNAME:Pistol +1 (Double-Barreled/Huntsman)|OUTPUTORDER:0|COST:10050.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol (Double-Barreled)|DATA:NAME=Pistol +1 (Double-Barreled/Huntsman)$EQMOD=STEEL.PLUS1W.HUNTSMAN]
-EQUIPNAME:Plakat orczycy|OUTPUTORDER:30|COST:0.4|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Paper (Sheet)|DATA:NAME=Plakat orczycy$SPROP=hardness 0, 1 hit point, and break DC 5, (Paper (Sheet))]
-EQUIPNAME:Plasma grenade|OUTPUTORDER:24|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Plakat orczycy|OUTPUTORDER:28|COST:0.4|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Paper (Sheet)|DATA:NAME=Plakat orczycy$SPROP=hardness 0, 1 hit point, and break DC 5, (Paper (Sheet))]
+EQUIPNAME:Plasma grenade|OUTPUTORDER:22|COST:1600|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Platinum Teeth|OUTPUTORDER:0|COST:300|WT:0.02|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Platinum Piece)|DATA:NAME=Platinum Teeth$SPROP=(Coin (Platinum Piece))$COSTMOD=290]
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:9|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:36|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Płotka II|OUTPUTORDER:40|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka II$SPROP=(Horse (Heavy))]
+EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:34|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Płotka II|OUTPUTORDER:38|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka II$SPROP=(Horse (Heavy))]
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of Sustenance|OUTPUTORDER:5|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:14|COST:10|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Gaseous Form)|OUTPUTORDER:12|COST:375|WT:0.01|QUANTITY:3.0|NOTE:
-EQUIPNAME:Shield, Light Wooden +1 (Animated)|OUTPUTORDER:32|COST:9153.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Wooden)|DATA:NAME=Shield, Light Wooden +1 (Animated)$KEY=Shield +1 (Light/Wooden/Animated)$EQMOD=WOOD.PLUS1S.ANMATD]
-EQUIPNAME:Soft grenade|OUTPUTORDER:21|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Torpinal|OUTPUTORDER:37|COST:300|WT:0.0|QUANTITY:4.0|NOTE:
-EQUIPNAME:Trident|OUTPUTORDER:25|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Trident|DATA:NAME=Trident$EQMOD=BRACE.STEEL]
-EQUIPNAME:Universal Serum|OUTPUTORDER:26|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Vitality Serum|OUTPUTORDER:27|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Warhammer (Mithral)|OUTPUTORDER:31|COST:2512.0|WT:2.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Warhammer (Mithral)$EQMOD=MITHRAL_ITEM]
-EQUIPNAME:Zipstick|OUTPUTORDER:19|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield, Light Steel +2|OUTPUTORDER:0|COST:4159.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Steel)|DATA:NAME=Shield, Light Steel +2$KEY=Shield +2 (Light/Steel)$EQMOD=Material ~ Steel.Special Ability ~ +2 ~ Shield]
+EQUIPNAME:Shield, Light Wooden +1 (Animated)|OUTPUTORDER:30|COST:9153.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Wooden)|DATA:NAME=Shield, Light Wooden +1 (Animated)$KEY=Shield +1 (Light/Wooden/Animated)$EQMOD=WOOD.PLUS1S.ANMATD]
+EQUIPNAME:Soft grenade|OUTPUTORDER:19|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Spellbook|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:6.0|NOTE:
+EQUIPNAME:Thoracic Nanite Chamber (Mark II)|OUTPUTORDER:0|COST:32000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Torpinal|OUTPUTORDER:35|COST:300|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Trident|OUTPUTORDER:23|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Trident|DATA:NAME=Trident$EQMOD=BRACE.STEEL]
+EQUIPNAME:Universal Serum|OUTPUTORDER:24|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Vitality Serum|OUTPUTORDER:25|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Warhammer (Mithral)|OUTPUTORDER:29|COST:2512.0|WT:2.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Warhammer (Mithral)$EQMOD=MITHRAL_ITEM]
+EQUIPNAME:Zipstick|OUTPUTORDER:18|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.03|VALUE:Trident|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
@@ -297,7 +305,6 @@ EQUIPSET:Carried|ID:0.1.52|VALUE:Access Card (Green)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Wrist|ID:0.1.55|VALUE:Hard Light Shield (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.58|VALUE:Plakat orczycy|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Both Hands|ID:0.1.59|VALUE:Chainsaw +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.65|VALUE:Rope (Silk/50 ft)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.66|VALUE:Gas Grenade|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.68|VALUE:Ring of Sustenance|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.69|VALUE:Bag of Tricks (Rust)|QUANTITY:1.0|USETEMPMODS:Y
@@ -312,22 +319,22 @@ EQUIPSET:Carried|ID:0.1.82|VALUE:Potion of Gaseous Form|QUANTITY:1.0|USETEMPMODS
 EQUIPSET:Carried|ID:0.1.86|VALUE:Torpinal|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.87|VALUE:Battery|QUANTITY:5.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.88|VALUE:Zipstick|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.89|VALUE:Flash grenade|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.90|VALUE:Soft grenade|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.91|VALUE:Goo Tube|QUANTITY:40.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.91|VALUE:Goo Tube|QUANTITY:34.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.92|VALUE:Inferno grenade|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.93|VALUE:Plasma grenade|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.94|VALUE:Chain Shirt +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.95|VALUE:Longsword (Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.96|VALUE:Amulet of 2 broken laser rifles|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.97|VALUE:Belt of Mighty Constitution +2|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
-TEMPBONUS:TEMPLATE=Ability Damaged (Charisma/Fixed)|TBTARGET:PC|TBBONUS:STAT&pipe;CHA&pipe;-1*(3)
+TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
 TEMPBONUS:TEMPLATE=Ability Drained (Constitution)|TBTARGET:PC|TBBONUS:STAT&pipe;CON&pipe;-1*(3)
-TEMPBONUS:FEAT=Unchained Rage|TBTARGET:PC|TBBONUS:VAR&pipe;RAGING&pipe;1
-TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Chainsaw +1|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:SPELL=Bull's Strength|TBTARGET:PC|TBACTIVE:N|TBBONUS:STAT&pipe;STR&pipe;4&pipe;TYPE=ENHANCEMENT
+TEMPBONUS:FEAT=Unchained Rage|TBTARGET:PC|TBACTIVE:N|TBBONUS:VAR&pipe;RAGING&pipe;1
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Chainsaw +1|TBACTIVE:N|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 
 # EquipSet Temp Bonuses
 
@@ -335,6 +342,12 @@ TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Chainsaw +1|TBBONUS:WEAPON&pip
 DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
 
 # Character Spells Information
+SPELLBOOK:Spellbook|TYPE:3
+SPELLBOOK:Spellbook #2|TYPE:3
+SPELLBOOK:Spellbook #3|TYPE:3
+SPELLBOOK:Spellbook #4|TYPE:3
+SPELLBOOK:Spellbook #5|TYPE:3
+SPELLBOOK:Spellbook #6|TYPE:3
 
 # Character Description/Bio/History
 CHARACTERBIO:Born in Noordshaven, to Elisife and an unknown traveler orc who was just passing by on his journey. The population of Noordshaven was mostly human, so in his early years, others often found him disgusting, feared and mocked him.&nl;As a teen, he embraced his race and took it to his advantage. He used his strength to earn at local taverns wrestling. After several months locals didn’t want to challenge him anymore, intimidated and afraid to lose their bets. He was limited to people visiting Noordshaven, and them he found very annoying. He got pissed off very easily by these bragging drunks. Were any to make fun of Hennel, they’d “depart very early in the morning, unseen by anyone”, Hennels anger and urge for vengeance made sure of that.&nl;Angry with the world, feeling there’s nothing is left for him to do there, he finally left Noordshaven and his mother behind seeking for other wrestling opportunities. He’d hang around taverns wrestling and doing side contracts, most of which involved helping others depart from this world. He enjoyed these, especially if humans were the targets. Such lifestyle had more pros to it as travelling women, be it married or not, were very attracted to his beastly masculinity especially after seeing him in action. &nl;Had he have enough of people, he’d often go and choose to live in wilderness, what brought his mind to rest and made him even tougher. After all, that’s what he needed in his profession.
