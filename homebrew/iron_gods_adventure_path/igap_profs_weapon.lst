@@ -16,8 +16,6 @@ SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsit
 #####1st Example
 
 #Dagger				TYPE:Simple
-Inferno Pistol		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol
-Mind Burner		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol
 
 #####
 #Dagger is the name of the weapon proficiency. This needs to be the same text that appears in the weapon's PROFICIENCY tag.
@@ -33,4 +31,6 @@ Mind Burner		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol
 #TYPE, the HANDS tag is not mandatory for a weapon proficiency. It can be used when necessary.
 # HANDS is being PHASED OUT. Equipment should dictate number of Slots used.
 
-AUTO:WEAPONPROF|Inferno Pistol
+Fleshnet Cannon		TYPE:Heavy Weaponry.Two-Handed Ranged.Ranged.Exotic.Weapon.TwoHanded AUTO:WEAPONPROF|Fleshnet Cannon
+Inferno Pistol		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol AUTO:WEAPONPROF|Inferno Pistol
+Mind Burner		TYPE:Firearm.Proficiency_Group_Firearm.OneHandedFirearm.Pistol AUTO:WEAPONPROF|Mind Burner

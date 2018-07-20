@@ -42,13 +42,16 @@ Lore (Sarenrae).MOD				TYPE:Lore
 Lore (Dagon).MOD				TYPE:Lore
 Lore (Phlegethon).MOD				TYPE:Lore
 Lore (Military commanders).MOD				TYPE:Lore
+Lore (Magic Symbols)				KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Alcoholic drinks)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Outer Dragons)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Physics)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (android anatomy)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 Lore (Orc History)					KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
+Lore (Local Myth and Legends - Torch)           KEYSTAT:INT	USEUNTRAINED:NO	CLASSES:ALL	TYPE:Intelligence.Base.Background.Lore
 
 Profession (Wrestler)			KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession.Base.Background																							PREVARLT:AnimalCompanionSkill,1	SOURCEPAGE:p.103							BONUS:SKILL|Profession (Wrestler)|3|TYPE=ClassSkill|PRECSKILL:1,Profession (Wrestler)|PRESKILL:1,Profession (Wrestler)=1
+Profession (Smuggler)			KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession.Base.Background																						BONUS:SKILL|Profession (Smuggler)|3|TYPE=ClassSkill|PRECSKILL:1,Profession (Smuggler)|PRESKILL:1,Profession (Smuggler)=1
 
 Craft (Mechanical).MOD				TYPE:Background
 
