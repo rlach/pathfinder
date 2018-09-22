@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.08
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -120,7 +120,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:26|
 SKILL:Escape Artist|OUTPUTORDER:27|
 SKILL:Fly|OUTPUTORDER:28|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:29|
-SKILL:Handle Animal|OUTPUTORDER:31|
+SKILL:Handle Animal|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
 SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
@@ -155,7 +155,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:67|
 SKILL:Untrained Strength|OUTPUTORDER:68|
 SKILL:Untrained Wisdom|OUTPUTORDER:69|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:44|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:60|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
@@ -180,7 +180,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:C
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage|APPLIEDTO:|TYPE:General|DESC:You can use your rage ability more than narmal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage Power|APPLIEDTO:|TYPE:General|DESC:You have unlocked a new ability to use while raging.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
@@ -205,7 +205,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Iron Liver|TYPE:
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Accurate Stance|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:You can focus your strikes. You gain a +%1 competence bonus on melee attack rolls and thrown weapon attack rolls. This is a stance rage power.&pipe;AccurateStanceBonus
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Deadly Accuracy|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:If you score a critical threat while in the accurate stance, you applies double the accurate stance's bonus (+%1) when rolling to confirm the critical.
-ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Increased Damage Reduction|APPLIEDTO:|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:Your damage reduction increases by %1/-- whenever you are raging. You can select this rage power up to three times. Its effects stack.&pipe;IncreasedDRCount*2
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Increased Damage Reduction|APPLIEDTO:,|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:Your damage reduction increases by %1/-- whenever you are raging. You can select this rage power up to three times. Its effects stack.&pipe;IncreasedDRCount*2
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Sharpened Accuracy|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:While in the accurate stance, you ignore the miss chance for concealment and treat total concealment as concealment. You also ignore cover penalties except those from total cover.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Unexpected Strike|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:You can make an attack of opportunity against a foe that moves into any square threatened by you, regardless of whether that movement would normally provoke an attack of opportunity. You can use this ability only when there are no other foes in a square threatened by you.
 USERPOOL:Unchained Rage Power|POOLPOINTS:0.0

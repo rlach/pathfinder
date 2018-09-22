@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.08
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:12|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,5,3
+CLASS:Sorcerer|LEVEL:12|SKILLPOOL:-1|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,5,3
 CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|PRESTAT:STR=-2|PRESTAT:DEX=1|PRESTAT:WIS=2|PRESTAT:CHA=3|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -142,7 +142,7 @@ SKILL:Samurai Mount|OUTPUTORDER:51|
 SKILL:Sense Motive|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:53|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:54|
-SKILL:Sleight of Hand|OUTPUTORDER:56|
+SKILL:Sleight of Hand|OUTPUTORDER:55|
 SKILL:Spellcraft|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:59|
 SKILL:Survival|OUTPUTORDER:60|
@@ -155,7 +155,7 @@ SKILL:Untrained Wisdom|OUTPUTORDER:66|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:30|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:42|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:55|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:56|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:67|
 SKILL:Use Magic Device|OUTPUTORDER:68|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -177,11 +177,11 @@ USERPOOL:Bloodline|POOLPOINTS:0.0
 ABILITY:Draconic Bloodline Type|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Bloodline Choice ~ Lunar|TYPE:Sorcerer Draconic Bloodline Choice
 USERPOOL:Draconic Bloodline Type|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Additional Traits|TYPE:General|DESC:You have more traits than normal
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.DragonShamanBonus.AccursedBloodline.KoboldBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline.DreamspunBloodline.SerpentineBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Defensive Combat Training|TYPE:Combat.AccursedBloodline.KoboldBloodline.AquaticBloodline.ProteanBloodline|DESC:You excel at defending yourself from all manner of combat maneuvers.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear|DESC:You are resistant to poisons, diseases, and other deadly maladies.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.ImperiousBloodline.KoboldBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deceitful|TYPE:General.InfernalBloodline.DreamspunBloodline.SerpentineBloodline.AccursedBloodline.MaestroBloodline.RakshasaBloodline|DESC:You are skilled at deceiving others, both with the spoken word ans with physical disguises.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Defensive Combat Training|TYPE:Combat.AquaticBloodline.ProteanBloodline.KoboldBloodline.AccursedBloodline|DESC:You excel at defending yourself from all manner of combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear.AccursedBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
@@ -298,7 +298,7 @@ CALCEQUIPSET:0.1
 
 # Temporary Bonuses
 TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;TYPE=DODGE|TBBONUS:COMBAT&pipe;ATTACKS&pipe;1&pipe;TYPE=ENHANCEMENT|TBBONUS:COMBAT&pipe;TOHIT&pipe;1&pipe;TYPE=TEMPORARY|TBBONUS:POSTMOVEADD&pipe;TYPE.ALL&pipe;MIN(MOVEBASE,30)&pipe;TYPE=ENHANCEMENT|TBBONUS:SAVE&pipe;REFLEX&pipe;1&pipe;TYPE=DODGE
-TEMPBONUS:SPELL=Mage Armor|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;4&pipe;TYPE=ARMOR
+TEMPBONUS:SPELL=Mage Armor|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;4&pipe;TYPE=ARMOR
 TEMPBONUS:TEMPLATE=Ability Damaged (Wisdom)|TBTARGET:PC|TBBONUS:SKILL&pipe;TYPE.Wisdom&pipe;-ABILITYDAMAGEPENALTYWIS&pipe;TYPE=ABILITYDAMAGE|TBBONUS:VAR&pipe;ABILITYDAMAGEWIS&pipe;6
 
 # EquipSet Temp Bonuses

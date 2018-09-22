@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Ultimate Magic|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Technology Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
+CAMPAIGN:Core Rulebook|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
 VERSION:6.07.08
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -60,19 +60,19 @@ ALIGN:CN
 RACE:Android
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:12|SKILLPOOL:13|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:2|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:2|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:5|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:1|SKILLSGAINED:12|SKILLSREMAINING:1
-CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:2|SKILLSGAINED:12|SKILLSREMAINING:1
+CLASS:Rogue|LEVEL:12|SKILLPOOL:2|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:2|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:2|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:5|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:2|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=11|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Rogue=12|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:12|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Rogue=12|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:12|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:220000
@@ -98,7 +98,7 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:7|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:8|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:9|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:10|
-SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:13|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:15|
@@ -106,14 +106,14 @@ SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Climb|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:11|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:35|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:58|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:59|
 SKILL:Craft (Untrained)|OUTPUTORDER:18|
 SKILL:Diplomacy|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:21|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:22|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:23|
-SKILL:Disable Device|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
 SKILL:Escape Artist|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -138,54 +138,56 @@ SKILL:Linguistics|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASS
 SKILL:Lore (android anatomy)|OUTPUTORDER:50|
 SKILL:Lore (Bandits in a region)|OUTPUTORDER:51|
 SKILL:Lore (Dwarven history)|OUTPUTORDER:52|
-SKILL:Lore (Local Myth and Legends - Torch)           KEYSTAT&colon;INT|OUTPUTORDER:53|
-SKILL:Lore (Magic Symbols)|OUTPUTORDER:54|
-SKILL:Lore (Orc History)|OUTPUTORDER:55|
-SKILL:Perception|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Rogue|RANKS:11.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:57|
-SKILL:Profession (Farmer)|OUTPUTORDER:59|
-SKILL:Profession (Midwife)|OUTPUTORDER:60|
-SKILL:Profession (Miner)|OUTPUTORDER:61|
-SKILL:Profession (Smuggler)|OUTPUTORDER:62|
-SKILL:Profession (Untrained)|OUTPUTORDER:63|
-SKILL:Ride|OUTPUTORDER:64|
-SKILL:Samurai Mount|OUTPUTORDER:65|
-SKILL:Sense Motive|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:67|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:68|
+SKILL:Lore (Local Myth and Legends from Scrapwall)|OUTPUTORDER:53|
+SKILL:Lore (Local Myth and Legends from Torch)|OUTPUTORDER:54|
+SKILL:Lore (Magic Symbols)|OUTPUTORDER:55|
+SKILL:Lore (Orc History)|OUTPUTORDER:56|
+SKILL:Perception|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Rogue|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:58|
+SKILL:Profession (Farmer)|OUTPUTORDER:60|
+SKILL:Profession (Midwife)|OUTPUTORDER:61|
+SKILL:Profession (Miner)|OUTPUTORDER:62|
+SKILL:Profession (Smuggler)|OUTPUTORDER:63|
+SKILL:Profession (Untrained)|OUTPUTORDER:64|
+SKILL:Ride|OUTPUTORDER:65|
+SKILL:Samurai Mount|OUTPUTORDER:66|
+SKILL:Sense Motive|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:68|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:69|
 SKILL:Sleight of Hand|OUTPUTORDER:70|
-SKILL:Stealth|OUTPUTORDER:72|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:73|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Swim|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:75|
-SKILL:Untrained Dexterity|OUTPUTORDER:76|
-SKILL:Untrained Intelligence|OUTPUTORDER:77|
-SKILL:Untrained Strength|OUTPUTORDER:78|
-SKILL:Untrained Wisdom|OUTPUTORDER:79|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:24|
+SKILL:Stealth|OUTPUTORDER:73|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Swim|OUTPUTORDER:75|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:76|
+SKILL:Untrained Dexterity|OUTPUTORDER:77|
+SKILL:Untrained Intelligence|OUTPUTORDER:78|
+SKILL:Untrained Strength|OUTPUTORDER:79|
+SKILL:Untrained Wisdom|OUTPUTORDER:80|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:48|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:69|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:71|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:80|
-SKILL:Use Magic Device|OUTPUTORDER:81|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:71|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:72|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:81|
+SKILL:Use Magic Device|OUTPUTORDER:82|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
-LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Hallit|LANGUAGE:Orc
+LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Hallit|LANGUAGE:Orc
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven|TYPE:
-ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven|TYPE:
-ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Hallit,Elven,Draconic|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Regular Talent|APPLIEDTO:,|TYPE:RogueAdvancedTalent|DESC:Select a regular Rogue Talent.
 USERPOOL:Advanced Talent|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner),Profession (Smuggler),Lore (Local Myth and Legends - Torch)           KEYSTAT&colon;INT,Profession (Smuggler)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner),Profession (Smuggler),Profession (Smuggler),Lore (Local Myth and Legends from Scrapwall),Lore (Local Myth and Legends from Torch)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
-ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rogue Talent|APPLIEDTO:,|TYPE:General|DESC:Through constant practice, you have learned how to perform a special trick.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.CelestialBloodline.FeyBloodline.AquaticBloodline.DruidShamanWolf|DESC:You can easily move through a dangerous melee.
@@ -212,12 +214,13 @@ USERPOOL:Rogue Talent|POOLPOINTS:0.0
 ABILITY:Skill Unlock Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill unlock ~ Acrobatics|TYPE:SkillUnlock
 ABILITY:Skill Unlock Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill unlock ~ Disable Device|TYPE:SkillUnlock
 USERPOOL:Skill Unlock Choice|POOLPOINTS:0.0
+ABILITY:Unchained Rogue Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Crippling Strike|TYPE:SpecialAttack.Extraordinary.Unchained Rogue Advanced Talent.AttackOption|DESC:You can sneak attack opponents with such precision that your blows weaken and hamper them. An opponent damaged by one of your sneak attacks also takes 2 points of Strength damage.
 ABILITY:Unchained Rogue Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Opportunist|TYPE:SpecialAttack.Extraordinary.Unchained Rogue Advanced Talent|DESC:Once per round, you can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round. Even if you have the Combat Reflexes feat, you can't use the Opportunist ability more than once per round.
 USERPOOL:Unchained Rogue Advanced Talent|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue ~ Finesse Training Choice|APPLIEDTO:Dagger,Sword (Short)|TYPE:Unchained Rogue Finesse Damage Choice.SpecialQuality.Extraordinary|DESC:Dexterity to Damage with %1&pipe;%LIST
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Canny Observer|TYPE:RogueTalent.SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.
-ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Advanced Talent|APPLIEDTO:|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent.IncreaseRogueAdvancedTalent|DESC:Select an Advanced Rogue Talent.
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Advanced Talent|APPLIEDTO:,|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent.IncreaseRogueAdvancedTalent|DESC:Select an Advanced Rogue Talent.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Slow Reactions|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Weapon Training|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain Weapon Focus as a bonus feat.
