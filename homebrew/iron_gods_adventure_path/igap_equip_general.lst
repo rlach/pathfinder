@@ -393,6 +393,20 @@ Unidentified Technological Item
 Unidentified Magic Item
 	TYPE:Goods.Magic
 
+ChainsawForSisi
+	PROFICIENCY:WEAPON|Chainsaw
+	TYPE:Two-Handed Melee.Melee.Weapon.Technological Gear.TwoHanded.Slashing.Resizable
+	COST:2700
+	WT:10
+	CRITMULT:x2
+	CRITRANGE:3
+	DAMAGE:3d6
+	WIELD:TwoHanded
+	SOURCEPAGE:p.22
+	QUALITY:Capacity|10
+	QUALITY:Usage|1 charge/hour
+	QUALITY:Special|deadly, distracting
+
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
 #
