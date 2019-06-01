@@ -2,8 +2,8 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Core Rulebook|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Technology Guide|CAMPAIGN:People of the North|CAMPAIGN:Bastards of Golarion|CAMPAIGN:Adventurer's Armory|CAMPAIGN:People of the Stars|CAMPAIGN:Iron Gods Player's Guide|CAMPAIGN:Iron Gods Adventure Path
-VERSION:6.07.08
-ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
+VERSION:6.06.01
+ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -46,8 +46,8 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
-PORTRAIT:C&colon;\Dev\Projects\pathfinder\portraits\cybzia.jpg
-PORTRAITTHUMBNAILRECT:235,23,287,287
+PORTRAIT:C&colon;\Users\nikagra\.pcgen\pathfinder\portraits\cybzia.jpg
+PORTRAITTHUMBNAILRECT:235,23,312,312
 
 # Character Attributes
 STAT:STR|SCORE:13
@@ -60,7 +60,7 @@ ALIGN:CN
 RACE:Android
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:12|SKILLPOOL:2|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:13|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
@@ -73,13 +73,15 @@ CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:1|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:2|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=11|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=12|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=13|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:220000
+EXPERIENCE:315000
 EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Bonus Language ~ Any Spoken]
 TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
@@ -88,7 +90,7 @@ TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
 REGION:Numeria
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Artistry|OUTPUTORDER:4|
@@ -98,30 +100,30 @@ SKILL:Artistry (Literature, including Poetry)|OUTPUTORDER:7|
 SKILL:Artistry (Musical composition)|OUTPUTORDER:8|
 SKILL:Artistry (Philosophy)|OUTPUTORDER:9|
 SKILL:Artistry (Playwriting)|OUTPUTORDER:10|
-SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:13|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:14|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:15|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:16|
-SKILL:Climb|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:11|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:35|
-SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:59|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:60|
 SKILL:Craft (Untrained)|OUTPUTORDER:18|
-SKILL:Diplomacy|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:20|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:21|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:22|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:23|
-SKILL:Disable Device|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:27|
-SKILL:Escape Artist|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:29|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
-SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:N]
+SKILL:Heal|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:37|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:38|
@@ -142,34 +144,37 @@ SKILL:Lore (Local Myth and Legends from Scrapwall)|OUTPUTORDER:53|
 SKILL:Lore (Local Myth and Legends from Torch)|OUTPUTORDER:54|
 SKILL:Lore (Magic Symbols)|OUTPUTORDER:55|
 SKILL:Lore (Orc History)|OUTPUTORDER:56|
-SKILL:Perception|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Rogue|RANKS:11.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:58|
-SKILL:Profession (Farmer)|OUTPUTORDER:60|
-SKILL:Profession (Midwife)|OUTPUTORDER:61|
-SKILL:Profession (Miner)|OUTPUTORDER:62|
-SKILL:Profession (Smuggler)|OUTPUTORDER:63|
-SKILL:Profession (Untrained)|OUTPUTORDER:64|
-SKILL:Ride|OUTPUTORDER:65|
-SKILL:Samurai Mount|OUTPUTORDER:66|
-SKILL:Sense Motive|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:68|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:69|
-SKILL:Sleight of Hand|OUTPUTORDER:71|
-SKILL:Stealth|OUTPUTORDER:73|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Swim|OUTPUTORDER:75|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:76|
-SKILL:Untrained Dexterity|OUTPUTORDER:77|
-SKILL:Untrained Intelligence|OUTPUTORDER:78|
-SKILL:Untrained Strength|OUTPUTORDER:79|
-SKILL:Untrained Wisdom|OUTPUTORDER:80|
+SKILL:Lore (Taverns in a region)|OUTPUTORDER:57|
+SKILL:Perception|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:59|
+SKILL:Profession (Engineer)|OUTPUTORDER:61|
+SKILL:Profession (Farmer)|OUTPUTORDER:62|
+SKILL:Profession (Midwife)|OUTPUTORDER:63|
+SKILL:Profession (Miner)|OUTPUTORDER:64|
+SKILL:Profession (Smuggler)|OUTPUTORDER:65|
+SKILL:Profession (Untrained)|OUTPUTORDER:66|
+SKILL:Ride|OUTPUTORDER:67|
+SKILL:Samurai Mount|OUTPUTORDER:68|
+SKILL:Sense Motive|OUTPUTORDER:69|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:70|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:71|
+SKILL:Sleight of Hand|OUTPUTORDER:72|
+SKILL:Spellcraft|OUTPUTORDER:74|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Stealth|OUTPUTORDER:76|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:77|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Swim|OUTPUTORDER:78|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:79|
+SKILL:Untrained Dexterity|OUTPUTORDER:80|
+SKILL:Untrained Intelligence|OUTPUTORDER:81|
+SKILL:Untrained Strength|OUTPUTORDER:82|
+SKILL:Untrained Wisdom|OUTPUTORDER:83|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:25|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:49|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:70|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:72|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:82|
-SKILL:Use Magic Device|OUTPUTORDER:81|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:73|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:75|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:84|
+SKILL:Use Magic Device|OUTPUTORDER:85|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Androffan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Hallit|LANGUAGE:Orc
@@ -185,11 +190,12 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Advanced Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Regular Talent|APPLIEDTO:,|TYPE:RogueAdvancedTalent|DESC:Select a regular Rogue Talent.
 USERPOOL:Advanced Talent|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner),Profession (Smuggler),Profession (Smuggler),Lore (Local Myth and Legends from Scrapwall),Lore (Local Myth and Legends from Torch)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Appraise,Appraise,Knowledge (History),Sleight of Hand,Profession (Miner),Profession (Farmer),Knowledge (History),Lore (Dwarven history),Knowledge (History),Lore (Bandits in a region),Profession (Midwife),Profession (Miner),Lore (Orc History),Knowledge (Geography),Lore (android anatomy),Profession (Miner),Lore (android anatomy),Lore (Magic Symbols),Profession (Miner),Profession (Miner),Profession (Smuggler),Profession (Smuggler),Lore (Local Myth and Legends from Scrapwall),Lore (Local Myth and Legends from Torch),Lore (Taverns in a region),Profession (Engineer)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rogue Talent|APPLIEDTO:,|TYPE:General|DESC:Through constant practice, you have learned how to perform a special trick.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:EXTRA SURGE|APPLIEDTO:|TYPE:General|DESC:You can use your nanite surge ability more often than normal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.CelestialBloodline.FeyBloodline.AquaticBloodline.DruidShamanWolf|DESC:You can easily move through a dangerous melee.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spring Attack|TYPE:Combat.DruidShamanWolf|DESC:You can deftly move up to a foe, strike, and withdraw before he can react.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Technologist|TYPE:General.Techslinger|DESC:You are familiar with the basic mechanics of technology.
@@ -197,7 +203,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Local),Perception,Knowledge (Arcana),Knowledge (Engineering)|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Trait|APPLIEDTO:CATEGORY=Special Ability&pipe;Trait ~ Numerian Archaeologist,CATEGORY=Special Ability&pipe;Trait ~ Blood Algorithm,CATEGORY=Special Ability&pipe;Trait ~ Nanite Revival|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 Trait.
@@ -232,20 +238,19 @@ USERPOOL:Weapon Training|POOLPOINTS:0.0
 WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
 WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Hanbo|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)]
 WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle]
-WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Stingchuck|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
-WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:0
+MONEY:114.5
 EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:12|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:5|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bolt, Crossbow +1|OUTPUTORDER:15|COST:46.1|WT:0.1|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +1$KEY=Bolt +1 (Crossbow)$EQMOD=STEEL.WOOD.PLUS1M]
-EQUIPNAME:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|OUTPUTORDER:20|COST:366.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow +2 (Bane (Humanoids (Human)))$KEY=Bolt +2 (Crossbow/Bane (Humanoids (Human)))$EQMOD=STEEL.WOOD.PLUS2M.BANE&pipe;Humanoids (Human)]
 EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:16|COST:1.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:10|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)|OUTPUTORDER:7|COST:2500.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1 ( Skill Bonus (Competence) (Acrobatics +2)/Mithral)$EQMOD=MITHRAL_ARMR_LT.PLUS1A.BNS_SKL_CMP&pipe;Acrobatics=+2]
-EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:9|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2$EQMOD=Material ~ Cloth]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:9|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2]
 EQUIPNAME:Commset (Timeworn)|OUTPUTORDER:22|COST:3000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Commset|DATA:NAME=Commset (Timeworn)$EQMOD=TIMEWORN]
 EQUIPNAME:Concussion grenade|OUTPUTORDER:26|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dagger +1 (Adamantine/Bane (Constructs))|OUTPUTORDER:2|COST:11002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine/Bane (Constructs))$EQMOD=ADAMANT_WEAP.PLUS1W.BANE&pipe;Constructs]
@@ -266,19 +271,18 @@ EQUIPNAME:Pouch (Belt)|OUTPUTORDER:13|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
 EQUIPNAME:Płotka 4|OUTPUTORDER:34|COST:200|WT:1000.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horse (Heavy)|DATA:NAME=Płotka 4$SPROP=(Horse (Heavy))]
 EQUIPNAME:Ring (Poison Pill)|OUTPUTORDER:17|COST:20|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ring of Counterspells|OUTPUTORDER:0|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scatterlight Suit (Blue)|OUTPUTORDER:35|COST:3600|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Holy Smite)|OUTPUTORDER:32|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Wind Wall/Divine)|OUTPUTORDER:33|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:19|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod (Green)|OUTPUTORDER:25|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Veemod Goggles|OUTPUTORDER:24|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Wand (Infernal Healing/Sorcerer/1st)|OUTPUTORDER:23|COST:750.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Sorcerer/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Wand (Technomancy/Wizard/1st)|OUTPUTORDER:0|COST:600.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Technomancy/Wizard/1st)$EQMOD=Special Ability ~ Spell Effect / Spell Trigger&pipe;SPELLNAME&lbracket;Technomancy&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;40&rbracket;]
-EQUIPNAME:Wand (Touch of Slime/Wizard/7th)|OUTPUTORDER:0|COST:1680.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Touch of Slime/Wizard/7th)$EQMOD=Special Ability ~ Spell Effect / Spell Trigger&pipe;SPELLNAME&lbracket;Touch of Slime&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;4&rbracket; CASTERLEVEL&lbracket;7&rbracket; CHARGES&lbracket;4&rbracket;]
+EQUIPNAME:Wand (Technomancy/Wizard/1st)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Technomancy/Wizard/1st)]
+EQUIPNAME:Wand (Touch of Slime/Wizard/7th)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Touch of Slime/Wizard/7th)]
 EQUIPNAME:Wand (Vanish/Sorcerer/3rd)|OUTPUTORDER:18|COST:2250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Vanish/Sorcerer/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Sorcerer&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
 EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:21|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
-EQUIPNAME:Wand of Displacement|OUTPUTORDER:0|COST:2250.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Displacement$EQMOD=Special Ability ~ Spell Effect / Spell Trigger&pipe;SPELLNAME&lbracket;Displacement&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;10&rbracket;]
-EQUIPNAME:Wand of Fly|OUTPUTORDER:0|COST:2925.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fly$EQMOD=Special Ability ~ Spell Effect / Spell Trigger&pipe;SPELLNAME&lbracket;Fly&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;13&rbracket;]
+EQUIPNAME:Wand of Displacement|OUTPUTORDER:0|COST:0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Displacement]
+EQUIPNAME:Wand of Fly|OUTPUTORDER:0|COST:0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fly]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.23|VALUE:Hemochem (Grade I)|QUANTITY:2.0|USETEMPMODS:Y
@@ -299,9 +303,7 @@ EQUIPSET:Secondary Hand|ID:0.1.60|VALUE:Dagger +1 (Icy Burst)|QUANTITY:1.0|USETE
 EQUIPSET:Carried|ID:0.1.61|VALUE:Masterwork Dagger (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.63|VALUE:Boots of Striding And Springing|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Not Carried|ID:0.1.64|VALUE:Płotka 4|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Płotka 4|ID:0.1.64.01|VALUE:Scatterlight Suit (Blue)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.66|VALUE:Thieves' Tools (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.69|VALUE:Bolt, Crossbow +2 (Bane (Humanoids (Human)))|QUANTITY:10.0|USETEMPMODS:Y
 EQUIPSET:Chest|ID:0.1.73|VALUE:Hearth Mantle|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.74|VALUE:Wand of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.76|VALUE:Commset (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
@@ -321,7 +323,7 @@ TEMPBONUS:SPELL=Haste|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;1&pipe;
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
 
 # Character Spells Information
 
