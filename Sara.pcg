@@ -140,7 +140,6 @@ SKILL:Knowledge (Untrained)|OUTPUTORDER:46|
 SKILL:Linguistics|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Androffan
 SKILL:Lore (Physics)|OUTPUTORDER:49|
 SKILL:Perception|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:15.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Dance)|OUTPUTORDER:51|
 SKILL:Perform (Untrained)|OUTPUTORDER:52|
 SKILL:Profession (Engineer)|OUTPUTORDER:54|
 SKILL:Profession (Untrained)|OUTPUTORDER:55|
@@ -176,7 +175,7 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Hal
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Craft (Alchemy),Knowledge (Geography),Profession (Engineer),Sleight of Hand,Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Lore (Physics),Lore (Physics),Lore (Physics),Knowledge (Geography),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Artistry (Philosophy),Craft (Mechanical),Profession (Engineer),Artistry (Philosophy),Craft (Mechanical),Profession (Engineer),Craft (Mechanical),Lore (Physics),Craft (Weapons),Profession (Engineer),Profession (Engineer),Craft (Mechanical),Perform (Dance),Perform (Dance)|TYPE:BackgroundSkill
+ABILITY:Background Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background Skill|APPLIEDTO:Craft (Alchemy),Knowledge (Geography),Profession (Engineer),Sleight of Hand,Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Lore (Physics),Lore (Physics),Lore (Physics),Knowledge (Geography),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical),Artistry (Philosophy),Craft (Mechanical),Profession (Engineer),Artistry (Philosophy),Craft (Mechanical),Profession (Engineer),Craft (Mechanical),Lore (Physics),Craft (Weapons),Profession (Engineer),Profession (Engineer),Craft (Mechanical),Craft (Mechanical),Craft (Mechanical)|TYPE:BackgroundSkill
 USERPOOL:Background Skill|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Cybernetics|TYPE:General.Craft|DESC:You can build cyberware and install it in a creature's body.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Technological Arms and Armor|TYPE:General.Craft|DESC:You can build technological weapons and armor.
